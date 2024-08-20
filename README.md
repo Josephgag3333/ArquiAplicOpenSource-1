@@ -52,6 +52,17 @@ Aspiramos a convertirnos en el referente en soluciones tecnológicas para la ins
 
 Acerca de mí: Me considero una persona proactiva, organizada y responsable al momento de desarrollar un nuevo proyecto en mi vida. En un grupo de trabajo siempre trato de respetar las opiniones de los demás, trato de entender los demás puntos de vista y animo a estar en unión frente a un problema.
 
+**Integrante 2:**  
+**Aquino Gutierrezz, Joshep Giovani** 
+**Código:** u202022089
+**Carrera:** Ingeniería de Software  
+**Conocimientos técnicos:**  
+- Programación en Java y JavaScript
+- Trabajo en equipo
+
+Acerca de mí: Estoy en 5° ciclo de mi carrera, mis pasatiempos son escuchar música y hacer deporte. Me llama la atención crear aplicaciones robustas, complejas y tolerantes a fallos.
+
+
 ### 1.2 Solution Profile
 
 #### 1.2.1 Antecedentes y problemática

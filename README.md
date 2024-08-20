@@ -159,7 +159,7 @@ Nuestro contexto demanda información importante para manejar la búsqueda y la 
 Para alcanzar nuestros objetivos, nos enfocamos en dos segmentos clave: los inspectores de salubridad y los restaurantes o establecimientos alimenticios. Ambos grupos juegan un rol fundamental en el éxito de nuestra plataforma, ya que su interacción y cooperación son esenciales para lograr un ambiente seguro y conforme a las regulaciones. A continuación, se detallan las características y necesidades específicas de cada segmento, así como la forma en que nuestra plataforma aborda y satisface dichas necesidades.
 
 #### A. Inspectores de Salubridad
-
+ 
 Este segmento está compuesto por profesionales con experiencia en la inspección de restaurantes y otros establecimientos alimenticios. Incluye tanto a inspectores independientes como a aquellos que forman parte de organismos regulatorios o empresas dedicadas a la consultoría en higiene y salubridad. Estos usuarios buscan una herramienta que facilite su trabajo de campo, permitiéndoles documentar y clasificar observaciones de manera estructurada, así como hacer un seguimiento eficiente de las acciones correctivas tomadas por los restaurantes. La plataforma les ofrece un sistema organizado que les ayuda a realizar su trabajo de manera más efectiva, ahorrando tiempo y mejorando la precisión de las inspecciones.
 
 #### B. Restaurantes y Establecimientos Alimentarios

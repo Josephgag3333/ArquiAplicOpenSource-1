@@ -30,7 +30,7 @@ Nuestra startup surge con la misión de revolucionar el proceso de inspección d
 
 #### 1.1.1 Descripción de la Startup
 
-\[InspiraSalud\] es una empresa tecnológica innovadora que está transformando la forma en que se llevan a cabo las inspecciones de salubridad en la industria de la restauración. Al combinar el expertise de inspectores con soluciones tecnológicas de vanguardia, nuestra plataforma digital optimiza y agiliza los procesos de inspección, garantizando la máxima eficiencia y transparencia.
+*InspiraSalud* es una empresa tecnológica innovadora que está transformando la forma en que se llevan a cabo las inspecciones de salubridad en la industria de la restauración. Al combinar el expertise de inspectores con soluciones tecnológicas de vanguardia, nuestra plataforma digital optimiza y agiliza los procesos de inspección, garantizando la máxima eficiencia y transparencia.
 
 **Misión:**
 

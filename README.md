@@ -190,3 +190,558 @@ Este segmento incluye restaurantes, cafeterías, comedores, y otros establecimie
   
 <img src="/Assets/ToBe_DueñoRestaurante.jpg">
 
+### 3.2 User Stories 
+
+<table>
+  <tr>
+   <td>Epic / Story ID 
+   </td>
+   <td>Título 
+   </td>
+   <td>Descripción 
+   </td>
+   <td>Criterios de
+<p>
+Aceptación 
+   </td>
+   <td>Relacionado
+<p>
+con (Epic ID) 
+   </td>
+  </tr>
+  <tr>
+   <td>US-01 
+   </td>
+   <td>Programación de las inspecciones de los restaurantes 
+   </td>
+   <td>Como inspector de salubridad, quiero programar las inspecciones de los restaurantes para garantizar el buen cumplimiento de las normativas gubernamentales.  
+   </td>
+   <td>Escenario 1: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E01 
+   </td>
+  </tr>
+  <tr>
+   <td>US-02 
+   </td>
+   <td>Recibo de recordatorios de la inspección 
+   </td>
+   <td>Como dueño de restaurante, quiero recibir recordatorios de las inspecciones para organizarme con anticipación para la reunión con el inspector de salubridad. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E01 
+   </td>
+  </tr>
+  <tr>
+   <td>US-03 
+   </td>
+   <td>Lista de verificación de requisitos  
+   </td>
+   <td>Como inspector de salubridad, quiero hacer una lista de verificación de requisitos para tener un mejor manejo de los aspectos más importantes a evaluar del restaurante a mi servicio. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E01 
+   </td>
+  </tr>
+  <tr>
+   <td>US-04 
+   </td>
+   <td>Recibo de informes detallados de inspecciones anteriores 
+   </td>
+   <td>Como inspector de salubridad, quiero recibir informes detallados acerca de las inspecciones anteriores de los restaurantes asignados para tener una idea más clara de los aspectos a mejorar de los restaurantes a mi servicio.  
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E02 
+   </td>
+  </tr>
+  <tr>
+   <td>US-05 
+   </td>
+   <td>Gestión de documentos adicionales adjuntos 
+   </td>
+   <td>Como dueño del restaurante, quiero adjuntar documentos adicionales como fotos y videos para recibir un mejor asesoramiento por el inspector. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E02 
+   </td>
+  </tr>
+  <tr>
+   <td>US-06 
+   </td>
+   <td>Acceso al historial de inspecciones del restaurante   
+   </td>
+   <td>Como dueño del restaurante, quiero tener acceso al historial de inspecciones de mi local para identificar los principales aspectos de mejora.  
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E01 
+   </td>
+  </tr>
+  <tr>
+   <td>US-07 
+   </td>
+   <td>Generación del contrato 
+   </td>
+   <td>Como inspector de salubridad, quiero generar un contrato con mi cliente para garantizar que exista un buen cumplimiento por ambas partes.  
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E02 
+   </td>
+  </tr>
+  <tr>
+   <td>US-08 
+   </td>
+   <td>Personalización de notificaciones y alertas 
+   </td>
+   <td>Como visitante del segmento de dueños de restaurante, quiero personalizar mis notificaciones y alertas para adaptarlas según mis necesidades. 
+   </td>
+   <td>Escenario 1: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E03 
+   </td>
+  </tr>
+  <tr>
+   <td>US-09 
+   </td>
+   <td>Clasificación de las áreas de mejora del restaurante 
+   </td>
+   <td>Como visitante del segmento de inspectores de salubridad, quiero clasificar las áreas de mejora de los restaurantes a mi servicio para atender al inicio sus problemas más graves.  
+   </td>
+   <td>Escenario 1: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E04 
+   </td>
+  </tr>
+  <tr>
+   <td>US-10 
+   </td>
+   <td>Acceso a las normas gubernamentales de sanidad en restaurantes 
+   </td>
+   <td>Como visitante del segmento de dueños de restaurante, quiero tener acceso a todas las normativas gubernamentales de sanidad de restaurante de mi país para estar más informado acerca de los requisitos que debe cumplir mi restaurante. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E01 
+   </td>
+  </tr>
+  <tr>
+   <td>US-11 
+   </td>
+   <td>Publicación de certificado como inspector de salubridad  
+   </td>
+   <td>Como visitante del segmento de inspectores de salubridad, quiero publicar mi certificado como inspector en mi perfil de la aplicación para generar confianza en mis clientes. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E02 
+   </td>
+  </tr>
+  <tr>
+   <td>US-12 
+   </td>
+   <td>Actualización de datos del restaurante 
+   </td>
+   <td>Como visitante del segmento de dueños de restaurante, quiero actualizar los datos de mi restaurante en la aplicación para precisar la información de mi restaurante. 
+   </td>
+   <td>Escenario 1: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E05 
+   </td>
+  </tr>
+  <tr>
+   <td>US-13 
+   </td>
+   <td>Lista de clientes en la bandeja de mensajes del inspector 
+   </td>
+   <td>Como visitante del segmento de inspectores de salubridad, quiero tener un listado de todos mis clientes en mi bandeja de mensajes de la aplicación para gestionar mejor a mis clientes. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E05 
+   </td>
+  </tr>
+  <tr>
+   <td>US-14 
+   </td>
+   <td>Registro de usuario 
+   </td>
+   <td>Como Developer, quiero establecer un sistema de registro a los usuarios con su correo y contraseña de al menos 8 dígitos y un carácter especial, para garantizar la transparencia y seguridad de la cuenta del usuario. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-15 
+   </td>
+   <td>Sistema de búsqueda avanzada de inspectores de salubridad 
+   </td>
+   <td>Como Developer, quiero establecer un sistema de búsqueda avanzada de los inspectores por filtración de datos para que la búsqueda sea más rápida y eficiente. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-16 
+   </td>
+   <td>Sistema de calificaciones  
+   </td>
+   <td>Como Developer, quiero establecer un sistema de calificaciones para que los dueños de restaurantes tengan más confianza al poder visualizar las calificaciones de los inspectores. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-17 
+   </td>
+   <td>Dashboard de gestión para los dueños de restaurantes 
+   </td>
+   <td>Como Developer, quiero implementar un dashboard con gráficos para que los dueños de restaurantes puedan ver un resumen de sus inspecciones.  
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-18 
+   </td>
+   <td>Notificaciones en tiempo real  
+   </td>
+   <td>Como Developer, quiero implementar un sistema de notificaciones en tiempo real para informar a los usuarios acerca de alguna importante actualización.  
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-19 
+   </td>
+   <td>Soporte técnico
+   </td>
+   <td>Como Developer, quiero implementar un sistema de soporte técnico en la aplicación para realizar las mejoras brindadas por los usuarios y así actualizar la aplicación cada cierto tiempo.  
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-20 
+   </td>
+   <td>Configuración de perfil de usuario 
+   </td>
+   <td>Como Developer, quiero gestionar un sistema de perfiles para que los usuarios precisen de información más detallada. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+</table>
+
+
+Las épicas son las siguientes: 
+
+1.- Gestión de inspecciones sanitarias 
+
+2.- Gestión de documentos 
+
+3.- Gestión de notificaciones 
+
+4.- Gestión de riesgos 
+
+5.- Gestión de perfiles 
+
+6.- Gestión tecnológico 

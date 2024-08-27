@@ -115,6 +115,33 @@ Nuestro contexto demanda información importante para manejar la búsqueda y la 
 6. **¿Cómo debe verse nuestro servicio y cómo debe comportarse?**  
    Nuestro servicio debe mostrar un panel de control con las fechas de las inspecciones, así como los documentos de las inspecciones como los informes. Además, la aplicación debe mostrar un listado de los inspectores de salubridad disponibles junto con su información profesional y de contacto.
 
+
+**Business Outcomes:**
+
+1. El dueño del restaurante podrá ampliar la retención de sus clientes potenciales si mantiene un ambiente más limpio para que ellos puedan tener una mejor experiencia durante su estancia en el local. 
+
+2. El dueño del restaurante podrá mejorar la reputación de su local si cumple con éxito todas las normas de salubridad durante su evaluación de sanidad. 
+
+3. El dueño del restaurante podrá reducir los costos operativos si cumple con éxito las buenas prácticas de la salubridad, así como de la seguridad alimentaria, pues no habría pérdida de alimentos ni problemas por el mal estado de los alimentos. 
+
+4. El inspector de salubridad podrá aumentar la retención de sus clientes potenciales si ellos no obtienen ninguna multa al momento de realizar las evaluaciones de sanidad en sus restaurantes. 
+
+5. El inspector de salubridad podrá aumentar de manera orgánica sus clientes si estos lo califican de manera positiva en el sistema de calificación de inspectores de la aplicación. 
+
+
+**User Outcomes:**
+
+1. El dueño del restaurante desea aprobar con éxito las evaluaciones de salubridad para generar mayor seguridad y confianza en sus clientes. 
+
+2. El dueño del restaurante desea obtener un mayor conocimiento actual respecto a las buenas prácticas de seguridad alimentaria, de higiene y de salubridad para garantizar una mejor calidad en las comidas que le ofrecen a sus clientes. 
+
+3. El dueño del restaurante desea minimizar el riesgo de recibir multas por el incumplimiento al momento de la evaluación de sanidad para mantener su buena reputación como restaurante. 
+
+4. El inspector de salubridad desea generar más confianza en sus clientes para que estos se conviertan en sus clientes recurrentes. 
+
+5. El inspector de salubridad desea ampliar su red de clientes para fortalecer su posición de marca en el mercado actual y para aumentar sus oportunidades laborales.
+
+
 ##### 1.2.2.3 Lean UX Hypothesis Statements
 
 - **Hypothesis Statement 1:**  

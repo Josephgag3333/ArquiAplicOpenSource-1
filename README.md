@@ -62,6 +62,16 @@ Acerca de mí: Me considero una persona proactiva, organizada y responsable al m
 
 Acerca de mí: Estoy en 5° ciclo de mi carrera, mis pasatiempos son escuchar música y hacer deporte. Me llama la atención crear aplicaciones robustas, complejas y tolerantes a fallos.
 
+**Integrante 3:**  
+**Cossio Jimenez, Jimena Alessandra**  
+**Código:** U202117854  
+**Carrera:** Ingeniería de Software  
+**Conocimientos técnicos:**  
+- Programación en C++
+
+Acerca de mí: Me considero una persona flexible, comprometida con lo que hago y dispuesta a escuchar diferentes opiniones con el respeto que todos merecemos, así como a apoyar en lo que necesiten.
+
+
 
 ### 1.2 Solution Profile
 

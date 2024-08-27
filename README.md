@@ -177,3 +177,16 @@ Este segmento está compuesto por profesionales con experiencia en la inspecció
 
 Este segmento incluye restaurantes, cafeterías, comedores, y otros establecimientos que requieren cumplir con normas estrictas de higiene y salubridad. Los usuarios en este segmento buscan asegurar la calidad de sus operaciones y mantener un ambiente seguro para sus clientes.
 
+
+## Capítulo III: Requirements Specification
+
+### 3.1 To-Be Scenario Mapping
+
+- Inspector de salubridad
+
+<img src="/Assets/ToBe_Inspector.jpg">
+
+- Dueño del restaurante 
+  
+<img src="/Assets/ToBe_DueñoRestaurante.jpg">
+

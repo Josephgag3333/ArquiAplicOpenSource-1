@@ -745,3 +745,21 @@ Las épicas son las siguientes:
 5.- Gestión de perfiles 
 
 6.- Gestión tecnológico 
+
+### 3.3 Impact Mapping 
+
+### 3.4 Product Backlog 
+
+Captura de las épicas en el Product Backlog usando Pivotal Tracker
+
+<img src="/Assets/ProductBacklog_Epics.png">
+
+Captura de las historias de usuario en el Product Backlog usando Pivotal Tracker
+
+<img src="/Assets/ProductBacklog_US1.png">
+
+<img src="/Assets/ProductBacklog_US2.png">
+
+<img src="/Assets/ProductBacklog_US3.png">
+
+Enlace público del Product Backlog en Pivotal Tracker: https://www.pivotaltracker.com/projects/2716388 

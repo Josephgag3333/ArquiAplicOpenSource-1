@@ -1398,6 +1398,14 @@ Las épicas son las siguientes:
 
 ### 3.3 Impact Mapping 
 
+Captura del Impact Map del dueño de restaurante: 
+
+<img src="/Assets/ImpactMap_RestaurantOwner.png">
+
+Captura del Impact Map del Inspector de salubridad: 
+
+<img src="/Assets/ImpactMap_HealthInspector.png">
+
 ### 3.4 Product Backlog 
 
 Captura de las épicas en el Product Backlog usando Pivotal Tracker

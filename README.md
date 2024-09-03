@@ -64,6 +64,137 @@ Grupo 01
     - Lean UX Canvas
   - Segmentos objetivo
 
+
+# Student Outcome
+<div align="center">
+
+El curso contribuye al cumplimiento del Student Outcome ABET:
+<br>
+<b>ABET – EAC - Student Outcome 3</b>
+
+<b>Criterio</b>: <i>Capacidad de comunicarse efectivamente con un rango de audiencias.</i>
+<br>
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 3.
+
+<table>
+<tr>
+    <th><b>Criterio específico</b></th>
+    <th><b>Acciones realizadas</b></th>
+    <th><b>Conclusiones</b></th>
+</tr>
+<tr>
+    <td><b>Comunica oralmente con objetividad a diferentes rangos de audiencia.</b></td>
+    <td>
+      <b>Huanca Zevallos, Cristhian Joel</b> </br>
+      <b>TB1:</b> </br>
+      Hacer entrevistas (diseño de entrevistas, registro de entrevistas y análisis de entrevistas) y participar activamente en la reunión de equipo   </br>
+      <b>TP1:</b> </br>
+      Completar </br>
+      <b>TB2:</b> </br>
+      Completar </br>
+      <b>TF1:</b> </br>
+      Completar </br>
+      <br><b>Aquino Gutierrezz, Joshep Giovani</b> </br>
+      <b>TB1:</b> </br>
+      Hacer entrevistas (diseño de entrevistas, registro de entrevistas y análisis de entrevistas) y participar activamente en la reunión de equipo </br>
+      <b>TP1:</b> </br>
+      Completar </br>
+      <b>TB2:</b> </br>
+      Completar </br>
+      <b>TF1:</b> </br>
+      Completar </br>
+      <br><b>Cossio Jimenez, Jimena Alessandra</b> </br>
+      <b>TB1:</b> </br>
+      Participar en la reunión de equipo y presentar la idea de manera clara </br>
+      <b>TP1:</b> </br>
+      Completar </br>
+      <b>TB2:</b> </br>
+      Completar </br>
+      <b>TF1:</b> </br>
+      Completar </br>
+      <br><b>Carbajal Santivañez, Sebastian Aaron Anibal</b> </br>
+      <b>TB1:</b> </br>
+      Participar activamente en la reunión de equipo. </br>
+      <b>TP1:</b> </br>
+      Completar </br>
+      <b>TB2:</b> </br>
+      Completar </br>
+      <b>TF1:</b> </br>
+      Completar </br>
+      <br><b>Sagastegui Rodriguez, Luis Jesus</b> </br>
+      <b>TB1:</b> </br>
+      Hacer entrevistas (diseño de entrevistas, registro de entrevistas y análisis de entrevistas) y participar activamente en la reunión de equipo </br>
+      <b>TP1:</b> </br>
+      Completar </br>
+      <b>TB2:</b> </br>
+      Completar </br>
+      <b>TF1:</b> </br>
+      Completar </br>
+    </td>
+    <td>
+    El grupo pudo iterar el trabajo conforme a los feedback que recibimos del profesor. Eso también se pudo mejorar con las opiniones que obtuvimos de las personas entrevistadas, pertenecientes a nuestros 2 segmentos objetivo.
+    </td>
+</tr>
+<tr>
+    <td><b>Comunica por escrito con objetividad a diferentes rangos de audiencia.</b></td>
+    <td>
+      <b>Huanca Zevallos, Cristhian Joel</b> </br>
+      <b>TB1:</b> </br>
+      Realizar el perfil de la startup y de la solución, realizar los segmentos objetivo, el análisis competitivo, las estrategia y tácticas frente a competidores, las user persona, los style guidelines, la arquitectura de la información  </br>
+      <b>TP1:</b> </br>
+      Completar </br>
+      <b>TB2:</b> </br>
+      Completar </br>
+      <b>TF1:</b> </br>
+      Completar </br>
+      <br><b>Aquino Gutierrezz, Joshep Giovani</b> </br>
+      <b>TB1:</b> </br>
+      Realizar el Lean UX Hypothesis Statement y el Lean UX Canvas y realizar el Domain-Driven Software Architecture </br>
+      <b>TP1:</b> </br>
+      Completar </br>
+      <b>TB2:</b> </br>
+      Completar </br>
+      <b>TF1:</b> </br>
+      Completar </br>
+      <br><b>Cossio Jimenez, Jimena Alessandra</b> </br>
+      <b>TB1:</b> </br>
+      Realizar el Lean UX Problem Statement, el Lean UX Assumptions, las User Stories, los Impact Mapping, el Product Backlog y el diseño de la aplicación web </br>
+      <b>TP1:</b> </br>
+      Completar </br>
+      <b>TB2:</b> </br>
+      Completar </br>
+      <b>TF1:</b> </br>
+      Completar </br>
+      <br><b>Carbajal Santivañez, Sebastian Aaron Anibal</b> </br>
+      <b>TB1:</b> </br>
+      Investigar y completar los antecedentes y la problemática, hacer el user task matrix, hacer el user journey mapping, hacer el as-is scenario mapping, el empathy mapping y el lenguaje ubicuo, realizar el software object-oriented design y el diseño de la base de datos. </br>
+      <b>TP1:</b> </br>
+      Completar </br>
+      <b>TB2:</b> </br>
+      Completar </br>
+      <b>TF1:</b> </br>
+      Completar </br>
+      <br><b>Sagastegui Rodriguez, Luis Jesus</b> </br>
+      <b>TB1:</b> </br>
+      Realizar la descripción de la startup, realizar el diseño UI de la landing page y realizar la landing page </br>
+      <b>TP1:</b> </br>
+      Completar </br>
+      <b>TB2:</b> </br>
+      Completar </br>
+      <b>TF1:</b> </br>
+      Completar </br>
+    </td>
+    <td>
+    Se pudo hacer la landing page con las ideas que los integrantes del grupo brindaron entre los 4 capítulos.
+    </td>
+</tr>
+</table>
+</div>
+<br><br>
+
+
 ## Capítulo I: Introducción
 
 ### 1.1 Startup Profile

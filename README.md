@@ -1,3 +1,45 @@
+<h3 align="center"> Universidad Peruana de Ciencias Aplicadas </h3>
+
+<h3 align="center"> Ingeniería de Software </h3>
+<h3 align="center"> Ciclo 2024 - 2 </h3>
+
+<br>
+
+<h1 align="center"> TF Report </h1>
+
+<h3 align="center"> Desarrollo de Aplicaciones Open Source - WS53 </h3>
+
+<h3 align="center"> Docente: Juan Antonio Flores Moroco </h3>
+
+<div align="center">
+
+| Member                           |    Code    |
+| :------------------------------- | :--------: |
+| Huanca Zevallos, Cristhian Joel   | U20201B914 |
+| Aquino Gutierrezz, Joshep Giovani | u202022089 |
+| Cossio Jimenez, Jimena Alessandra | u202117854 |
+| Carbajal Santivañez, Sebastian Aaron Anibal | u202111461 |
+| Sagastegui Rodriguez, Luis Jesus | u202014249 |
+
+</div>
+
+<h3 align="center">2024</h3>
+
+<br><br>
+
+# Registro de Versiones del Informe
+
+<div align="center">
+
+| Versión | Fecha | Autor | Descripción de modificación |
+| :-----: | :---: | :---: | :-------------------------- |
+|    TB1     |   03/09    |   Cristhian Joel Huanca Zevallos, Joshep Giovani Aquino Gutierrezz, Jimena Alessandra Cossio Jimenez, Sebastian Aaron Anibal Carbajal Santivañez, Luis Jesus Sagastegui Rodriguez  |     Se realizó la investigación del problema y de la solución, se realizó el Lean UX, se definió las User Stories, se realizó el Product Backlog, se elaboraron los artefactos del Needfinding, se elaboró el diseño del diagrama de clases al igual que su diccionario y relaciones. También se elaboró el diagrama de la base de datos y la landing page. |
+
+
+</div>
+
+<br><br>
+
 # ArquiAplicOpenSource-1
 Grupo 01
 

@@ -214,3 +214,1248 @@ Este segmento está compuesto por profesionales con experiencia en la inspecció
 
 Este segmento incluye restaurantes, cafeterías, comedores, y otros establecimientos que requieren cumplir con normas estrictas de higiene y salubridad. Los usuarios en este segmento buscan asegurar la calidad de sus operaciones y mantener un ambiente seguro para sus clientes.
 
+
+
+## Capítulo III: Requirements Specification
+
+### 3.1 To-Be Scenario Mapping
+
+- Inspector de salubridad
+
+<img src="/Assets/ToBe_Inspector.jpg">
+
+- Dueño del restaurante 
+  
+<img src="/Assets/ToBe_DueñoRestaurante.jpg">
+
+### 3.2 User Stories 
+
+<table>
+  <tr>
+   <td>Epic / Story ID 
+   </td>
+   <td>Título 
+   </td>
+   <td>Descripción 
+   </td>
+   <td>Criterios de
+<p>
+Aceptación 
+   </td>
+   <td>Relacionado
+<p>
+con (Epic ID) 
+   </td>
+  </tr>
+  <tr>
+   <td>US-01 
+   </td>
+   <td>Programación de las inspecciones de los restaurantes 
+   </td>
+   <td>Como inspector de salubridad, quiero programar las inspecciones de los restaurantes para garantizar el buen cumplimiento de las normativas gubernamentales.  
+   </td>
+   <td>Escenario 1: El inspector programa una nueva reunión con su cliente satisfactoriamente
+<p>
+Dado que el inspector de salubridad se encuentra en la sección de ‘chats’ y hace click en “Programar nueva reunión”, 
+<p>
+cuando el inspector rellena sus datos correctamente en el formulario, 
+<p>
+entonces el sistema mostrará el mensaje “Se acaba de programar una nueva reunión”  
+<p>
+Escenario 2: El inspector programa una nueva reunión con su cliente insatisfactoriamente  
+<p>
+Dado que el inspector de salubridad se encuentra en la sección de ‘chats’ y hace click en “Programar nueva reunión”, 
+<p>
+cuando el inspector rellena sus datos correctamente en el formulario, pero la fecha coincide con otra reunión agendada, 
+<p>
+entonces el sistema mostrará el mensaje “El horario coincide con otra reunión agendada antes. Escoja otro horario, por favor.” 
+   </td>
+   <td>E01 
+   </td>
+  </tr>
+  <tr>
+   <td>US-02 
+   </td>
+   <td>Recibo de recordatorios de la inspección 
+   </td>
+   <td>Como dueño de restaurante, quiero recibir recordatorios de las inspecciones para organizarme con anticipación para la reunión con el inspector de salubridad. 
+   </td>
+   <td>Escenario 1: El dueño de restaurante recibe recordatorio de la inspección satisfactoriamente  
+<p>
+Dado que el dueño de restaurante se encuentra explorando en su perfil, 
+<p>
+cuando el usuario se encuentra a dos días antes de la reunión, 
+<p>
+entonces el sistema mandará una notificación a su perfil a modo de recordatorio de la inspección 
+<p>
+Escenario 2: El dueño de restaurante recibe recordatorio en correo electrónico anterior 
+<p>
+Dado que el dueño de restaurante pierde acceso a su correo anterior y no actualiza su dirección de correo actual en su perfil, 
+<p>
+cuando el dueño de restaurante se encuentra a dos días antes de la reunión, 
+<p>
+entonces el sistema mandará un recordatorio al correo anterior 
+   </td>
+   <td>E01 
+   </td>
+  </tr>
+  <tr>
+   <td>US-03 
+   </td>
+   <td>Lista de verificación de requisitos  
+   </td>
+   <td>Como inspector de salubridad, quiero hacer una lista de verificación de requisitos para tener un mejor manejo de los aspectos más importantes a evaluar del restaurante a mi servicio. 
+   </td>
+   <td>Escenario 1: El inspector de salubridad genera la lista de requisitos satisfactoriamente 
+<p>
+Dado que el inspector de salubridad se encuentra en su perfil y hace click en “Generar lista de requisitos”, 
+<p>
+cuando el inspector de salubridad rellena la lista correctamente y hace click en “Registrar lista”, 
+<p>
+entonces el sistema mostrará el mensaje “Se acaba de registrar su lista de requisitos satisfactoriamente” 
+<p>
+Escenario 2: El inspector de salubridad realiza cambios a la lista de requisitos insatisfactoriamente 
+<p>
+Dado que el inspector de salubridad accede a la lista de requisitos con su internet inestable, 
+<p>
+cuando el inspector de salubridad modifica la lista y hace click en “Guardar cambios”, 
+<p>
+entonces el sistema mostrará el mensaje “No se pudo guardar los cambios por problemas de internet” 
+   </td>
+   <td>E01 
+   </td>
+  </tr>
+  <tr>
+   <td>US-04 
+   </td>
+   <td>Recibo de informes detallados de inspecciones anteriores 
+   </td>
+   <td>Como inspector de salubridad, quiero recibir informes detallados acerca de las inspecciones anteriores de los restaurantes asignados para tener una idea más clara de los aspectos a mejorar de los restaurantes a mi servicio.  
+   </td>
+   <td>Escenario 1: El inspector de salubridad visualiza el informe de inspecciones anteriores de su cliente satisfactoriamente 
+<p>
+Dado que el inspector de salubridad se encuentra en el perfil de su cliente, 
+<p>
+cuando el inspector de salubridad visualiza que “Antecedentes” no está vacío y hace click en “Generar informe de inspecciones”, 
+<p>
+entonces el sistema mostrará un informe detallado de las inspecciones anteriores de su cliente. 
+<p>
+Escenario 2: El inspector de salubridad visualiza el informe de inspecciones de su cliente insatisfactoriamente 
+<p>
+Dado que el inspector de salubridad se encuentra en el perfil de su cliente, 
+<p>
+cuando el inspector de salubridad visualiza que “Antecedentes” está vacío y hace click en “Generar informe de inspecciones”, 
+<p>
+entonces el sistema mostrará el mensaje “No existe registro de inspecciones anteriores” 
+   </td>
+   <td>E02 
+   </td>
+  </tr>
+  <tr>
+   <td>US-05 
+   </td>
+   <td>Inclusión de documentos adicionales adjuntos 
+   </td>
+   <td>Como dueño del restaurante, quiero adjuntar documentos adicionales como fotos y videos para recibir un mejor asesoramiento por el inspector. 
+   </td>
+   <td>Escenario 1: El dueño de restaurante adjunta fotos satisfactoriamente 
+<p>
+Dado que el dueño de restaurante se encuentra en el chat que tiene con su inspector, 
+<p>
+cuando el dueño de restaurante adjunta una foto de su local respetando el formato de imagen y la envía, 
+<p>
+entonces el sistema mostrará el mensaje “Su archivo ha sido enviado con éxito” 
+<p>
+Escenario 2: El dueño de restaurante adjunta fotos insatisfactoriamente 
+<p>
+Dado que el dueño de restaurante se encuentra en el chat que tiene con su inspector, 
+<p>
+cuando el dueño de restaurante adjunta una foto de su local con un tamaño mayor al máximo permitido y la envía, 
+<p>
+entonces el sistema mostrará el mensaje “Su archivo no ha sido enviado con éxito por tamaño fuera del límite soportado” 
+   </td>
+   <td>E02 
+   </td>
+  </tr>
+  <tr>
+   <td>US-06 
+   </td>
+   <td>Acceso al historial de inspecciones del restaurante   
+   </td>
+   <td>Como dueño del restaurante, quiero tener acceso al historial de inspecciones de mi local para identificar los principales aspectos de mejora.  
+   </td>
+   <td>Escenario 1: El dueño de restaurante accede al historial de inspecciones de su restaurante 
+<p>
+Dado que el dueño de restaurante se encuentra en su perfil y tiene al menos un antecedente en su historial, 
+<p>
+cuando el dueño de restaurante hace click en “Ver historial de inspecciones”, 
+<p>
+entonces el sistema muestra el historial de inspecciones del restaurante con información más detallada. 
+<p>
+Escenario 2: El dueño de restaurante ve vacío su historial de inspecciones 
+<p>
+Dado que el dueño de restaurante se encuentra en su perfil y no tiene ningún antecedente en su historial, 
+<p>
+cuando el dueño de restaurante hace click en “Ver historial de inspecciones”, 
+<p>
+entonces el sistema muestra el historial de inspecciones del restaurante vacío. 
+   </td>
+   <td>E01 
+   </td>
+  </tr>
+  <tr>
+   <td>US-07 
+   </td>
+   <td>Generación del contrato 
+   </td>
+   <td>Como inspector de salubridad, quiero generar un contrato con mi cliente para garantizar que exista un buen cumplimiento por ambas partes.  
+   </td>
+   <td>Escenario 1: El inspector de salubridad genera un contrato con su cliente satisfactoriamente 
+<p>
+Dado que el inspector de salubridad se encuentra en el chat que tiene con su cliente y hace click en “Generar contrato”, 
+<p>
+cuando el inspector de salubridad edita el contrato según lo acordado, se lo manda a su cliente y este confirma el contrato, 
+<p>
+entonces el sistema mostrará el mensaje “Se ha generado su contrato con éxito” 
+<p>
+Escenario 2: El inspector de salubridad genera un contrato con su cliente insatisfactoriamente 
+<p>
+Dado que el inspector de salubridad se encuentra en el chat que tiene con su cliente y hace click en “Generar contrato”, 
+<p>
+cuando el inspector de salubridad edita el contrato diferente a lo acordado, se lo manda a su cliente y este rechaza el contrato, 
+<p>
+entonces el sistema mostrará el mensaje “No se ha podido generar su contrato. Su cliente ha rechazado su petición.” 
+   </td>
+   <td>E02 
+   </td>
+  </tr>
+  <tr>
+   <td>US-08 
+   </td>
+   <td>Personalización de notificaciones y alertas 
+   </td>
+   <td>Como visitante del segmento de dueños de restaurante, quiero personalizar mis notificaciones y alertas para adaptarlas según mis necesidades. 
+   </td>
+   <td>Escenario 1: El dueño de restaurante personaliza sus notificaciones
+<p>
+Dado que el dueño de restaurante se encuentra en la sección “Notificaciones” y hace click en “Personalizar notificaciones”, 
+<p>
+cuando el dueño de restaurante modifica el uso de sus notificaciones y hace click en “Guardar cambios”, 
+<p>
+entonces el sistema mostrará el mensaje “Se han guardado los cambios satisfactoriamente” 
+<p>
+Escenario 2: El dueño de restaurante personaliza sus alertas 
+<p>
+Dado que el dueño de restaurante se encuentra en la sección “Notificaciones” y hace click en “Personalizar alertas”, 
+<p>
+cuando el dueño de restaurante modifica el uso de sus alertas y hace click en “Guardar cambios”, 
+<p>
+entonces el sistema mostrará el mensaje “Se han guardado los cambios satisfactoriamente” 
+   </td>
+   <td>E03 
+   </td>
+  </tr>
+  <tr>
+   <td>US-09 
+   </td>
+   <td>Clasificación de las áreas de mejora del restaurante 
+   </td>
+   <td>Como visitante del segmento de inspectores de salubridad, quiero clasificar las áreas de mejora de los restaurantes a mi servicio para atender al inicio sus problemas más graves.  
+   </td>
+   <td>Escenario 1: El inspector de salubridad clasifica las áreas de mejora del restaurante satisfactoriamente
+<p>
+Dado que el inspector de salubridad se encuentra en el chat que tiene con su cliente y hace click en “Generar lista”, 
+<p>
+cuando el inspector de salubridad divide la lista por áreas de mejora del restaurante (cocina, baño y aseo, comedor, almacén, personal de limpieza) y hace click en “Guardar cambios”, 
+<p>
+entonces el sistema mostrará el mensaje “Se han guardado los cambios satisfactoriamente” 
+<p>
+Escenario 2: El inspector de salubridad clasifica las áreas de mejora del restaurante por colores satisfactoriamente
+<p>
+Dado que el inspector de salubridad se encuentra en el chat que tiene con su cliente y hace click en “Generar lista”, 
+<p>
+cuando el inspector de salubridad divide la lista de áreas de mejora del restaurante en colores diferentes y hace click en “Guardar cambios”, 
+<p>
+entonces el sistema mostrará el mensaje “Se han guardado los cambios satisfactoriamente” 
+   </td>
+   <td>E04 
+   </td>
+  </tr>
+  <tr>
+   <td>US-10 
+   </td>
+   <td>Acceso a las normas gubernamentales de sanidad en restaurantes 
+   </td>
+   <td>Como visitante del segmento de dueños de restaurante, quiero tener acceso a todas las normativas gubernamentales de sanidad de restaurante de mi país para estar más informado acerca de los requisitos que debe cumplir mi restaurante. 
+   </td>
+   <td>Escenario 1: El dueño de restaurante accede a las normativas de sanidad de restaurantes satisfactoriamente 
+<p>
+Dado que el dueño de restaurante se encuentra en la sección “Recursos”, 
+<p>
+cuando el dueño de restaurante hace click en “Normas de sanidad”, 
+<p>
+entonces el sistema mostrará un listado de las normas de sanidad junto con algunos enlaces adicionales 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E01 
+   </td>
+  </tr>
+  <tr>
+   <td>US-11 
+   </td>
+   <td>Publicación de certificado como inspector de salubridad  
+   </td>
+   <td>Como visitante del segmento de inspectores de salubridad, quiero publicar mi certificado como inspector en mi perfil de la aplicación para generar confianza en mis clientes. 
+   </td>
+   <td>Escenario 1: El inspector de salubridad publica su certificado como inspector en su perfil satisfactoriamente 
+<p>
+Dado que el inspector de salubridad se encuentra en su perfil y hace click en “Editar perfil”, 
+<p>
+cuando el inspector de salubridad publica su certificado en el apartado “Suba su certificado” y hace click en “Guardar cambios”, 
+<p>
+entonces el sistema mostrará el mensaje “Se acaba de actualizar la información de su perfil” 
+<p>
+Escenario 2: El inspector de salubridad publica su certificado como inspector en su perfil insatisfactoriamente
+<p>
+Dado que el inspector de salubridad se encuentra en su perfil y hace click en “Editar perfil”, 
+<p>
+cuando el inspector de salubridad publica su certificado en el apartado “Suba su certificado” en un formato diferente al permitido, 
+<p>
+entonces el sistema mostrará el mensaje “El formato del archivo no es compatible. Vuelva a intentar con otro formato” 
+   </td>
+   <td>E02 
+   </td>
+  </tr>
+  <tr>
+   <td>US-12 
+   </td>
+   <td>Actualización de datos del restaurante 
+   </td>
+   <td>Como visitante del segmento de dueños de restaurante, quiero actualizar los datos de mi restaurante en la aplicación para precisar la información de mi restaurante. 
+   </td>
+   <td>Escenario 1: El dueño de restaurante actualiza su perfil satisfactoriamente 
+<p>
+Dado que el dueño de restaurante se encuentra en la sección “Configuración” y hace click en “Actualizar perfil”, 
+<p>
+cuando el dueño de restaurante modifica los datos de su perfil correctamente y hace click en “Guardar cambios”, 
+<p>
+entonces el sistema mostrará el mensaje “Se han guardado los cambios satisfactoriamente” 
+<p>
+Escenario 2: El dueño de restaurante actualiza su perfil insatisfactoriamente 
+<p>
+Dado que el dueño de restaurante se encuentra en la sección “Configuración” y hace click en “Actualizar perfil”, 
+<p>
+cuando el dueño de restaurante modifica algún dato de su perfil en un formato distinto al permitido y hace click en “Guardar cambios”, 
+<p>
+entonces el sistema mostrará el mensaje “No se pudo guardar los cambios por usar un formato distinto al establecido. Pruebe otra vez con otro formato.” 
+   </td>
+   <td>E05 
+   </td>
+  </tr>
+  <tr>
+   <td>US-13 
+   </td>
+   <td>Lista de clientes en la bandeja de mensajes del inspector 
+   </td>
+   <td>Como visitante del segmento de inspectores de salubridad, quiero tener un listado de todos mis clientes en mi bandeja de mensajes de la aplicación para gestionar mejor a mis clientes. 
+   </td>
+   <td>Escenario 1: El inspector de salubridad añade cliente a su lista de clientes 
+<p>
+Dado que el inspector de salubridad se encuentra en la sección “Chats”, 
+<p>
+cuando el inspector de salubridad hace click en “Añadir como cliente” a su cliente, 
+<p>
+entonces el sistema añadirá a ese cliente a su lista de clientes 
+<p>
+Escenario 2: El inspector de salubridad elimina cliente de su lista de clientes
+<p>
+Dado que el inspector de salubridad se encuentra en la sección “Chats”, 
+<p>
+cuando el inspector de salubridad agrega como cliente a un usuario por error y hace click izquierdo en “Eliminar de lista de clientes”, 
+<p>
+entonces el sistema eliminará a ese usuario de su lista de clientes 
+   </td>
+   <td>E08 
+   </td>
+  </tr>
+  <tr>
+   <td>US-14 
+   </td>
+   <td>Registro de usuario 
+   </td>
+   <td>Como Developer, quiero establecer un sistema de registro a los usuarios con su correo y contraseña de al menos 8 dígitos y un carácter especial, para garantizar la transparencia y seguridad de la cuenta del usuario. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-15 
+   </td>
+   <td>Sistema de búsqueda avanzada de inspectores de salubridad 
+   </td>
+   <td>Como Developer, quiero establecer un sistema de búsqueda avanzada de los inspectores por filtración de datos para que la búsqueda sea más rápida y eficiente. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-16 
+   </td>
+   <td>Sistema de calificaciones  
+   </td>
+   <td>Como Developer, quiero establecer un sistema de calificaciones para que los dueños de restaurantes tengan más confianza al poder visualizar las calificaciones de los inspectores. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-17 
+   </td>
+   <td>Dashboard de gestión para los dueños de restaurantes 
+   </td>
+   <td>Como Developer, quiero implementar un dashboard con gráficos para que los dueños de restaurantes puedan ver un resumen de sus inspecciones.  
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-18 
+   </td>
+   <td>Notificaciones en tiempo real  
+   </td>
+   <td>Como Developer, quiero implementar un sistema de notificaciones en tiempo real para informar a los usuarios acerca de alguna importante actualización.  
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-19 
+   </td>
+   <td>Soporte técnico
+   </td>
+   <td>Como Developer, quiero implementar un sistema de soporte técnico en la aplicación para realizar las mejoras brindadas por los usuarios y así actualizar la aplicación cada cierto tiempo.  
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-20 
+   </td>
+   <td>Configuración de perfil de usuario 
+   </td>
+   <td>Como Developer, quiero gestionar un sistema de perfiles para que los usuarios precisen de información más detallada. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-21 
+   </td>
+   <td>Inicio de sesión de usuario 
+   </td>
+   <td>Como dueño de restaurante, quiero iniciar sesión en la app para tener acceso a mis datos guardados.  
+   </td>
+   <td>Escenario 1: Dueño de restaurante inicia sesión satisfactoriamente
+<p>
+Dado que el dueño de restaurante se ha registrado correctamente en la app y está en la sección “Inicia sesión”, 
+<p>
+cuando el dueño de restaurante rellena su usuario y contraseña correctamente, 
+<p>
+entonces el sistema mostrará el mensaje “Inicio de sesión exitoso” 
+<p>
+Escenario 2: Dueño de restaurante inicia sesión insatisfactoriamente 
+<p>
+Dado que el dueño de restaurante se ha registrado correctamente en la app y está en la sección “Inicia sesión”, 
+<p>
+cuando el dueño de restaurante rellena su usuario y/o contraseña con algún error, 
+<p>
+entonces el sistema mostrará el mensaje “Inicio de sesión fallido” 
+   </td>
+   <td>E05 
+   </td>
+  </tr>
+  <tr>
+   <td>US-22 
+   </td>
+   <td>Actualización del perfil de usuario 
+   </td>
+   <td>Como inspector de salubridad, quiero actualizar mi perfil para que mi información modificada coincida con mis datos actuales. 
+   </td>
+   <td>Escenario 1: Inspector de salubridad actualiza su perfil satisfactoriamente 
+<p>
+Dado que el inspector de salubridad se encuentra en la configuración de su perfil y hace click en “Editar perfil”, 
+<p>
+cuando el inspector de salubridad modifica los datos del formulario correspondiente y hace click en “Guardar cambios”, 
+<p>
+entonces el sistema mostrará el mensaje “Se acaba de actualizar la información de su perfil” 
+<p>
+Escenario 2: Inspector de salubridad actualiza su perfil insatisfactoriamente 
+<p>
+Dado que el inspector de salubridad se encuentra en la configuración de su perfil y hace click en “Editar perfil”, 
+<p>
+cuando el inspector de salubridad modifica algún campo con símbolos no permitidos y hace click en “Guardar cambios”, 
+<p>
+entonces el sistema mostrará el mensaje “No se pudo actualizar la información de su perfil. Hay error de tipeo.” 
+   </td>
+   <td>E05 
+   </td>
+  </tr>
+  <tr>
+   <td>US-23 
+   </td>
+   <td>Visualización del calendario de inspecciones  
+   </td>
+   <td>Como inspector de salubridad, quiero visualizar el calendario de inspecciones para que no se me olvide ninguna reunión pendiente. 
+   </td>
+   <td>Escenario 1: El inspector de salubridad visualiza el calendario de inspecciones satisfactoriamente 
+<p>
+Dado que el inspector de salubridad se encuentra en su perfil, 
+<p>
+cuando el inspector de salubridad hace click en “Ver calendario de inspecciones”, 
+<p>
+entonces el sistema mostrará visualmente un calendario con todas las inspecciones pendientes 
+<p>
+Escenario 2: El inspector de salubridad visualiza el calendario de inspecciones por semana satisfactoriamente 
+<p>
+Dado que el inspector de salubridad se encuentra en su perfil y hace click en “Ver calendario de inspecciones”, 
+<p>
+cuando el inspector de salubridad hace click en “Ver por semana”, 
+<p>
+entonces el sistema mostrará visualmente un calendario con todas las inspecciones pendientes de esa semana 
+   </td>
+   <td>E05 
+   </td>
+  </tr>
+  <tr>
+   <td>US-24 
+   </td>
+   <td>Recibo de notificación de confirmación de citas de inspección 
+   </td>
+   <td>Como dueño de restaurante, quiero recibir notificación de confirmación de citas de inspección para asegurarme de que la cita de inspección procede según lo acordado.  
+   </td>
+   <td>Escenario 1: El dueño de restaurante recibe notificación de confirmación de cita de inspección satisfactoriamente 
+<p>
+Dado que el dueño de restaurante visualiza la sección “Notificaciones” y recibe una notificación solicitando la confirmación de la inspección programada por el inspector, 
+<p>
+cuando el dueño de restaurante hace click en “Aceptar confirmación de inspección”, 
+<p>
+entonces el sistema mostrará el mensaje “Se ha programado su cita de inspección satisfactoriamente” 
+<p>
+Escenario 2: El dueño de restaurante recibe notificación de anulación de cita de inspección 
+<p>
+Dado que el dueño de restaurante visualiza la sección “Notificaciones” y recibe una notificación solicitando la confirmación de la inspección programada por el inspector, 
+<p>
+cuando el dueño de restaurante hace click en “Anular confirmación de inspección”, 
+<p>
+entonces el sistema mostrará el mensaje “Se acaba de cancelar la cita de inspección” 
+   </td>
+   <td>E03 
+   </td>
+  </tr>
+  <tr>
+   <td>US-25 
+   </td>
+   <td>Registro de observaciones en formulario 
+   </td>
+   <td>Como inspector de salubridad, quiero registrar mis observaciones en un formulario para que mi cliente tenga una mejor noción de lo que le falta mejorar y lo que está en orden. 
+   </td>
+   <td>Escenario 1: El inspector de salubridad registra sus observaciones satisfactoriamente 
+<p>
+Dado que el inspector de salubridad se encuentra en la sección “Espacio de trabajo” y selecciona a su cliente, 
+<p>
+cuando el inspector de salubridad hace click en “Generar formulario” y registra sus observaciones, 
+<p>
+entonces el sistema creará el formulario satisfactoriamente 
+<p>
+Escenario 2: El inspector de salubridad actualiza sus observaciones satisfactoriamente 
+<p>
+Dado que el inspector de salubridad se encuentra en la sección “Espacio de trabajo” y selecciona a su cliente, 
+<p>
+cuando el inspector de salubridad hace click en el formulario ya creado y modifica sus observaciones, 
+<p>
+entonces el sistema actualizará la información del formulario de los usuarios involucrados 
+   </td>
+   <td>E02 
+   </td>
+  </tr>
+  <tr>
+   <td>US-26 
+   </td>
+   <td>Envío de archivos adjuntos   
+   </td>
+   <td>Como inspector de salubridad, quiero enviar archivos adjuntos por chat para que mi cliente tenga más evidencia de los aspectos que faltan mejorar en su restaurante.  
+   </td>
+   <td>Escenario 1: El inspector de salubridad envía archivos adjuntos por chat satisfactoriamente 
+<p>
+Dado que el inspector de salubridad se encuentra en el chat que tiene con su cliente, 
+<p>
+cuando el inspector de salubridad sube un archivo adjunto respetando el formato establecido y hace click en “Enviar”, 
+<p>
+entonces el sistema mostrará el archivo enviada por chat satisfactoriamente 
+<p>
+Escenario 2: El inspector de salubridad envía archivos adjuntos por chat insatisfactoriamente 
+<p>
+Dado que el inspector de salubridad se encuentra en el chat que tiene con su cliente, 
+<p>
+cuando el inspector de salubridad sube un archivo adjunto con un formato distinto al permitido y hace click en “Enviar”, 
+<p>
+entonces el sistema mostrará el mensaje “No se pudo enviar el archivo por incompatibilidad en el formato” 
+   </td>
+   <td>E02 
+   </td>
+  </tr>
+  <tr>
+   <td>US-27 
+   </td>
+   <td>Visualización del historial de inspecciones 
+   </td>
+   <td>Como inspector de salubridad, quiero visualizar el historial de inspecciones para tener una mejor visión del progreso de mi cliente.  
+   </td>
+   <td>Escenario 1: El inspector de salubridad visualiza el historial de inspecciones de su cliente satisfactoriamente 
+<p>
+Dado que el inspector de salubridad se encuentra en el perfil de su cliente y este tiene al menos un registro de inspección, 
+<p>
+cuando el inspector de salubridad hace click en “Ver historial de inspecciones”, 
+<p>
+entonces el sistema mostrará el historial de inspecciones 
+<p>
+Escenario 2: El inspector de salubridad no visualiza el historial de inspecciones de su cliente 
+<p>
+Dado que el inspector de salubridad se encuentra en el perfil de su cliente y este no tiene ningún registro de inspecciones, 
+<p>
+cuando el inspector de salubridad hace click en “Ver historial de inspecciones”, 
+<p>
+entonces el sistema mostrará el mensaje “No se ha encontrado ningún registro de inspecciones” 
+   </td>
+   <td>E07 
+   </td>
+  </tr>
+  <tr>
+   <td>US-28 
+   </td>
+   <td>Visualización del indicador en porcentaje de cumplimiento 
+   </td>
+   <td>Como inspector de salubridad, quiero visualizar el indicador en porcentaje de cumplimiento para medir el progreso de mi cliente. 
+   </td>
+   <td>Escenario 1: El inspector de salubridad visualiza el indicador de porcentaje de cumplimiento de su cliente satisfactoriamente
+<p>
+Dado que el inspector de salubridad se encuentra en el espacio de trabajo que tiene con su cliente, 
+<p>
+cuando el inspector de salubridad hace click en la lista que él generó y selecciona “Mostrar porcentaje”, 
+<p>
+entonces el sistema mostrará el porcentaje de cumplimiento de su cliente 
+<p>
+Escenario 2: El inspector de salubridad no visualiza el indicador de porcentaje de cumplimiento de su cliente
+<p>
+Dado que el inspector de salubridad se encuentra en el espacio de trabajo que tiene con su cliente, 
+<p>
+cuando el inspector de salubridad hace click en la lista que él generó y selecciona “Ocultar porcentaje”, 
+<p>
+entonces el sistema ocultará el porcentaje de cumplimiento de su cliente 
+   </td>
+   <td>E07 
+   </td>
+  </tr>
+  <tr>
+   <td>US-29 
+   </td>
+   <td>Envío de recordatorios de inspecciones pendientes 
+   </td>
+   <td>Como inspector de salubridad, quiero enviar recordatorios de inspecciones pendientes para asegurarme de no olvidar ninguna reunión.  
+   </td>
+   <td>Escenario 1: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E03 
+   </td>
+  </tr>
+  <tr>
+   <td>US-30 
+   </td>
+   <td>Listado de tareas pendientes 
+   </td>
+   <td>Como dueño de restaurante, quiero listar mis tareas pendientes para enfocarme en las tareas sin marcar. 
+   </td>
+   <td>Escenario 1: El dueño de restaurante modifica su lista de pendientes satisfactoriamente 
+<p>
+Dado que el dueño de restaurante se encuentra en el espacio de trabajo que tiene con su inspector y selecciona la lista que este le generó, 
+<p>
+cuando el dueño de restaurante modifica su lista de pendientes, 
+<p>
+entonces el sistema actualizará la lista de pendientes 
+<p>
+Escenario 2: El dueño de restaurante marca su lista de pendientes 
+<p>
+Dado que el dueño de restaurante se encuentra en el espacio de trabajo que tiene con su inspector y selecciona la lista que este le generó, 
+<p>
+cuando el dueño de restaurante marca los pendientes cumplidos de esa lista, 
+<p>
+entonces el sistema modificará la lista de pendientes 
+   </td>
+   <td>E04 
+   </td>
+  </tr>
+  <tr>
+   <td>US-31 
+   </td>
+   <td>Visualización de mensajes por chat  
+   </td>
+   <td>Como inspector de salubridad, quiero visualizar los mensajes de mis clientes por chat para que exista una comunicación más fluida y más rápida. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E08 
+   </td>
+  </tr>
+  <tr>
+   <td>US-32 
+   </td>
+   <td>Envío de notificaciones urgentes por correo 
+   </td>
+   <td>Como dueño de restaurante, quiero enviar notificaciones urgentes al correo del inspector para ser atendido rápidamente. 
+   </td>
+   <td>Escenario 1: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E03 
+   </td>
+  </tr>
+  <tr>
+   <td>US-33 
+   </td>
+   <td>Ordenamiento de la lista de tareas por criticidad 
+   </td>
+   <td>Como inspector de salubridad, quiero ordenar la lista de tareas por criticidad para ver las tareas con mayor urgencia primero. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E04 
+   </td>
+  </tr>
+  <tr>
+   <td>US-34 
+   </td>
+   <td>Establecimiento de colores según el nivel de prioridad 
+   </td>
+   <td>Como inspector de salubridad, quiero establecer los colores de la lista de verificación de requisitos según el nivel de prioridad en la app para tener una mejor visión de los aspectos de mejora que deben ser atendidos lo antes posible. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E04 
+   </td>
+  </tr>
+  <tr>
+   <td>US-35 
+   </td>
+   <td>Envío de solicitud de reinspección como notificación 
+   </td>
+   <td>Como dueño de restaurante, quiero enviar una solicitud de reinspección como notificación para que la reunión proceda más rápido. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E03 
+   </td>
+  </tr>
+  <tr>
+   <td>US-36 
+   </td>
+   <td>Recibo del resultado de la reinspección  
+   </td>
+   <td>Como dueño de restaurante, quiero recibir el resultado de la reinspección como notificación para estar más seguro de que mi solicitud fue aprobada por el inspector. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E03 
+   </td>
+  </tr>
+  <tr>
+   <td>US-37 
+   </td>
+   <td>Críticas por inspección de salubridad 
+   </td>
+   <td>Como inspector de salubridad, quiero recibir críticas por mi servicio para que los otros usuarios tengan más confianza y seguridad en usar mis servicios.  
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E09 
+   </td>
+  </tr>
+  <tr>
+   <td>US-38 
+   </td>
+   <td>Puntuación de experiencia al inspector de salubridad  
+   </td>
+   <td>Como dueño de restaurante, quiero puntuar al inspector de salubridad respecto a mi experiencia para que los otros usuarios tengan una mejor visión de los mejores inspectores según sus puntuaciones.  
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E09 
+   </td>
+  </tr>
+  <tr>
+   <td>US-39 
+   </td>
+   <td>Sección “Sobre nosotros”
+   </td>
+   <td>Como visitante, quiero visualizar la sección “Sobre nosotros” para conocer más acerca de los creadores de la aplicación web.  
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E10 
+   </td>
+  </tr>
+  <tr>
+   <td>US-40 
+   </td>
+   <td>Sección “Contáctanos” 
+   </td>
+   <td>Como visitante, quiero visualizar la sección “Contáctanos” para hacer consultas con mayor rapidez. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E10 
+   </td>
+  </tr>
+  <tr>
+   <td>US-41 
+   </td>
+   <td>Sección “Testimonios” 
+   </td>
+   <td>Como visitante, quiero visualizar la sección “Testimonios” para conocer la experiencia de otros usuarios de la app.  
+   </td>
+   <td>Escenario 1: 
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E10 
+   </td>
+  </tr>
+  <tr>
+   <td>US-42 
+   </td>
+   <td>Sección “Beneficios para los dueños de restaurantes” 
+   </td>
+   <td>Como visitante del segmento de los dueños de restaurantes, quiero visualizar la sección “Beneficios para los dueños de restaurantes” para conocer más acerca de las ventajas de usar la app. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E10 
+   </td>
+  </tr>
+  <tr>
+   <td>US-43 
+   </td>
+   <td>Sección “Beneficios para los inspectores de salubridad”  
+   </td>
+   <td>Como visitante del segmento de los inspectores de salubridad, quiero visualizar la sección “Beneficios para los inspectores de salubridad” para conocer las ventajas que tengo de usar la app. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E10 
+   </td>
+  </tr>
+  <tr>
+   <td>US-44 
+   </td>
+   <td>Sección “Call-To-Action” 
+   </td>
+   <td>Como visitante, quiero visualizar la sección “Call-To-Action” para motivarme a consumir la app.  
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E10 
+   </td>
+  </tr>
+  <tr>
+   <td>US-45 
+   </td>
+   <td>Sección “Preguntas frecuentes” 
+   </td>
+   <td>Como visitante, quiero visualizar la sección “Preguntas frecuentes” para encontrar más rápido las respuestas a algunas de mis consultas generales. 
+   </td>
+   <td>Escenario 1:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+<p>
+Escenario 2:  
+<p>
+Dado que ..., 
+<p>
+cuando ..., 
+<p>
+entonces ... 
+   </td>
+   <td>E10 
+   </td>
+  </tr>
+</table>
+
+
+Las épicas son las siguientes: 
+
+1.- Gestión de inspecciones sanitarias 
+
+2.- Gestión de documentos 
+
+3.- Gestión de notificaciones 
+
+4.- Gestión de riesgos 
+
+5.- Gestión de perfiles 
+
+6.- Gestión tecnológico 
+
+### 3.3 Impact Mapping 
+
+Captura del Impact Map del dueño de restaurante: 
+
+<img src="/Assets/ImpactMap_RestaurantOwner.png">
+
+Captura del Impact Map del Inspector de salubridad: 
+
+<img src="/Assets/ImpactMap_HealthInspector.png">
+
+### 3.4 Product Backlog 
+
+Captura de las épicas en el Product Backlog usando Pivotal Tracker
+
+<img src="/Assets/ProductBacklog_Epics.png">
+
+Captura de las historias de usuario en el Product Backlog usando Pivotal Tracker
+
+<img src="/Assets/ProductBacklog_US1.png">
+
+<img src="/Assets/ProductBacklog_US2.png">
+
+<img src="/Assets/ProductBacklog_US3.png">
+
+Enlace público del Product Backlog en Pivotal Tracker: https://www.pivotaltracker.com/projects/2716388 

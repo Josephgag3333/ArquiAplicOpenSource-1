@@ -555,6 +555,31 @@ SmartHealth se posicionará como la solución más completa y proactiva para la 
 
 <td><img src="Assets/User Journey Mapping Propietario.jpeg" alt="Imagen Journey"></td>
     <td>
+
+### 2.3.4. Empathy Mapping
+
+## Inspector de Salubridad
+
+<td><img src="Assets/Empathy Map Propietario.png" alt="Imagen1 empathy"></td>
+    <td>
+
+## Dueño de un Restaurante
+
+<td><img src="Assets/Empathy map Dueño.png" alt="Imagen2 empathy"></td>
+    <td>
+
+### 2.3.5. As-is Scenario Mapping
+
+## Inspector de Salubridad
+
+<td><img src="Assets/As Is Inspector.jpeg" alt="Imagen1 as-is"></td>
+    <td>
+
+## Dueño de un restaurante
+
+<td><img src="Assets/As Is Propietario.jpeg" alt="Imagen2 as-is"></td>
+    <td>
+
       
 ## Capítulo III: Requirements Specification
 

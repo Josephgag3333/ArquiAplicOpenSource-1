@@ -1970,3 +1970,349 @@ Captura de las historias de usuario en el Product Backlog usando Pivotal Tracker
 <img src="/Assets/ProductBacklog_US3.png">
 
 Enlace público del Product Backlog en Pivotal Tracker: https://www.pivotaltracker.com/projects/2716388 
+
+# Capítulo V: Product Implementation, Validation & Deployment
+
+## 5.1. Software Configuration Management
+
+### 5.1.1. Software Development Environment Configuration
+
+<table border="1">
+
+  <tr>
+    <td>Project Management</td>
+    <td>Microsoft 365<br>Alojamiento de los videos de entrevistas, explicación de prototipos y otros relacionados al proyecto</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Discord<br>Plataforma de mensajería instantánea donde se realizaron las reuniones, repartición de tarea y desarrollo del proyecto colaborativo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Whatsapp<br>Aplicación de mensajería instantánea donde se realizaron recordatorios de las reuniones.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Trello<br>Software de administración Y gestión de proyectos que se utilizó para establecer y designar las tareas</td>
+  </tr>
+  <tr>
+    <td>Requirements Management</td>
+    <td>Structurizr<br>Structurizr es una herramienta de modelado y documentación que permitió el desarrollo de los diagramas C4</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>MySQL Workbench<br>Herramienta de diseño para el modelado de diagrama de bases de datos.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>LucidChart<br>Herramienta de diseño para el modelado de diagramas UML.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Miro<br>Herramienta de diseño para la creación de los As-Is y To-Be Scenario Mapping</td>
+  </tr>
+  <tr>
+    <td>Product UX/UI Design</td>
+    <td>Figma<br>Herramienta que se utilizó para la creación de wireframes, mockups y prototipos.</td>
+  </tr>
+  <tr>
+    <td>Software Development</td>
+    <td>Git<br>Es un software de control de versiones para los trabajos en equipos y confiabilidad del desarrollo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Node.js<br>Node.js es un entorno de ejecución de JavaScript del lado del servidor, que permite desarrollar aplicaciones web escalables y de alto rendimiento fuera del navegador.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>GitHub<br>Sistema de control de versiones Git.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>HTML5<br>Lenguaje de etiquetas, utilizado para la estructuración y la presentación de contenido.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>CSS<br>CSS es un lenguaje utilizado para estilizar y dar formato a documentos HTML.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JavaScript<br>JavaScript es un lenguaje de programación de alto nivel, interpretado y multi-paradigma, utilizado para crear interactividad en páginas web.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>VScode<br>Es un editor de código fuente con extensiones que ayudan al desarrollo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Angular Framework<br>Framework para el desarrollo de frontend</td>
+  </tr>
+  <tr>
+    <td>Software Deployment</td>
+    <td>Github Pages<br>Plataforma que nos facilitó realizar el despliegue de nuestro landing page de manera rápida y práctica.</td>
+  </tr>
+</table>
+
+### 5.1.2. Source Code Management
+
+Utilizamos la metodología de git flow con finalidad es tener un control mayor sobre la gestión del proyecto, avanzar el proyecto de forma simultanea tanto como en la implementación del la aplicación y creación del reporte.
+
+URL del repositorio del Report en GitHub: 
+
+URL del repositorio del Landing Page en GitHub: 
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+HTML: Lenguaje utilizado para diseñar páginas web. Este lenguaje utiliza etiquetas para marcar y definir el contenido de la página web; Como un texto, imagenes, videos, etc.
+
+Convenciones:
+
+- Se tiene que declarar el tipo de documento en la primera línea de la siguiente manera:
+- Las etiquetas siempre tienen que esta en minúscula, ya que es más claro a la vista y es de facil escritura para los desarrolladores.
+- Usar las comillas para darle un valor a los atributos para una mejor legibilidad.
+
+CSS: Lenguaje que permite dar formatos o estilos a los elementos html. Con este lenguaje se pueden crear diseños web agradables e intuitivos para el usuario.
+
+Convenciones:
+
+- Unir los nombres de las clases compuestas con guiones: box-container{}
+- Usar la unidad de medida rem para mantener un diseño responsive: 1rem
+
+### 5.1.4. Software Deployment Configuration
+
+Para despliegar el landing page, usamos las siguientes herraminetas.
+
+- Git: Para realizar el manejo de las versiones del proyecto.
+- GitHub: Dentro de la plataforma tenemos un repositorio, lo usamos para almacenar todo el proyecto con sus respectivas versiones.
+- GitFlow: Esto permite visualizar y controlar el flujo de trabajo hecho por el equipo de desarrollo.
+
+## 5.2. Landing Page, Services & Applications Implementation
+
+### 5.2.1. Sprint 1
+
+#### 5.2.1.1. Sprint Planning 1
+
+<table align="center"  border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td>
+            <b>Sprint #</b>
+        </td>
+        <td>
+            <b>Sprint 1</b>           
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>Sprint Planning Background</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Date</b>
+        </td>
+        <td>
+            26/08/24         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Time</b>
+        </td>
+        <td>
+            16:00         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Location</b>
+        </td>
+        <td>
+            Modalidad remota por Discord      
+        </td>
+    </tr>
+     </tr>
+       <tr align="left">
+        <td>
+            <b>Prepared By</b>
+        </td>
+        <td>
+            Integrantes de Dreamers in a Hurry     
+        </td>
+    </tr>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Attendess (to planning meeting)</b>
+        </td>
+        <td>
+            - Aquino Gutierrez, Joseph Giovani <br/>
+            - Anibal Carbajal Santivañez, Sebastian Aaron <br/>
+            - Sagastegui Rodriguez, Luis Jesus <br/>
+            - Huanca Zevallos, Christian Joel <br/>    
+            - Cossio Jimenez, Jimena Alessandra <br/> 
+        </td>
+    </tr>
+      </tr>
+       <tr align="left">
+        <td>
+            <b>Sprint n - 1</b>
+            <b>Review Summary</b>
+        </td>
+        <td>
+            Se definieron las bases del proyecto con historias de usuario centradas en el desarrollo del Landing Page y la lógica de funcionamiento de la plataforma SmartHealth.
+            </br></br>
+            La Landing Page se implementó exitosamente.  
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint n - 1</b>
+            <b>Retrospective Summary</b>
+        </td>
+        <td>
+        Se logró mantener una comunicación entre los integrantes del equipo gracias al uso de plataformas como Discord, lo que conllevó a entregar el trabajo correctamente. Sin embargo, se debe mejorar el aspecto de la organización, para terminar las próximas tareas sin estar al límite del deathline.
+        </td>
+    </tr>
+     <tr align="left">
+        <td colspan="2">
+            <b>Sprint Goal & User Stories</b>
+        </td>
+    </tr>
+      <tr align="left">
+        <td>
+            <b>Sprint 1 Velocity</b>
+        </td>
+        <td>
+            5
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Sum of Story Points</b>
+        </td>
+        <td>
+            6
+        </td>
+    </tr>
+</table>
+
+#### 5.2.1.2. Sprint Backlog 1
+
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
+
+<table align="center" border="1" width="90%" style="text-align:center">
+    <tr>
+       <td colspan="1"><b>Sprint #</b></td>
+       <td colspan="7"><b>Sprint 1</b></td>
+     </tr>
+     <tr>
+       <td colspan="2"><b>User Story</b></td>
+       <td colspan="6"><b>Work-Item / Task</b></td>
+     </tr>
+     <tr>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Description</b></td>
+       <td><b>Estimation(Hours)</b></td>
+       <td><b>Assigned To</b></td>
+       <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+     </tr>
+     <tr>
+       <td rowspan="7">US01</td>
+       <td rowspan="7">Visualizar la descripción de la aplicación</td>
+       <td>T01</td>
+       <td>Estructura de las secciones</td>
+       <td>Programar la estructua HTML de las secciones </td>
+       <td>0.1</td>
+       <td>Luis Sagastegui</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T02</td>
+       <td>Agregar CSS general</td>
+       <td>Asignar styles generales para la página</td>
+       <td>0.1</td>
+       <td>Luis Sagastegui</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T03</td>
+       <td>Agregar Home section</td>
+       <td>Agregar html y css al Home section </td>
+       <td>0.5</td>
+       <td>Luis Sagastegui</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T04</td>
+       <td>Agregar About section</td>
+       <td>Agregar html y css al About </td>
+       <td>0.5</td>
+       <td>Aquino Gutierrez, Joseph Giovani</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T05</td>
+       <td>Agregar Discover section</td>
+       <td>Agregar html y css al Discover section </td>
+       <td>0.5</td>
+       <td>Anibal Carbajal Santivañez, Sebastian Aaron</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T06</td>
+       <td>Agregar Feature section</td>
+       <td>Agregar html y css al Feature </td>
+       <td>0.5</td>
+       <td>Cossio Jimenez, Jimena Alessandra</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T07</td>
+       <td>Agregar Footer section</td>
+       <td>Agregar html y css al Footer </td>
+       <td>0.5</td>
+       <td>Huanca Zevallos, Christian Joel</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+    </tr>
+   <tr>
+       <td rowspan="2">US03</td>
+       <td rowspan="2">Landing Page intuitiva</td>
+       <td>T08</td>
+       <td>Estructura Navbar</td>
+       <td>Crear HTML del navbar con direccionamiento a secciones</td>
+       <td>0.5</td>
+       <td>Luis Sagastegui</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T09</td>
+       <td>Estilos Navbar</td>
+       <td>Asignar stilos al navbar</td>
+       <td>0.5</td>
+       <td>Luis Sagastegui</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="2">US04</td>
+       <td rowspan="2">Landing Page responsiva</td>
+       <td>T10</td>
+       <td>Main responsive</td>
+       <td>Agregar CSS media queries a las diferentes secciones del main</td>
+       <td>1.5</td>
+       <td>Luis Sagastegui</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T11</td>
+       <td>Navbar responsive</td>
+       <td>Agregar CSS media queries al navbar</td>
+       <td>0.5</td>
+       <td>Luis Sagastegui</td>
+       <td>Done</td>
+    </tr>
+</table>

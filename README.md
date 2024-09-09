@@ -5,6 +5,12 @@
 
 <br>
 
+<div align="center">
+  <img width=140 src="https://seeklogo.com/images/U/universidad-peruana-de-ciencias-aplicadas-upc-logo-B98C3A365C-seeklogo.com.png"/>
+</div>
+
+<br>
+
 <h1 align="center"> TF Report </h1>
 
 <h3 align="center"> Desarrollo de Aplicaciones Open Source - WS53 </h3>

@@ -518,6 +518,138 @@ InspecRight:
 
 SmartHealth se posicionará como la solución más completa y proactiva para la gestión de la seguridad alimentaria, superando a InspecRight al ofrecer una plataforma que va más allá de las simples inspecciones. Nuestra solución combina la inteligencia artificial con la experiencia de los inspectores para identificar riesgos potenciales antes de que se conviertan en problemas, permitiendo a los negocios tomar medidas preventivas y garantizar la máxima seguridad alimentaria. Además, nuestra plataforma ofrece una amplia gama de herramientas para la gestión de documentos, capacitación del personal y análisis de datos, convirtiéndonos en el socio ideal para cualquier negocio que busque optimizar sus procesos de seguridad alimentaria.
 
+### 2.2.2. Registro de entrevistas
+
+## Inspectores de Salubridad
+
+<b>Entrevista 1</b><br/>
+
+- Nombre: Joan
+- Apellidos: 
+- Edad: 21 años
+- Distrito: Lima
+- Minuto donde empieza: 0:00
+- Duración: 3:07 minutos
+
+Evidencia de la reunión:
+
+<div align="center">
+    <img src="Assets/entrevista1.jpg" style="margin: 10px 0;" width="80%"/>
+</div>
+
+Resumen de la entrevista:  En la entrevista, Joan, quien trabaja en el sector de salud para la municipalidad de su distrito, habla sobre su labor en las inspecciones sanitarias de restaurantes. Identifica como desafíos el cumplimiento de las normas de salubridad y la adecuada documentación. Menciona la importancia de una comunicación asertiva con los inspectores para resolver problemas de manera eficiente. Joan considera que una plataforma que facilite las inspecciones sanitarias permitiría un seguimiento más efectivo y reduciría el trabajo humano en la documentación. Propone gestionar los informes y documentos a través de un sistema digital para mejorar la organización y acceso rápido a la información. Finalmente, Joan estaría dispuesto a pagar por un servicio digital que mejore la eficiencia y asegure el cumplimiento normativo, prefiriendo evitar la gestión manual de documentos en papel.
+
+<br/>
+
+<b>Entrevista 2</b><br/>
+
+- Nombre: Antony
+- Apellidos: Quito Pendaillo
+- Edad: 24 años
+- Distrito: Lima 
+- Minuto donde empieza: 3:07 minutos
+- Duración: 9:39 minutos
+
+Evidencia de la reunión:
+
+<div align="center">
+    <img src="Assets/entrevista2.jpg" style="margin: 10px 0;" width="80%"/>
+</div>
+
+Resumen de la entrevista:
+
+Antony Quito Penadillo, Inspector de salubridad, enfrenta desafíos en el proceso de inspección sanitaria debido a la falta de herramientas digitales, lo que le obliga a utilizar procesos manuales propensos a errores. Valora la comunicación clara con los inspectores y considera fundamental contar con una plataforma que automatice la documentación, genere informes detallados y permita un seguimiento eficiente de las correcciones. Actualmente, utiliza formularios en papel y hojas de cálculo, lo que ralentiza su gestión. Antony cree que una solución digital mejoraría los estándares de salubridad en su restaurante y está dispuesto a pagar por un servicio que optimice el cumplimiento normativo.
+
+<br/>
+
+<b>Entrevista 3</b><br/>
+
+- Nombre: Sofia 
+- Apellidos: Rodriguez
+- Edad: 55 años
+- Distrito: Lima
+- Minuto donde empieza: 12:46 minutos
+- Duración: 11:37 minutos
+
+Evidencia de la reunión:
+
+<div align="center">
+    <img src="Assets/entrevista3.jpg" style="margin: 10px 0;" width="80%"/>
+</div>
+
+Resumen de la entrevista:
+
+Sofia Rodriguez de 55 años, es una inspectora de salubridad que ya lleva 10 años en el rubro y espera poder ascender pronto a una mejor posición. Una de sus principales frustraciones es que a veces los propietarios de los restaurantes no cumplen con el proceso o lo dejan incompleto. También nos comenta que no es nada fácil ir de restaurante en restaurante porque es algo muy tedioso, ya que luego también se debe de dirigir a los laboratorios para dejar las muestra que extrae de los restaurante para descartar cualquier tipo de patógeno. Nos comenta que le gustaría contar con una aplicación con la cual evita todo ese proceso y sea de manera más digital para evitar ir en cada momento a cada restaurante, sino llevar un monitoreo en tiempo real de cómo el restaurante avanza con el proceso. 
+
+<br/>
+
+**Link de las entrevistas:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202014249_upc_edu_pe/EeVhnZAQs7ZMg16kEpr5-gMBRVZv9DcrAvN_XGclvW2_YA?e=sEVxVZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+## Dueños de restaurante
+
+<b>Entrevista 1</b><br/>
+
+- Nombre: Kevin
+- Apellidos: Roldan
+- Edad: 22 años
+- Distrito: Lima
+- Minuto donde empieza: 0:00
+- Duración: 2:47 minutos
+
+Evidencia de la reunión:
+
+<div align="center">
+    <img src="Assets/entrevista4.jpg" style="margin: 10px 0;" width="80%"/>
+</div>
+
+Resumen de la entrevista: En la entrevista, Kevin, dueño de un restaurante y estudiante de ingeniería, comenta sobre los desafíos que enfrenta con las inspecciones sanitarias en su negocio. Señala que mantener el cumplimiento de las normativas y la capacitación continua del personal son cruciales. Además, destaca la importancia de una comunicación asertiva con los inspectores de salubridad para resolver problemas rápidamente. Creé que una plataforma que facilite las inspecciones sanitarias, ya que podría mejorar el control, reducir el estrés y disminuir el riesgo de infracciones. Considera esencial digitalizar y organizar los documentos de inspecciones para un acceso rápido y eficiente. Finalmente, menciona que estaría dispuesto a invertir en un servicio que garantice el cumplimiento normativo y mejore la operación de su restaurante.
+
+<br/>
+
+<b>Entrevista 2</b><br/>
+
+- Nombre: Juan
+- Apellidos: Diaz
+- Edad: 24 años
+- Distrito: Lima 
+- Minuto donde empieza: 2:47 minutos
+- Duración: 5:20 minutos
+
+Evidencia de la reunión:
+
+<div align="center">
+    <img src="Assets/entrevista5.jpg" style="margin: 10px 0;" width="80%"/>
+</div>
+
+Resumen de la entrevista:
+
+Juan Díaz, propietario de un restaurante, enfrenta el desafío de coordinar la preparación para cumplir con los estándares de salubridad antes de las inspecciones, lo que puede ser abrumador y consumir mucho tiempo. Considera crucial una comunicación clara con los inspectores para evitar malentendidos y mejorar las prácticas de higiene. Actualmente maneja los informes en formato físico, lo cual es desorganizado, y valoraría una solución digital que facilite la preparación mediante listas de verificación, recursos educativos y una organización eficiente de documentos. Está dispuesto a pagar por una plataforma que mejore la gestión de las inspecciones y el cumplimiento normativo.
+
+<br/>
+
+<b>Entrevista 3</b><br/>
+
+- Nombre: Monica
+- Apellidos: Gonzales
+- Edad: 40 años
+- Distrito: Lima
+- Minuto donde empieza: 8:08 minutos
+- Duración: 8:22 minutos
+
+Evidencia de la reunión:
+
+<div align="center">
+    <img src="Assets/entrevista6.jpg" style="margin: 10px 0;" width="80%"/>
+</div>
+
+Resumen de la entrevista:
+
+Monica Gonzales de 40 años de edad lleva mucho tiempo en el rubro de los restaurantes, debido a que años atras pudo empezar su propio negocio al que actulamente le va super bien. Nos cuenta las frustraciones de tener que llevar y manejar un restaurante debo a lo tedioso que puede resultar tener que cumplir al pie de la letra con todo. Por otro lado, nos comenta que ella de igual manera apoya ahi y nos dices que sus trabajadores estan muy bien adaptados a cualquier cambio y que llevan capacitaciones cada cierto tiempo. 
+
+<br/>
+
+**Link de las entrevistas:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202014249_upc_edu_pe/EdKA_26GkPVBoufuGZP_4r8B7D-wOYpYFSLi8HYuM3W6-w?e=O5sYNU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas

@@ -290,6 +290,10 @@ Aspiramos a convertirnos en el referente en soluciones tecnológicas para la ins
 - Programación en C++
 - Trabajo en equipo
 
+  <p align="center">
+  <img src="/Assets/joel.png" alt="Wireframes" width="200"/>
+  </p>
+
 Acerca de mí: Me considero una persona proactiva, organizada y responsable al momento de desarrollar un nuevo proyecto en mi vida. En un grupo de trabajo siempre trato de respetar las opiniones de los demás, trato de entender los demás puntos de vista y animo a estar en unión frente a un problema.
 
 **Integrante 2:**  
@@ -299,6 +303,10 @@ Acerca de mí: Me considero una persona proactiva, organizada y responsable al m
 **Conocimientos técnicos:**  
 - Programación en Java y JavaScript
 - Trabajo en equipo
+
+  <p align="center">
+  <img src="/Assets/giovani.jpg" alt="Wireframes" width="200"/>
+  </p>
 
 Acerca de mí: Estoy en 5° ciclo de mi carrera, mis pasatiempos son escuchar música y hacer deporte. Me llama la atención crear aplicaciones robustas, complejas y tolerantes a fallos.
 
@@ -326,6 +334,10 @@ Acerca de mí: Me caracterizo por ser una persona abierta al cambio, comprometid
 **Carrera:** Ingeniería de Software  
 **Conocimientos técnicos:**  
 - Programación en C++
+
+  <p align="center">
+  <img src="/Assets/jesus.jpg" alt="Wireframes" width="200"/>
+  </p>
 
 Acerca de mí: Soy una persona adaptable, dedicada a mis responsabilidades y abierta a recibir distintas perspectivas, siempre valorando el respeto mutuo. Además, estoy dispuesto a brindar apoyo en todo lo que sea necesario.
 

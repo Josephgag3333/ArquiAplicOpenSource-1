@@ -2329,222 +2329,223 @@ El sistema de navegación en **Inspectora** está diseñado para guiar a los usu
 ### 4.4.1. Web Applications Wireframes
 
   <p align="center">
-  <img src="/Assets/Wireframes/1.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/1.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/2.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/2.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/3.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/3.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/4.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/4.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/5.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/5.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/6.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/6.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/7.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/7.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/8.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/8.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/9.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/9.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/10.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/10.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/11.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/11.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/12.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/12.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/13.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/13.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/14.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/14.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/15.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/15.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/16.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/16.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/17.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/17.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/18.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/18.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/19.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/19.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/20.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/20.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/21.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/21.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/22.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/22.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/23.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/23.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/24.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/24.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/25.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/25.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/26.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/26.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/27.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/27.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/28.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/28.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/29.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/29.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/30.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/30.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/31.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/31.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/32.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/32.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/33.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/33.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/34.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/34.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/35.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/35.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/36.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Wireframes/36.png" alt="Wireframes" width="400"/>
   </p>
+  
+  **Link del Figma**: [Enlace](https://www.figma.com/design/PChWJ99signLAO8NcRCRrY/Landing-Smart-Health?node-id=1046-41&m=dev&t=MJyod5Rvgajnt6eF-1)
   
 ### 4.4.2. Web Applications Mock-ups.
 
   <p align="center">
-  <img src="/Assets/Mock-ups/1.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/1.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/2.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/2.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/3.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/3.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/4.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/4.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/5.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/5.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/6.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/6.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/7.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/7.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/8.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/8.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/9.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/9.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/10.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/10.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/11.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/11.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/12.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/12.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/13.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/13.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/14.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/14.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/15.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/15.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/16.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/16.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/17.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/17.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/18.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/18.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/19.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/19.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/20.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/20.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/21.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/21.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/22.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/22.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/23.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/23.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/24.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/24.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/25.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/25.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/26.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/26.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/27.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/27.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/28.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/28.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/29.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/29.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/30.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/30.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/31.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/31.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/32.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/32.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/33.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/33.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/34.jpg" alt="Wireframes" width="400"/>
+  <img src="/Assets/Mock-ups/34.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
 
 
-**Link del Figma**: [Enlace](https://www.figma.com/design/PChWJ99signLAO8NcRCRrY/Landing-Smart-Health?node-id=1046-41&m=dev&t=MJyod5Rvgajnt6eF-1)
 ## 4.5. Web Applications Prototyping
 **Disclosure:**
 

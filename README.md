@@ -41,6 +41,8 @@
 | :-----: | :---: | :---: | :-------------------------- |
 |    TB1     |   03/09    |   Cristhian Joel Huanca Zevallos, Joshep Giovani Aquino Gutierrezz, Jimena Alessandra Cossio Jimenez, Sebastian Aaron Anibal Carbajal Santivañez, Luis Jesus Sagastegui Rodriguez  |     Se realizó la investigación del problema y de la solución, se realizó el Lean UX, se definió las User Stories, se realizó el Product Backlog, se elaboraron los artefactos del Needfinding, se elaboró el diseño del diagrama de clases al igual que su diccionario y relaciones. También se elaboró el diagrama de la base de datos y la landing page. |
 
+# Presentacion
+https://docs.google.com/presentation/d/13-jCeMmp87dj__Q-T5AK5prtipZt8YTr9RUazg_hK00/edit#slide=id.p
 
 </div>
 

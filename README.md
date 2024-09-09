@@ -3136,9 +3136,9 @@ CREATE TABLE Normativa (
 
 Utilizamos la metodología de git flow con finalidad es tener un control mayor sobre la gestión del proyecto, avanzar el proyecto de forma simultanea tanto como en la implementación del la aplicación y creación del reporte.
 
-URL del repositorio del Report en GitHub: 
+URL del repositorio del Report en GitHub: https://github.com/Josephgag3333/ArquiAplicOpenSource-1
 
-URL del repositorio del Landing Page en GitHub: 
+URL del repositorio del Landing Page en GitHub: https://github.com/Josephgag3333/ArquiAplicOpenSource-1/tree/main/Landing%20Page
 
 ### 5.1.3. Source Code Style Guide & Conventions
 

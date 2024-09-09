@@ -2316,3 +2316,48 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
        <td>Done</td>
     </tr>
 </table>
+
+#### 5.2.1.4. Testing Suite Evidence for Sprint Review
+
+En este sprint no se desarrolla el testing de la aplicación web, solo Landing Page. Por lo tanto se mostrará el estado de la Landing Page en la siguiente sección del informe.
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
+Como resultado del primer sprint, se presenta el despliegue de la Landing Page.
+
+## Home
+
+<td><img src="Assets/Home.jpg" alt="Imagen del gitflow" width="1500"></td>
+
+## About 
+
+<td><img src="Assets/About.jpg" alt="Imagen del gitflow" width="1500"></td>
+
+## Discover
+
+<td><img src="Assets/Discover.jpg" alt="Imagen del gitflow" width="1500"></td>
+
+## Features
+
+<td><img src="Assets/Features.jpg" alt="Imagen del contacts" width="1500"></td>
+
+## Footer
+
+<td><img src="Assets/Footer.jpg" alt="Imagen del contacts" width="1500"></td>
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+**Link de la landing page desployada:** 
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Para el desarrollo de la Landing page, se utilizaron las siguientes texnologías:
+
+- HTML: Lenguaje de marcado para crear la estructura de una página web. Define la organización del contenido (encabezados, párrafos, imágenes, etc.).
+- CSS: Lenguaje de estilo para darle forma y diseño a las páginas web. Controla la apariencia del contenido (colores, tipografías, fondos, etc.).
+- Git: Sistema de control de versiones para gestionar el desarrollo de software. Permite realizar un seguimiento de los cambios en el código y colaborar con otros. Sistema de control de versiones que nos ayudó a trabajar en equipo durante el desarrollo del landing page
+- GitHub: Plataforma online para alojar repositorios Git. Permite compartir código, colaborar en proyectos y acceder a una gran comunidad de desarrolladores. Plataforma que nos ayudó al desarrollo colaborativo del equipo para almacenar las versiones de nuestro proyecto.
+
+Igualmente, para el correcto control de versiones y el adecuado desarrollo de la página, se empleó la metodología de trabajo GitFlow Workflow. Es un método para gestionar el desarrollo de software con Git. Define roles y ramas específicas para cada etapa del proceso, como desarrollo, pruebas y lanzamiento. Esto ayuda a organizar el código, facilita la colaboración y reduce el riesgo de errores.
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint

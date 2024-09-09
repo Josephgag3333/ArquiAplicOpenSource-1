@@ -393,7 +393,130 @@ Este segmento está compuesto por profesionales con experiencia en la inspecció
 
 Este segmento incluye restaurantes, cafeterías, comedores, y otros establecimientos que requieren cumplir con normas estrictas de higiene y salubridad. Los usuarios en este segmento buscan asegurar la calidad de sus operaciones y mantener un ambiente seguro para sus clientes.
 
+# Capítulo II: Requirements Elicitation & Analysis
 
+## 2.1. Competidores
+
+### 2.1.1. Análisis competitivo
+
+<div align="center">
+
+<table>
+  <tr>
+    <th colspan="6">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <td colspan="2">¿Por qué llevar este análisis?</td>
+    <td colspan="4">Para proporcionar información valiosa acerca de los competidores, lo cual nos servirá para mejorar la calidad de nuestro servicio</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td>SmartHealth</td>
+    <td>HealthCheckPro</td>
+    <td>FoodSafe Connect</td>
+    <td>InspecRight</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Perfil</td>
+    <td>Overview</td>
+    <td>Es una empresa tecnológica innovadora que está transformando la forma en que se llevan a cabo las inspecciones de salubridad en la industria de la restauración.</td>
+    <td>Es una plataforma integral que simplifica la gestión de la seguridad alimentaria en todo el establecimiento.</td>
+    <td>Esta plataforma se centra en conectar a todos los actores de la cadena de suministro alimentaria.</td>
+    <td>Diseñada específicamente para la gestión de inspecciones sanitarias, InspecRight facilita la programación, realización y documentación de las auditorías.</td>
+  </tr>
+  <tr>
+    <td>Ventaja competitiva: ¿Qué valor ofrece a los clientes?</td>
+    <td>Interacción directa entre inspectores y restaurantes; manejo de observaciones</td>
+    <td>Amplia base de usuarios y experiencia en el mercado</td>
+    <td>Integración con sistemas de gestión de calidad</td>
+    <td>Soporte para múltiples industrias, no solo restaurantes</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Perfil de Marketing</td>
+    <td>Mercado Objetivo</td>
+    <td>Restaurantes medianos y grandes que buscan cumplir normativas de salubridad </td>
+    <td>Pequeños y medianos restaurantes</td>
+    <td>Restaurantes de alta gama y empresas de catering</td>
+    <td>Empresas que requieren inspecciones en diversos sectores</td>
+  </tr>
+  <tr>
+    <td>Estrategias de Marketing</td>
+    <td>Alianzas con asociaciones de restaurantes, marketing digital</td>
+    <td>Publicidad en revistas gastronómicas</td>
+    <td>Participación en ferias del sector alimentario</td>
+    <td>Estrategia de inbound marketing y webinars</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Perfil de Producto</td>
+    <td>Productos & Servicios</td>
+    <td>Plataforma de interacción, reportes automatizados, asesoramiento personalizado</td>
+    <td>Inspecciones digitales, alertas automáticas</td>
+    <td>Auditorías en tiempo real, integración con ERP</td>
+    <td>Servicios de auditoría y certificación, integraciones avanzadas</td>
+  </tr>
+  <tr>
+    <td>Precios & Costos</td>
+    <td>El precio varía según el servicio que adquiere el usuario</td>
+    <td>El precio varía según el servicio que adquiere el usuario</td>
+    <td>El precio varía según el servicio que adquiere el usuario</td>
+    <td>El precio varía según el servicio que adquiere el usuario</td>
+  </tr>
+  <tr>
+    <td>Canales de Distribución (Web y/o Móvil)</td>
+    <td>Distribución a través de su página web y móvil</td>
+    <td>Distribución a través de su página web y móvil</td>
+    <td>Distribución a través de su página web</td>
+    <td>Distribución a través de su página web y móvil</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Análisis SWOT</td>
+    <td>Fortalezas</td>
+    <td>Interacción directa entre inspectores y restaurantes, seguimiento de observaciones en tiempo real.</td>
+    <td>Amplia base de usuarios y experiencia consolidada en el mercado.</td>
+    <td>Integración con sistemas de gestión de calidad y servicios premium.</td>
+    <td>Soporte para múltiples industrias, experiencia en diferentes sectores.</td>
+  </tr>
+  <tr>
+    <td>Debilidades</td>
+    <td>Necesidad de establecer confianza y posicionamiento en un mercado ya competitivo</td>
+    <td>Foco limitado a pequeños y medianos restaurantes.</td>
+    <td>Costo elevado para restaurantes medianos.</td>
+    <td>No especializado en restaurantes.</td>
+  </tr>
+  <tr>
+    <td>Oportunidades</td>
+    <td>Expansión a otros sectores relacionados con la salud y seguridad alimentaria.</td>
+    <td>Mejorar la personalización de sus servicios; introducir nuevas funciones como el asesoramiento continuo.</td>
+    <td>Expansión en mercados de catering y alimentos procesados; mejorar la oferta de servicios de menor costo.</td>
+    <td>Expandir su enfoque hacia sectores específicos como el alimentario.</td>
+  </tr>
+  <tr>
+    <td>Amenazas</td>
+    <td>Aparición de nuevos competidores con soluciones tecnológicas similares</td>
+    <td>Competencia con startups innovadoras que ofrezcan más personalización</td>
+    <td>Competidores con ofertas más económicas</td>
+    <td>Startups especializadas que ofrezcan un enfoque más centrado en restaurantes</td>
+  </tr>
+</table>
+
+</div>
+<br><br>
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+Tras analizar a cada uno de nuestros competidores, las estretegias y tácticas que emplearemos serán: 
+
+HealthCheckPro: 
+
+Para superar a HealthCheckPro, SmartHealth debe enfatizar su capacidad para ofrecer soluciones personalizadas y altamente personalizables, destacando su interfaz intuitiva y su fácil integración con otros sistemas. Al posicionarse como líder en innovación y seguridad alimentaria, y al ofrecer precios competitivos y modelos de suscripción flexibles, InspiraSalud puede atraer a nuevos clientes y fidelizar a los existentes. Además, al establecer alianzas estratégicas con gobiernos locales, proveedores de tecnología y asociaciones del sector, SmartHealth puede ampliar su alcance y consolidar su posición en el mercado.
+
+FoodSafeConnect: 
+
+SmartHealth se posicionará como la solución más completa y flexible para la gestión de la seguridad alimentaria, superando a FoodSafe Connect al ofrecer una plataforma altamente personalizable que se adapta a las necesidades específicas de cada cliente, desde pequeños restaurantes hasta grandes cadenas hoteleras. Al combinar la experiencia de nuestros inspectores con tecnología de vanguardia, garantizamos una trazabilidad completa de los productos y una gestión eficiente de los riesgos alimentarios. Además, nuestra plataforma se integra fácilmente con otros sistemas, facilitando la gestión diaria de los negocios y optimizando los procesos.
+
+InspecRight: 
+
+SmartHealth se posicionará como la solución más completa y proactiva para la gestión de la seguridad alimentaria, superando a InspecRight al ofrecer una plataforma que va más allá de las simples inspecciones. Nuestra solución combina la inteligencia artificial con la experiencia de los inspectores para identificar riesgos potenciales antes de que se conviertan en problemas, permitiendo a los negocios tomar medidas preventivas y garantizar la máxima seguridad alimentaria. Además, nuestra plataforma ofrece una amplia gama de herramientas para la gestión de documentos, capacitación del personal y análisis de datos, convirtiéndonos en el socio ideal para cualquier negocio que busque optimizar sus procesos de seguridad alimentaria.
 
 ## Capítulo III: Requirements Specification
 

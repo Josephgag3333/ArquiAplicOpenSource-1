@@ -3418,7 +3418,7 @@ Como resultado del primer sprint, se presenta el despliegue de la Landing Page.
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-**Link de la landing page desployada:** 
+**Link de la landing page desployada: https://landing-page-smart-health.vercel.app/** 
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 

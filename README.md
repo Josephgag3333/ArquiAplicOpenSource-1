@@ -518,6 +518,20 @@ InspecRight:
 
 SmartHealth se posicionará como la solución más completa y proactiva para la gestión de la seguridad alimentaria, superando a InspecRight al ofrecer una plataforma que va más allá de las simples inspecciones. Nuestra solución combina la inteligencia artificial con la experiencia de los inspectores para identificar riesgos potenciales antes de que se conviertan en problemas, permitiendo a los negocios tomar medidas preventivas y garantizar la máxima seguridad alimentaria. Además, nuestra plataforma ofrece una amplia gama de herramientas para la gestión de documentos, capacitación del personal y análisis de datos, convirtiéndonos en el socio ideal para cualquier negocio que busque optimizar sus procesos de seguridad alimentaria.
 
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+## Dueña de un Restaurante
+
+<td><img src="Assets/Ana Fernandez.png" alt="Imagen1 UserP"></td>
+    <td>
+
+## Inspector de Salubridad
+
+<td><img src="Assets/Carlos Morales.png" alt="Imagen2 UserP"></td>
+    <td>
+
 ## Capítulo III: Requirements Specification
 
 ### 3.1 To-Be Scenario Mapping

@@ -312,7 +312,7 @@ Acerca de mí: Estoy en 5° ciclo de mi carrera, mis pasatiempos son escuchar m�
 Acerca de mí: Me considero una persona flexible, comprometida con lo que hago y dispuesta a escuchar diferentes opiniones con el respeto que todos merecemos, así como a apoyar en lo que necesiten.
 
 **Integrante 4:**  
-**Cossio Jimenez, Carbajal Santivañez, Sebastian Aaron Anibal**  
+**Carbajal Santivañez, Sebastian Aaron Anibal**  
 **Código:** u202111461  
 **Carrera:** Ingeniería de Software  
 **Conocimientos técnicos:**  
@@ -321,7 +321,7 @@ Acerca de mí: Me considero una persona flexible, comprometida con lo que hago y
 Acerca de mí: Me caracterizo por ser una persona abierta al cambio, comprometida con mis tareas y receptiva a ideas diversas, siempre con respeto hacia los demás. Estoy dispuesto a colaborar y ofrecer mi ayuda en lo que se requiera.
 
 **Integrante 5:**  
-**Cossio Jimenez, Sagastegui Rodriguez, Luis Jesus**  
+**Sagastegui Rodriguez, Luis Jesus**  
 **Código:** u202014249  
 **Carrera:** Ingeniería de Software  
 **Conocimientos técnicos:**  

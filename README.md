@@ -532,6 +532,18 @@ SmartHealth se posicionará como la solución más completa y proactiva para la 
 <td><img src="Assets/Carlos Morales.png" alt="Imagen2 UserP"></td>
     <td>
 
+### 2.3.2. User Task Matrix
+
+## Inspector de Salubridad
+
+<td><img src="Assets/User Task Matrix Inspector.jpg" alt="Task Matrix 1"></td>
+<td>
+
+## Dueño de un Restaurante
+
+<td><img src="Assets/User Task Matrix Propietario.jpg" alt="Task Matrix 2"></td>
+<td>
+
 ## Capítulo III: Requirements Specification
 
 ### 3.1 To-Be Scenario Mapping

@@ -544,6 +544,18 @@ SmartHealth se posicionará como la solución más completa y proactiva para la 
 <td><img src="Assets/User Task Matrix Propietario.jpg" alt="Task Matrix 2"></td>
 <td>
 
+### 2.3.3. User Journey Mapping
+
+## Inspector de Salubridad
+
+<td><img src="Assets/User Journey Mapping Instructor.jpeg" alt="Imagen Journey"></td>
+    <td>
+
+## Dueño de un Restaurante
+
+<td><img src="Assets/User Journey Mapping Propietario.jpeg" alt="Imagen Journey"></td>
+    <td>
+      
 ## Capítulo III: Requirements Specification
 
 ### 3.1 To-Be Scenario Mapping

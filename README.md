@@ -1971,6 +1971,56 @@ Captura de las historias de usuario en el Product Backlog usando Pivotal Tracker
 
 Enlace público del Product Backlog en Pivotal Tracker: https://www.pivotaltracker.com/projects/2716388 
 
+## 4.3. Landing Page UI Design
+
+### 4.3.1. Landing Page Wireframe
+
+## Home
+
+<td><img src="Assets/WFAbout.jpg" alt="Imagen del Inicio" width="1500"></td>
+
+## About
+
+<td><img src="Assets/WFAbout.jpg" alt="Imagen del About" width="1500"></td>
+
+## Discover
+
+<td><img src="Assets/WFDiscover.jpg" alt="Imagen de Discover" width="1500"></td>
+
+## Feature
+
+<td><img src="Assets/WFFeature.jpg" alt="Imagen del Feature" width="1500"></td>
+
+## Footer
+
+<td><img src="Assets/WFFooter.jpg" alt="Imagen del Footer" width="1500"></td>
+
+**Link del Figma**: https://www.figma.com/design/PChWJ99signLAO8NcRCRrY/Landing-Smart-Health?node-id=2461-182&t=MJyod5Rvgajnt6eF-1
+
+### 4.3.2. Landing Page Mock-up
+
+## Home
+
+<td><img src="Assets/MUHome.jpg" alt="Imagen del Inicio" width="1500"></td>
+
+## About
+
+<td><img src="Assets/MUAbout.jpg" alt="Imagen del About" width="1500"></td>
+
+## Discover
+
+<td><img src="Assets/MUDiscover.jpg" alt="Imagen del Discover" width="1500"></td>
+
+## Feature
+
+<td><img src="Assets/MUFeature.jpg" alt="Imagen del Feature" width="1500"></td>
+
+## Footer
+
+<td><img src="Assets/MUFooter.jpg" alt="Imagen del Footer" width="1500"></td>
+
+**Link del Figma**: https://www.figma.com/design/PChWJ99signLAO8NcRCRrY/Landing-Smart-Health?node-id=1046-41&m=dev&t=MJyod5Rvgajnt6eF-1
+
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management

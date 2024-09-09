@@ -2154,9 +2154,120 @@ Captura de las historias de usuario en el Product Backlog usando Pivotal Tracker
 <img src="/Assets/ProductBacklog_US2.png">
 
 <img src="/Assets/ProductBacklog_US3.png">
-
 Enlace público del Product Backlog en Pivotal Tracker: https://www.pivotaltracker.com/projects/2716388 
 
+# Capítulo IV: Diseño del Producto
+
+## 4.1. Directrices de Estilo
+
+### 4.1.1. Directrices Generales de Estilo
+El diseño de la aplicación web **Inspectora** sigue una serie de lineamientos estilísticos que aseguran una experiencia de usuario coherente y agradable tanto para los inspectores de salubridad como para los dueños de restaurantes.
+
+#### Branding
+- **Logotipo**: El logotipo de Inspectora se coloca consistentemente en la esquina superior izquierda de cada página dentro de la aplicación. Este logotipo conserva su diseño original, utilizando un azul característico (#0044cc) que refuerza la identidad visual de la marca.
+  <img src="/Assets/ProductBacklog_US3.png">
+- **Paleta de Colores**: Se ha seleccionado una paleta de colores donde el azul (#0044cc) es el protagonista, usándose en elementos clave como botones y encabezados. El gris oscuro (#333333) se aplica para los textos y fondos secundarios, mientras que el blanco (#ffffff) se emplea como color de fondo principal. Para variaciones de estados como _hover_, se utilizan tonos más claros de azul y gris, asegurando consistencia en toda la interfaz.
+
+#### Tipografía
+- **Fuente**: La tipografía elegida para toda la aplicación es **Roboto**, conocida por su claridad y estilo moderno. Se usa Roboto Regular para los textos generales, Roboto Bold para los encabezados, y Roboto Light para subtítulos y notas. Los tamaños varían según la jerarquía del texto: 24px para los títulos, 18px para los subtítulos y 14px para el cuerpo del texto.
+  
+- **Estilo Tipográfico**: Las negritas se aplican para destacar términos importantes, mientras que las cursivas se utilizan para citar o resaltar palabras técnicas.
+
+#### Espaciado y Márgenes
+- **Márgenes**: Los contenedores de contenido tienen márgenes de 20px a los lados, con un espaciado interno de 15px entre elementos. Esto ayuda a mantener una presentación limpia y agradable.
+  
+- **Espaciado entre Elementos**: Los elementos de la interfaz están separados por un espacio mínimo de 15px, lo que evita una sobrecarga visual y mejora la legibilidad.
+
+#### Tono y Lenguaje
+- **Tono**: El tono adoptado en Inspectora es formal, pero accesible, asegurando que tanto los inspectores como los dueños de restaurantes comprendan la información de manera clara. Se evita el uso excesivo de terminología técnica para no alienar a los usuarios menos experimentados.
+  
+- **Estilo de Redacción**: Se prioriza un estilo de redacción directo y claro, haciendo que el contenido sea comprensible para todos los usuarios, independientemente de su conocimiento técnico.
+
+### 4.1.2. Directrices de Estilo Web
+Las guías de estilo web aseguran que la experiencia de usuario en **Inspectora** sea coherente, independientemente del dispositivo que utilicen los usuarios.
+
+#### Diseño Responsivo
+- **Adaptación a Dispositivos**: La Inspectora está completamente optimizada para ser _responsive_, adaptándose a una amplia variedad de tamaños de pantalla, desde móviles hasta monitores de escritorio. Esto se consigue mediante el uso de _media queries_ en CSS, que ajustan la disposición del contenido según el dispositivo.
+  
+- **Componentes Responsivos**: Los elementos de la interfaz, como botones y formularios, se ajustan automáticamente en tamaño y disposición según el dispositivo, asegurando que la aplicación sea intuitiva y fácil de usar en cualquier contexto.
+
+#### Componentes de Interfaz
+- **Botones**: Los botones se diseñaron con un fondo azul (#0044cc) y texto blanco (#ffffff). Al interactuar con ellos (_hover_), el fondo se aclara (#0066ff) y se añade un efecto de sombra para mejorar la percepción de que son interactivos.
+  
+- **Formularios**: Los campos de los formularios tienen bordes grises (#cccccc) y el texto es de un gris oscuro (#333333). Al enfocarse, los bordes cambian a azul, alineándose con la paleta de colores principal.
+  
+- **Menús**: Los menús principales son horizontales en dispositivos de escritorio y se convierten en menús desplegables en dispositivos móviles, asegurando una navegación fluida y accesible en cualquier pantalla.
+
+#### Comportamiento Interactivo
+- **Hover y Click**: Los elementos interactivos responden de manera suave y fluida al _hover_ y al _click_, proporcionando una retroalimentación visual que mejora la experiencia del usuario.
+
+#### Accesibilidad
+- **Contraste**: Se ha asegurado un contraste adecuado entre el texto y el fondo, cumpliendo con las normas de accesibilidad WCAG 2.1 AA. Esto garantiza que el contenido sea legible para usuarios con discapacidades visuales.
+  
+- **Texto Alternativo**: Todas las imágenes en Inspectora incluyen descripciones en texto alternativo (_alt text_), lo que facilita su uso por parte de personas que dependen de lectores de pantalla.
+
+## 4.2. Arquitectura de la Información
+
+### 4.2.1. Sistemas de Organización
+La arquitectura de la información en **Inspectora** se ha diseñado para ofrecer una navegación eficiente y una experiencia de usuario sencilla, permitiendo a los usuarios encontrar lo que necesitan de manera rápida y sin complicaciones.
+
+#### Jerarquía de la Información
+- **Niveles de Información**: La información se organiza jerárquicamente, priorizando la accesibilidad de las funciones más importantes desde el menú principal. Por ejemplo, los accesos directos a "Inspecciones", "Reportes" y "Configuraciones" están siempre disponibles en la barra superior.
+  
+- **Secciones de Usuario**: Se han creado secciones específicas para cada tipo de usuario (inspectores y dueños de restaurantes). Esto asegura que cada grupo tenga acceso rápido y directo a las herramientas que son más relevantes para ellos.
+
+#### Esquemas de Categorización
+- **Categorización por Temas**: El contenido de Inspectora se organiza en categorías temáticas como "Inspecciones", "Documentación", y "Reportes", facilitando la navegación y permitiendo a los usuarios encontrar rápidamente la información que necesitan.
+  
+- **Filtros en Listados**: Las páginas que muestran listas, como las de inspecciones o reportes, incluyen opciones de filtrado por fecha, ubicación, y estado, mejorando la eficiencia en la búsqueda de información específica.
+
+### 4.2.2. Sistemas de Etiquetado
+El sistema de etiquetado en **Inspectora** está diseñado para ser claro, conciso y coherente, facilitando la navegación y la comprensión del contenido por parte de todos los usuarios.
+
+#### Simplicidad y Claridad
+- **Uso de Términos Comunes**: Las etiquetas utilizan términos sencillos y universalmente comprensibles, evitando jergas técnicas complicadas. Esto asegura que todos los usuarios, sin importar su experiencia, puedan navegar y entender el contenido de manera efectiva.
+  
+- **Consistencia**: Se mantiene una consistencia estricta en los términos y frases utilizados en las etiquetas a lo largo de toda la plataforma, evitando confusiones y asegurando que los usuarios comprendan rápidamente el propósito de cada sección.
+
+#### Nomenclatura Uniforme
+- **Etiquetas y Asociaciones**: Las etiquetas como "Inicio", "Inspecciones", "Configuración" se utilizan uniformemente en toda la plataforma. Esto ayuda a los usuarios a familiarizarse rápidamente con la interfaz y a encontrar lo que necesitan de manera intuitiva.
+
+### 4.2.3. Etiquetas SEO y Meta Tags
+Para mejorar la visibilidad de la **Inspectora** en motores de búsqueda, se han implementado prácticas de optimización SEO.
+
+#### Title Tags
+- **Optimización de Títulos**: Cada página en Inspectora cuenta con un _title tag_ optimizado que describe su contenido de manera precisa y concisa. Ejemplo: "Inspectora - Plataforma de Inspecciones Sanitarias para Restaurantes".
+
+#### Meta Descriptions
+- **Descripciones Breves y Claras**: Las _meta descriptions_ se redactaron para ofrecer una visión clara del contenido de cada página en menos de 160 caracteres. Ejemplo: "Inspectora facilita las inspecciones sanitarias en restaurantes, conectando inspectores y dueños en una plataforma digital eficiente."
+
+#### Keywords
+- **Selección de Palabras Clave**: Se seleccionaron palabras clave relevantes como "inspección sanitaria", "gestión de restaurantes", "plataforma digital de salubridad" para mejorar la indexación en motores de búsqueda.
+
+### 4.2.4. Sistemas de Búsqueda
+El sistema de búsqueda en **Inspectora** se diseñó para ofrecer resultados rápidos y precisos, optimizando la eficiencia del usuario al interactuar con la plataforma.
+
+#### Algoritmos de Búsqueda
+- **Motor de Búsqueda Interno**: La Inspectora cuenta con un motor de búsqueda interno que indexa todo el contenido de la aplicación, permitiendo a los usuarios encontrar rápidamente documentos, reportes, y otros recursos relevantes.
+
+#### Filtros y Autocompletado
+- **Autocompletado**: La función de búsqueda sugiere términos automáticamente mientras el usuario escribe, basándose en búsquedas anteriores y términos relacionados. Esto facilita la búsqueda de información específica y mejora la experiencia de usuario.
+  
+- **Filtros**: Los resultados de búsqueda se pueden refinar mediante filtros como fecha, relevancia, tipo de documento, entre otros, permitiendo a los usuarios encontrar exactamente lo que necesitan de manera más eficiente.
+
+### 4.2.5. Sistemas de Navegación
+El sistema de navegación en **Inspectora** está diseñado para guiar a los usuarios a través de la plataforma de manera intuitiva y eficiente.
+
+#### Menús de Navegación
+- **Menú Principal**: El menú principal de Inspectora está ubicado en la parte superior de la pantalla, proporcionando acceso directo a las secciones clave como "Inicio", "Inspecciones", "Reportes" y "Configuración". En dispositivos móviles, el menú se convierte en un desplegable para facilitar la navegación.
+  
+- **Submenús**: En pantallas más grandes, los submenús permiten acceder a funcionalidades secundarias sin sobrecargar la interfaz principal, facilitando una navegación fluida y clara.
+
+#### Breadcrumbs y Sitemaps
+- **Breadcrumbs (Migas de Pan)**: Se ha implementado un sistema de migas de pan que permite a los usuarios ver y entender la ruta de navegación que han seguido dentro de la plataforma. Esto facilita el regreso a secciones anteriores sin perder el contexto.
+  
+- **Sitemap**: Un mapa del sitio está disponible en el pie de página, proporcionando una vista general de la estructura del sitio y permitiendo un acceso directo a cualquier sección.
+---
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe

@@ -2165,9 +2165,17 @@ El diseño de la aplicación web **Inspectora** sigue una serie de lineamientos 
 
 #### Branding
 - **Logotipo**: El logotipo de Inspectora se coloca consistentemente en la esquina superior izquierda de cada página dentro de la aplicación. Este logotipo conserva su diseño original, utilizando un azul característico (#0044cc) que refuerza la identidad visual de la marca.
-  <img src="/Assets/ProductBacklog_US3.png">
+  
+  <p align="center">
+  <img src="/Assets/Logo.jpg" alt="Descripción de la imagen" width="300"/>
+  </p>
+  
 - **Paleta de Colores**: Se ha seleccionado una paleta de colores donde el azul (#0044cc) es el protagonista, usándose en elementos clave como botones y encabezados. El gris oscuro (#333333) se aplica para los textos y fondos secundarios, mientras que el blanco (#ffffff) se emplea como color de fondo principal. Para variaciones de estados como _hover_, se utilizan tonos más claros de azul y gris, asegurando consistencia en toda la interfaz.
 
+  <p align="center">
+  <img src="/Assets/Paleta de colores.jpg" alt="Descripción de la imagen" width="300"/>
+  </p>
+  
 #### Tipografía
 - **Fuente**: La tipografía elegida para toda la aplicación es **Roboto**, conocida por su claridad y estilo moderno. Se usa Roboto Regular para los textos generales, Roboto Bold para los encabezados, y Roboto Light para subtítulos y notas. Los tamaños varían según la jerarquía del texto: 24px para los títulos, 18px para los subtítulos y 14px para el cuerpo del texto.
   

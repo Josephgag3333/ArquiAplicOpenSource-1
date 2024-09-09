@@ -317,6 +317,10 @@ Acerca de mí: Estoy en 5° ciclo de mi carrera, mis pasatiempos son escuchar m�
 **Conocimientos técnicos:**  
 - Programación en C++
 
+  <p align="center">
+  <img src="/Assets/jimena.jpg" alt="Wireframes" width="200"/>
+  </p>
+
 Acerca de mí: Me considero una persona flexible, comprometida con lo que hago y dispuesta a escuchar diferentes opiniones con el respeto que todos merecemos, así como a apoyar en lo que necesiten.
 
 **Integrante 4:**  
@@ -325,6 +329,10 @@ Acerca de mí: Me considero una persona flexible, comprometida con lo que hago y
 **Carrera:** Ingeniería de Software  
 **Conocimientos técnicos:**  
 - Programación en C++
+
+  <p align="center">
+  <img src="/Assets/sebastian.jpg" alt="Wireframes" width="200"/>
+  </p>
 
 Acerca de mí: Me caracterizo por ser una persona abierta al cambio, comprometida con mis tareas y receptiva a ideas diversas, siempre con respeto hacia los demás. Estoy dispuesto a colaborar y ofrecer mi ayuda en lo que se requiera.
 

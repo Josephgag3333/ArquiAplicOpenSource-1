@@ -293,7 +293,7 @@ Aspiramos a convertirnos en el referente en soluciones tecnológicas para la ins
 - Trabajo en equipo
 
   <p align="center">
-  <img src="/Assets/joel.png" alt="Wireframes" width="200"/>
+  <img src="Assets/joel.png" alt="Wireframes" width="200"/>
   </p>
 
 Acerca de mí: Me considero una persona proactiva, organizada y responsable al momento de desarrollar un nuevo proyecto en mi vida. En un grupo de trabajo siempre trato de respetar las opiniones de los demás, trato de entender los demás puntos de vista y animo a estar en unión frente a un problema.
@@ -307,7 +307,7 @@ Acerca de mí: Me considero una persona proactiva, organizada y responsable al m
 - Trabajo en equipo
 
   <p align="center">
-  <img src="/Assets/giovani.jpg" alt="Wireframes" width="200"/>
+  <img src="Assets/giovani.jpg" alt="Wireframes" width="200"/>
   </p>
 
 Acerca de mí: Estoy en 5° ciclo de mi carrera, mis pasatiempos son escuchar música y hacer deporte. Me llama la atención crear aplicaciones robustas, complejas y tolerantes a fallos.
@@ -320,7 +320,7 @@ Acerca de mí: Estoy en 5° ciclo de mi carrera, mis pasatiempos son escuchar m�
 - Programación en C++
 
   <p align="center">
-  <img src="/Assets/jimena.jpg" alt="Wireframes" width="200"/>
+  <img src="Assets/jimena.jpg" alt="Wireframes" width="200"/>
   </p>
 
 Acerca de mí: Me considero una persona flexible, comprometida con lo que hago y dispuesta a escuchar diferentes opiniones con el respeto que todos merecemos, así como a apoyar en lo que necesiten.
@@ -333,7 +333,7 @@ Acerca de mí: Me considero una persona flexible, comprometida con lo que hago y
 - Programación en C++
 
   <p align="center">
-  <img src="/Assets/sebastian.jpg" alt="Wireframes" width="200"/>
+  <img src="Assets/sebastian.jpg" alt="Wireframes" width="200"/>
   </p>
 
 Acerca de mí: Me caracterizo por ser una persona abierta al cambio, comprometida con mis tareas y receptiva a ideas diversas, siempre con respeto hacia los demás. Estoy dispuesto a colaborar y ofrecer mi ayuda en lo que se requiera.
@@ -346,7 +346,7 @@ Acerca de mí: Me caracterizo por ser una persona abierta al cambio, comprometid
 - Programación en C++
 
   <p align="center">
-  <img src="/Assets/jesus.jpg" alt="Wireframes" width="200"/>
+  <img src="Assets/jesus.jpg" alt="Wireframes" width="200"/>
   </p>
 
 Acerca de mí: Soy una persona adaptable, dedicada a mis responsabilidades y abierta a recibir distintas perspectivas, siempre valorando el respeto mutuo. Además, estoy dispuesto a brindar apoyo en todo lo que sea necesario.
@@ -818,11 +818,11 @@ Monica Gonzales de 40 años de edad lleva mucho tiempo en el rubro de los restau
 
 - Inspector de salubridad
 
-<img src="/Assets/ToBe_Inspector.jpg">
+<img src="Assets/ToBe_Inspector.jpg">
 
 - Dueño del restaurante 
   
-<img src="/Assets/ToBe_DueñoRestaurante.jpg">
+<img src="Assets/ToBe_DueñoRestaurante.jpg">
 
 ### 3.2 User Stories 
 
@@ -2034,11 +2034,11 @@ Las épicas son las siguientes:
 
 Captura del Impact Map del dueño de restaurante: 
 
-<img src="/Assets/ImpactMap_RestaurantOwner.png">
+<img src="Assets/ImpactMap_RestaurantOwner.png">
 
 Captura del Impact Map del Inspector de salubridad: 
 
-<img src="/Assets/ImpactMap_HealthInspector.png">
+<img src="Assets/ImpactMap_HealthInspector.png">
 
 ### 3.4 Product Backlog 
 
@@ -2376,15 +2376,15 @@ Captura del Impact Map del Inspector de salubridad:
 
 Captura de las épicas en el Product Backlog usando Pivotal Tracker
 
-<img src="/Assets/ProductBacklog_Epics.png">
+<img src="Assets/ProductBacklog_Epics.png">
 
 Captura de las historias de usuario en el Product Backlog usando Pivotal Tracker
 
-<img src="/Assets/ProductBacklog_US1.png">
+<img src="Assets/ProductBacklog_US1.png">
 
-<img src="/Assets/ProductBacklog_US2.png">
+<img src="Assets/ProductBacklog_US2.png">
 
-<img src="/Assets/ProductBacklog_US3.png">
+<img src="Assets/ProductBacklog_US3.png">
 Enlace público del Product Backlog en Pivotal Tracker: https://www.pivotaltracker.com/projects/2716388 
 
 # Capítulo IV: Diseño del Producto
@@ -2398,13 +2398,13 @@ El diseño de la aplicación web **Inspectora** sigue una serie de lineamientos 
 - **Logotipo**: El logotipo de Inspectora se coloca consistentemente en la esquina superior izquierda de cada página dentro de la aplicación. Este logotipo conserva su diseño original, utilizando un azul característico (#0044cc) que refuerza la identidad visual de la marca.
   
   <p align="center">
-  <img src="/Assets/Logo.jpg" alt="logo" width="300"/>
+  <img src="Assets/Logo.jpg" alt="logo" width="300"/>
   </p>
   
 - **Paleta de Colores**: Se ha seleccionado una paleta de colores donde el azul (#0044cc) es el protagonista, usándose en elementos clave como botones y encabezados. El gris oscuro (#333333) se aplica para los textos y fondos secundarios, mientras que el blanco (#ffffff) se emplea como color de fondo principal. Para variaciones de estados como _hover_, se utilizan tonos más claros de azul y gris, asegurando consistencia en toda la interfaz.
 
   <p align="center">
-  <img src="/Assets/Paleta de colores.jpg" alt="Paleta de colores" width="300"/>
+  <img src="Assets/Paleta de colores.jpg" alt="Paleta de colores" width="300"/>
   </p>
   
 #### Tipografía
@@ -2560,112 +2560,112 @@ El sistema de navegación en **Inspectora** está diseñado para guiar a los usu
 ### 4.4.1. Web Applications Wireframes
 
   <p align="center">
-  <img src="/Assets/Wireframes/1.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/1.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/2.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/2.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/3.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/3.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/4.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/4.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/5.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/5.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/6.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/6.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/7.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/7.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/8.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/8.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/9.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/9.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/10.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/10.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/11.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/11.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/12.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/12.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/13.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/13.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/14.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/14.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/15.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/15.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/16.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/16.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/17.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/17.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/18.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/18.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/19.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/19.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/20.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/20.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/21.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/21.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/22.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/22.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/23.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/23.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/24.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/24.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/25.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/25.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/26.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/26.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/27.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/27.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/28.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/28.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/29.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/29.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/30.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/30.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/31.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/31.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/32.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/32.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/33.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/33.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/34.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/34.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/35.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/35.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Wireframes/36.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Wireframes/36.png" alt="Wireframes" width="400"/>
   </p>
   
   **Link del Figma**: [Enlace](https://www.figma.com/design/PChWJ99signLAO8NcRCRrY/Landing-Smart-Health?node-id=1046-41&m=dev&t=MJyod5Rvgajnt6eF-1)
@@ -2673,106 +2673,106 @@ El sistema de navegación en **Inspectora** está diseñado para guiar a los usu
 ### 4.4.2. Web Applications Mock-ups.
 
   <p align="center">
-  <img src="/Assets/Mock-ups/1.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/1.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/2.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/2.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/3.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/3.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/4.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/4.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/5.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/5.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/6.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/6.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/7.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/7.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/8.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/8.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/9.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/9.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/10.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/10.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/11.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/11.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/12.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/12.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/13.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/13.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/14.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/14.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/15.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/15.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/16.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/16.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/17.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/17.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/18.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/18.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/19.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/19.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/20.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/20.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/21.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/21.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/22.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/22.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/23.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/23.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/24.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/24.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/25.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/25.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/26.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/26.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/27.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/27.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/28.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/28.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/29.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/29.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/30.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/30.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/31.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/31.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/32.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/32.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/33.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/33.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
-  <img src="/Assets/Mock-ups/34.png" alt="Wireframes" width="400"/>
+  <img src="Assets/Mock-ups/34.png" alt="Wireframes" width="400"/>
   </p>
   <p align="center">
 

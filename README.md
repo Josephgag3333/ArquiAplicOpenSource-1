@@ -41,6 +41,7 @@
 | :-----: | :---: | :---: | :-------------------------- |
 |    TB1     |   03/09    |   Cristhian Joel Huanca Zevallos, Joshep Giovani Aquino Gutierrezz, Jimena Alessandra Cossio Jimenez, Sebastian Aaron Anibal Carbajal Santivañez, Luis Jesus Sagastegui Rodriguez  |     Se realizó la investigación del problema y de la solución, se realizó el Lean UX, se definió las User Stories, se realizó el Product Backlog, se elaboraron los artefactos del Needfinding, se elaboró el diseño del diagrama de clases al igual que su diccionario y relaciones. También se elaboró el diagrama de la base de datos y la landing page. |
 
+<<<<<<< HEAD
 </div>
 
 # Project Report Collaboration Insights
@@ -78,11 +79,20 @@ Colaboracion: Elaboró el diagrama de clases, así como el diccionario de clases
 
 Colaboracion: Diseñó el diagrama de la base de datos y la arquitectura de almacenamiento de datos. Además, trabajó en la creación de la landing page, asegurando un diseño atractivo y funcional para la presentación del producto.
 
+=======
+# Presentacion
+https://docs.google.com/presentation/d/13-jCeMmp87dj__Q-T5AK5prtipZt8YTr9RUazg_hK00/edit#slide=id.p
+>>>>>>> 75a4556d619d2617bbf50a24179035a286486d2b
 
 </div>
 
 <br><br>
 
+<<<<<<< HEAD
+=======
+# ArquiAplicOpenSource-1
+Grupo 01
+>>>>>>> 75a4556d619d2617bbf50a24179035a286486d2b
 
 # Informe de Startup
 
@@ -388,6 +398,7 @@ Acerca de mí: Soy una persona adaptable, dedicada a mis responsabilidades y abi
 
 #### 1.2.1 Antecedentes y problemática
 
+<<<<<<< HEAD
 En el sector de la restauración, los métodos tradicionales de inspección sanitaria presentan deficiencias significativas en términos de eficiencia y transparencia. La comunicación entre inspectores y establecimientos es frecuentemente ineficaz, lo que retrasa el cumplimiento de las normativas sanitarias y compromete la calidad del servicio y la seguridad alimentaria. Esta situación subraya la necesidad urgente de una solución tecnológica avanzada que facilite un flujo de trabajo interactivo, permita el seguimiento en tiempo real de las observaciones y mejore la gestión del cumplimiento normativo. La implementación de una plataforma web intuitiva y accesible, que conecte a inspectores expertos con restaurantes, se presenta como una herramienta esencial para elevar los estándares de salubridad en el sector, simplificando el proceso de inspección y mejorando la calidad del servicio ofrecido. Con lo anterior y para organizarnos mejor desarrollamos la siguiente tecnica:
 
 ### What (¿Qué?):
@@ -411,14 +422,23 @@ En el sector de la restauración, los métodos tradicionales de inspección sani
 ### How Much (¿Cuánto?):
 - El impacto de no contar con esta asesoría puede incluir multas, cierres temporales o permanentes, además de una mala reputación para el restaurante por no cumplir con los estándares sanitarios.
 
+=======
+En el sector de la restauración, los métodos tradicionales de inspección sanitaria presentan deficiencias significativas en términos de eficiencia y transparencia. La comunicación entre inspectores y establecimientos es frecuentemente ineficaz, lo que retrasa el cumplimiento de las normativas sanitarias y compromete la calidad del servicio y la seguridad alimentaria. Esta situación subraya la necesidad urgente de una solución tecnológica avanzada que facilite un flujo de trabajo interactivo, permita el seguimiento en tiempo real de las observaciones y mejore la gestión del cumplimiento normativo. La implementación de una plataforma web intuitiva y accesible, que conecte a inspectores expertos con restaurantes, se presenta como una herramienta esencial para elevar los estándares de salubridad en el sector, simplificando el proceso de inspección y mejorando la calidad del servicio ofrecido.
+>>>>>>> 75a4556d619d2617bbf50a24179035a286486d2b
 
 #### 1.2.2 Lean UX Process
 
 ##### 1.2.2.1 Lean UX Problem Statements
 
+<<<<<<< HEAD
 En el sector de la restauración, los dueños de restaurantes enfrentan problemas recurrentes al intentar cumplir con las normativas de salubridad debido a la falta de información clara y de un seguimiento adecuado en el proceso de inspección. La falta de comunicación efectiva con los inspectores de salubridad y el desconocimiento sobre cómo prepararse para estas evaluaciones provocan multas por incumplimiento de las regulaciones gubernamentales, afectando tanto la reputación del restaurante como su viabilidad operativa.
 
 **¿Cómo pueden los dueños de restaurantes evitar multas y sanciones relacionadas con las normativas sanitarias, además de proteger la reputación de su establecimiento?**
+=======
+Nuestro contexto demanda información importante para manejar la búsqueda y la coordinación de los inspectores de salubridad para restaurantes. Es por ello que nuestro servicio fue diseñado para que los dueños de los restaurantes aprueben con éxito las evaluaciones de sanidad a las que se encuentran expuestos con la ayuda de un inspector de salubridad. Hemos observado un factor crítico que afecta al dueño del restaurante, el cual se manifiesta mediante multas por el incumplimiento de regulaciones gubernamentales, lo que afecta a su reputación y a su imagen como restaurante.
+
+**¿Cómo evitar las multas por incumplimiento de regulaciones gubernamentales, así como la afectación de su reputación como restaurante?**
+>>>>>>> 75a4556d619d2617bbf50a24179035a286486d2b
 
 ##### 1.2.2.2 Lean UX Assumptions
 
@@ -488,6 +508,7 @@ En el sector de la restauración, los dueños de restaurantes enfrentan problema
 ##### 1.2.2.3 Lean UX Hypothesis Statements
 
 - **Hypothesis Statement 1:**  
+<<<<<<< HEAD
   Creemos que al permitir a los dueños de restaurantes visualizar sus inspecciones pasadas y futuras, así como los documentos relacionados, facilitará su preparación para futuras evaluaciones. Sabremos que hemos tenido éxito cuando el 80% de los usuarios reporten una mejor gestión de sus inspecciones en los primeros seis meses.
 
 - **Hypothesis Statement 2:**  
@@ -507,11 +528,24 @@ En el sector de la restauración, los dueños de restaurantes enfrentan problema
 
 - **Hypothesis Statement 7:**  
   Creemos que la publicidad en redes sociales como Instagram y Facebook será una fuente efectiva de adquisición de clientes. Sabremos que hemos tenido éxito cuando el 60% de los nuevos usuarios provengan de nuestras campañas en redes sociales en los primeros tres meses.
+=======
+  Creemos que al facilitar una comunicación directa y un seguimiento en tiempo real de las observaciones entre los inspectores y los restaurantes, se mejorará la eficiencia del proceso de inspección. Sabremos que hemos tenido éxito cuando veamos una reducción del 20% en el tiempo total de inspección y en la cantidad de infracciones recurrentes en un período de seis meses.
+
+- **Hypothesis Statement 2:**  
+  Creemos que al proporcionar una plataforma web intuitiva y accesible, los restaurantes estarán más comprometidos con el cumplimiento de las normativas sanitarias. Sabremos que hemos tenido éxito cuando veamos un aumento del 15% en la tasa de cumplimiento de las normativas sanitarias dentro de los tres meses posteriores a la implementación de la plataforma.
+
+- **Hypothesis Statement 3:**  
+  Creemos que al conectar a inspectores expertos con restaurantes a través de nuestra plataforma, se elevarán los estándares de salubridad en el sector de la restauración. Sabremos que hemos tenido éxito cuando veamos una mejora del 10% en las calificaciones de salubridad de los restaurantes que utilizan la plataforma en comparación con aquellos que no la utilizan.
+>>>>>>> 75a4556d619d2617bbf50a24179035a286486d2b
 
 ##### 1.2.2.4 Lean UX Canvas
 
 - **Business Problem:**  
+<<<<<<< HEAD
   El proceso de inspección de salubridad en restaurantes y establecimientos alimentarios es ineficiente y carece de transparencia, lo que resulta en incumplimientos de las normativas sanitarias y pone en riesgo la salud pública. Esta situación genera frustraciones tanto en los inspectores, que luchan por documentar y clasificar observaciones, como en los propietarios de restaurantes, que enfrentan sanciones y daño a su reputación.
+=======
+  El problema que hemos identificado es que el proceso de inspección de salubridad en restaurantes y establecimientos alimentarios es deficiente y carece de transparencia, lo que conduce a incumplimientos de las normativas y a un riesgo para la salud pública.
+>>>>>>> 75a4556d619d2617bbf50a24179035a286486d2b
 
 - **Solutions:**  
   Ofrecer una plataforma web intuitiva que:
@@ -670,6 +704,7 @@ Este segmento incluye restaurantes, cafeterías, comedores, y otros establecimie
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+<<<<<<< HEAD
 Para enfrentar a HealthCheckPro, FoodSafeConnect y InspecRight, InspiraSalud implementará las siguientes estrategias y tácticas preliminares, enfocándose en aprovechar las debilidades de sus competidores y fortalecerse frente a sus oportunidades y amenazas:
 
   1. Diferenciación mediante personalización y flexibilidad (Fortaleza frente a HealthCheckPro):
@@ -792,6 +827,21 @@ b) Segmento 2: Restaurantes y Establecimientos Alimentarios
 
   3. ¿Qué dispositivos utiliza más frecuentemente en su trabajo (smartphone, tablet, computadora)?
   4. ¿Qué canales digitales utiliza para mantenerse informado o capacitarse (redes sociales, blogs, webinars, etc.)?
+=======
+Tras analizar a cada uno de nuestros competidores, las estretegias y tácticas que emplearemos serán: 
+
+HealthCheckPro: 
+
+Para superar a HealthCheckPro, SmartHealth debe enfatizar su capacidad para ofrecer soluciones personalizadas y altamente personalizables, destacando su interfaz intuitiva y su fácil integración con otros sistemas. Al posicionarse como líder en innovación y seguridad alimentaria, y al ofrecer precios competitivos y modelos de suscripción flexibles, InspiraSalud puede atraer a nuevos clientes y fidelizar a los existentes. Además, al establecer alianzas estratégicas con gobiernos locales, proveedores de tecnología y asociaciones del sector, SmartHealth puede ampliar su alcance y consolidar su posición en el mercado.
+
+FoodSafeConnect: 
+
+SmartHealth se posicionará como la solución más completa y flexible para la gestión de la seguridad alimentaria, superando a FoodSafe Connect al ofrecer una plataforma altamente personalizable que se adapta a las necesidades específicas de cada cliente, desde pequeños restaurantes hasta grandes cadenas hoteleras. Al combinar la experiencia de nuestros inspectores con tecnología de vanguardia, garantizamos una trazabilidad completa de los productos y una gestión eficiente de los riesgos alimentarios. Además, nuestra plataforma se integra fácilmente con otros sistemas, facilitando la gestión diaria de los negocios y optimizando los procesos.
+
+InspecRight: 
+
+SmartHealth se posicionará como la solución más completa y proactiva para la gestión de la seguridad alimentaria, superando a InspecRight al ofrecer una plataforma que va más allá de las simples inspecciones. Nuestra solución combina la inteligencia artificial con la experiencia de los inspectores para identificar riesgos potenciales antes de que se conviertan en problemas, permitiendo a los negocios tomar medidas preventivas y garantizar la máxima seguridad alimentaria. Además, nuestra plataforma ofrece una amplia gama de herramientas para la gestión de documentos, capacitación del personal y análisis de datos, convirtiéndonos en el socio ideal para cualquier negocio que busque optimizar sus procesos de seguridad alimentaria.
+>>>>>>> 75a4556d619d2617bbf50a24179035a286486d2b
 
 ### 2.2.2. Registro de entrevistas
 
@@ -925,6 +975,7 @@ Monica Gonzales de 40 años de edad lleva mucho tiempo en el rubro de los restau
 
 **Link de las entrevistas:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202014249_upc_edu_pe/EdKA_26GkPVBoufuGZP_4r8B7D-wOYpYFSLi8HYuM3W6-w?e=O5sYNU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
+<<<<<<< HEAD
 ### 2.2.3. Analisis de entrevistas.
 
 **Segmento 1: Inspectores de Salubridad**
@@ -980,6 +1031,8 @@ Monica Gonzales de 40 años de edad lleva mucho tiempo en el rubro de los restau
 
   - Construcción de Arquetipos: Con base en este análisis, se pueden construir arquetipos que representen a los inspectores y dueños de restaurantes, considerando sus frustraciones, necesidades y disposición a adoptar nuevas tecnologías.
 
+=======
+>>>>>>> 75a4556d619d2617bbf50a24179035a286486d2b
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
@@ -2640,6 +2693,7 @@ El diseño de la aplicación web **Inspectora** sigue una serie de lineamientos 
   
 #### Tipografía
 - **Fuente**: La tipografía elegida para toda la aplicación es **Roboto**, conocida por su claridad y estilo moderno. Se usa Roboto Regular para los textos generales, Roboto Bold para los encabezados, y Roboto Light para subtítulos y notas. Los tamaños varían según la jerarquía del texto: 24px para los títulos, 18px para los subtítulos y 14px para el cuerpo del texto.
+<<<<<<< HEAD
 
 - **Estilo Tipográfico**: Las negritas se aplican para destacar términos importantes, mientras que las cursivas se utilizan para citar o resaltar palabras técnicas.
 
@@ -2647,28 +2701,41 @@ El diseño de la aplicación web **Inspectora** sigue una serie de lineamientos 
   <img src="Assets/fuente.png" alt="Fuente" width="300"/>
   </p>
 
+=======
+  
+- **Estilo Tipográfico**: Las negritas se aplican para destacar términos importantes, mientras que las cursivas se utilizan para citar o resaltar palabras técnicas.
+
+>>>>>>> 75a4556d619d2617bbf50a24179035a286486d2b
 #### Espaciado y Márgenes
 - **Márgenes**: Los contenedores de contenido tienen márgenes de 20px a los lados, con un espaciado interno de 15px entre elementos. Esto ayuda a mantener una presentación limpia y agradable.
   
 - **Espaciado entre Elementos**: Los elementos de la interfaz están separados por un espacio mínimo de 15px, lo que evita una sobrecarga visual y mejora la legibilidad.
 
+<<<<<<< HEAD
 <p align="center">
   <img src="Assets/margenes.jpg" alt="Margenes y espaciado" width="300"/>
   </p>
 
+=======
+>>>>>>> 75a4556d619d2617bbf50a24179035a286486d2b
 #### Tono y Lenguaje
 - **Tono**: El tono adoptado en Inspectora es formal, pero accesible, asegurando que tanto los inspectores como los dueños de restaurantes comprendan la información de manera clara. Se evita el uso excesivo de terminología técnica para no alienar a los usuarios menos experimentados.
   
 - **Estilo de Redacción**: Se prioriza un estilo de redacción directo y claro, haciendo que el contenido sea comprensible para todos los usuarios, independientemente de su conocimiento técnico.
 
 ### 4.1.2. Directrices de Estilo Web
+<<<<<<< HEAD
 Las guías de estilo web aseguran que la experiencia de usuario en **InspiraSalud** sea coherente, independientemente del dispositivo que utilicen los usuarios.
+=======
+Las guías de estilo web aseguran que la experiencia de usuario en **Inspectora** sea coherente, independientemente del dispositivo que utilicen los usuarios.
+>>>>>>> 75a4556d619d2617bbf50a24179035a286486d2b
 
 #### Diseño Responsivo
 - **Adaptación a Dispositivos**: La Inspectora está completamente optimizada para ser _responsive_, adaptándose a una amplia variedad de tamaños de pantalla, desde móviles hasta monitores de escritorio. Esto se consigue mediante el uso de _media queries_ en CSS, que ajustan la disposición del contenido según el dispositivo.
   
 - **Componentes Responsivos**: Los elementos de la interfaz, como botones y formularios, se ajustan automáticamente en tamaño y disposición según el dispositivo, asegurando que la aplicación sea intuitiva y fácil de usar en cualquier contexto.
 
+<<<<<<< HEAD
 <p align="center">
   <img src="Assets/responsivoWeb.png" alt="Diseño responsivo Web" width="500"/>
   </p>
@@ -2720,6 +2787,23 @@ Las guías de estilo web aseguran que la experiencia de usuario en **InspiraSalu
   <img src="Assets/textAlternative.png" alt="texto Alternativo" width="300"/>
   </p>
 
+=======
+#### Componentes de Interfaz
+- **Botones**: Los botones se diseñaron con un fondo azul (#0044cc) y texto blanco (#ffffff). Al interactuar con ellos (_hover_), el fondo se aclara (#0066ff) y se añade un efecto de sombra para mejorar la percepción de que son interactivos.
+  
+- **Formularios**: Los campos de los formularios tienen bordes grises (#cccccc) y el texto es de un gris oscuro (#333333). Al enfocarse, los bordes cambian a azul, alineándose con la paleta de colores principal.
+  
+- **Menús**: Los menús principales son horizontales en dispositivos de escritorio y se convierten en menús desplegables en dispositivos móviles, asegurando una navegación fluida y accesible en cualquier pantalla.
+
+#### Comportamiento Interactivo
+- **Hover y Click**: Los elementos interactivos responden de manera suave y fluida al _hover_ y al _click_, proporcionando una retroalimentación visual que mejora la experiencia del usuario.
+
+#### Accesibilidad
+- **Contraste**: Se ha asegurado un contraste adecuado entre el texto y el fondo, cumpliendo con las normas de accesibilidad WCAG 2.1 AA. Esto garantiza que el contenido sea legible para usuarios con discapacidades visuales.
+  
+- **Texto Alternativo**: Todas las imágenes en Inspectora incluyen descripciones en texto alternativo (_alt text_), lo que facilita su uso por parte de personas que dependen de lectores de pantalla.
+
+>>>>>>> 75a4556d619d2617bbf50a24179035a286486d2b
 ## 4.2. Arquitectura de la Información
 
 ### 4.2.1. Sistemas de Organización

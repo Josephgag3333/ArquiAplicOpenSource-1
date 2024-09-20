@@ -3141,7 +3141,26 @@ El sistema de navegación en **Inspectora** está diseñado para guiar a los usu
   </p>
   <p align="center">
 
-  
+  ### 4.4.4. Web Applications User Flow Diagrams
+
+  <p align="center">
+  <img src="Assets/UserFlowDiagrams/1.png" alt="User Flow Diagram US01"/>
+  </p>
+  <p align="center">
+  <img src="Assets/UserFlowDiagrams/2.png" alt="User Flow Diagram US03"/>
+  </p>
+  <p align="center">
+  <img src="Assets/UserFlowDiagrams/3.png" alt="User Flow Diagram US05"/>
+  </p>
+  <p align="center">
+  <img src="Assets/UserFlowDiagrams/4.png" alt="User Flow Diagram US12"/>
+  </p>
+  <p align="center">
+  <img src="Assets/UserFlowDiagrams/5.png" alt="User Flow Diagram US25"/>
+  </p>
+  <p align="center">
+  <img src="Assets/UserFlowDiagrams/6.png" alt="User Flow Diagram US38"/>
+  </p>
 
 ## 4.5. Web Applications Prototyping
 **Disclosure:**

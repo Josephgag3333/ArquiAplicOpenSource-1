@@ -1368,13 +1368,13 @@ cuando el dueño de restaurante hace click en “Normas de sanidad”,
 <p>
 entonces el sistema mostrará un listado de las normas de sanidad junto con algunos enlaces adicionales 
 <p>
-Escenario 2:  
+Escenario 2:  El dueño de restaurante no encuentra normas con palabra clave
 <p>
-Dado que ..., 
+Dado que el dueño de restaurante se encuentra en la sección "Recursos", 
 <p>
-cuando ..., 
+cuando el dueño de restaurante hace click en "Normas de sanidad" e introduce una palabra clave no válida, 
 <p>
-entonces ... 
+entonces el sistema mostrará el mensaje "No se encontraron normas que coincidan con la palabra clave indicada"
    </td>
    <td>E01 
    </td>
@@ -1854,21 +1854,21 @@ entonces el sistema ocultará el porcentaje de cumplimiento de su cliente
    </td>
    <td>Como inspector de salubridad, quiero enviar recordatorios de inspecciones pendientes para asegurarme de no olvidar ninguna reunión.  
    </td>
-   <td>Escenario 1: 
+   <td>Escenario 1: El inspector de salubridad envía recordatorios con tiempo
 <p>
-Dado que ..., 
+Dado que el inspector de salubridad se encuentra en "Home" y se dirige a su calendario de inspecciones,
 <p>
-cuando ..., 
+cuando el inspector de salubridad hace click en una fecha de reunión pendiente, escoge las horas específicas en que desea recibir recordatorios y hace click en "Guardar cambios",
 <p>
-entonces ... 
+entonces el sistema le mandará recordatorios previos a la reunión
 <p>
-Escenario 2: 
+Escenario 2: El inspector de salubridad envía recordatorio sin éxito
 <p>
-Dado que ..., 
+Dado que el inspector de salubridad se encuentra en "Home" y se dirige a su calendario de inspecciones 
 <p>
-cuando ..., 
+cuando el inspector de salubridad hace click en una fecha de reunión pendiente, escoge una fecha tardía para recibir recordatorio y hace click en "Guardar cambios", 
 <p>
-entonces ... 
+entonces el sistema mandará el mensaje "Ha escogido una fecha fuera de rango del día de su reunión. Escoja otra fecha que esté dentro del rango de su reunión" 
    </td>
    <td>E03 
    </td>
@@ -1906,21 +1906,21 @@ entonces el sistema modificará la lista de pendientes
    </td>
    <td>Como inspector de salubridad, quiero visualizar los mensajes de mis clientes por chat para que exista una comunicación más fluida y más rápida. 
    </td>
-   <td>Escenario 1:  
+   <td>Escenario 1: El inspector de salubridad recibe mensaje con éxito 
 <p>
-Dado que ..., 
+Dado que el inspector de salubridad se encuentra en la sección "Chats", 
 <p>
-cuando ..., 
+cuando el inspector de salubridad reciba mensaje de un potencial cliente, 
 <p>
-entonces ... 
+entonces el sistema mandará la notificación "Tiene un nuevo mensaje en su buzón de mensajes" 
 <p>
-Escenario 2: 
+Escenario 2: El inspector de salubridad destaca a usuario como cliente con éxito
 <p>
-Dado que ..., 
+Dado que el inspector de salubridad se encuentra en la sección "Chats",
 <p>
-cuando ..., 
+cuando el inspector de salubridad marque a un potencial cliente con una estrella en su perfil de chat,
 <p>
-entonces ... 
+entonces el sistema mostrará a dicho usuario como "Cliente" del inspector
    </td>
    <td>E08 
    </td>
@@ -1932,21 +1932,21 @@ entonces ...
    </td>
    <td>Como dueño de restaurante, quiero enviar notificaciones urgentes al correo del inspector para ser atendido rápidamente. 
    </td>
-   <td>Escenario 1: 
+   <td>Escenario 1: El dueño de restaurante envía mensaje a su inspector con éxito
 <p>
-Dado que ..., 
+Dado que el dueño de restaurante se encuentra en el perfil de su inspector,
 <p>
-cuando ..., 
+cuando el dueño de restaurante hace click en "Mandar mensaje por correo", escribe su mensaje y lo envía,
 <p>
-entonces ... 
+entonces el sistema mostrará el mensaje "Su mensaje ha sido enviado con éxito"
 <p>
-Escenario 2:  
+Escenario 2: El dueño de restaurante envía mensaje a su inspector sin éxito
 <p>
-Dado que ..., 
+Dado que el dueño de restaurante se encuentra en el perfil de su inspector,
 <p>
-cuando ..., 
+cuando el dueño de restaurante hace click en "Mandar mensaje por correo", escribe su mensaje y al enviarlo tiene problemas de conexión,
 <p>
-entonces ... 
+entonces el sistema mandará una notificación indicando que hubo una falla al enviar el mensaje
    </td>
    <td>E03 
    </td>
@@ -1958,21 +1958,21 @@ entonces ...
    </td>
    <td>Como inspector de salubridad, quiero ordenar la lista de tareas por criticidad para ver las tareas con mayor urgencia primero. 
    </td>
-   <td>Escenario 1:  
+   <td>Escenario 1: El inspector de salubridad ordena la lista de su cliente por criticidad con éxito
 <p>
-Dado que ..., 
+Dado que el inspector de salubridad se encuentra en la sección "Workspace",
 <p>
-cuando ..., 
+cuando el inspector de salubridad hace click en "Crear una lista" y define el tipo de ordenamiento de dicha lista como "Criticidad",
 <p>
-entonces ... 
+entonces el sistema agrupará los ítems de la lista en "Alta", "Media" y "Baja"
 <p>
-Escenario 2: 
+Escenario 2: El inspector de salubridad filtra la lista de su cliente por criticidad alta con éxito
 <p>
-Dado que ..., 
+Dado que el inspector de salubridad se encuentra en la sección "Workspace", 
 <p>
-cuando ..., 
+cuando el inspector de salubridad hace click en una lista de tareas y filtra dicha lista por "Alta", 
 <p>
-entonces ... 
+entonces el sistema mostrará todas las tareas que sean de tipo "Alta" en criticidad y ocultará el resto de ítems de la lista
    </td>
    <td>E04 
    </td>
@@ -1984,21 +1984,21 @@ entonces ...
    </td>
    <td>Como inspector de salubridad, quiero establecer los colores de la lista de verificación de requisitos según el nivel de prioridad en la app para tener una mejor visión de los aspectos de mejora que deben ser atendidos lo antes posible. 
    </td>
-   <td>Escenario 1:  
+   <td>Escenario 1: El inspector de salubridad define los colores de prioridad de la lista con éxito
 <p>
-Dado que ..., 
+Dado que el inspector de salubridad se encuentra en la sección "Workspace", 
 <p>
-cuando ..., 
+cuando el inspector de salubridad hace click en "Crear una lista" y define el color por prioridades de dicha lista, 
 <p>
-entonces ... 
+entonces el sistema mostrará todos los ítems de la lista con el color correspondiente a su categoría
 <p>
-Escenario 2: 
+Escenario 2: El inspector de salubridad define los colores de prioridad de la lista sin éxito
 <p>
-Dado que ..., 
+Dado que el inspector de salubridad se encuentra en la sección "Workspace",
 <p>
-cuando ..., 
+cuando el inspector de salubridad hace click en "Crear una lista" y define dos colores iguales al 100% para la prioridad de dicha lista,
 <p>
-entonces ... 
+entonces el sistema mostrará el mensaje "Se ha encontrado 2 niveles de prioridad con el mismo color. Cambie el color de uno de ellos"
    </td>
    <td>E04 
    </td>
@@ -2010,21 +2010,21 @@ entonces ...
    </td>
    <td>Como dueño de restaurante, quiero enviar una solicitud de reinspección como notificación para que la reunión proceda más rápido. 
    </td>
-   <td>Escenario 1:  
+   <td>Escenario 1: El dueño de restaurante manda solicitud de reinspección a su inspector con éxito
 <p>
-Dado que ..., 
+Dado que el dueño de restaurante se encuentra en el chat que tiene con su inspector,
 <p>
-cuando ..., 
+cuando el dueño de restaurante hace click en "Solicitar reinspección", rellena el formulario indicando los horarios que puede según aparezca como opciones del formulario y lo envía,
 <p>
-entonces ... 
+entonces el sistema mandará una notificación al inspector
 <p>
-Escenario 2: 
+Escenario 2: El dueño de restaurante manda solicitud de reinspección a su inspector sin éxito
 <p>
-Dado que ..., 
+Dado que el dueño de restaurante se encuentra en el chat que tiene con su inspector,
 <p>
-cuando ..., 
+cuando el dueño de restaurante hace click en "Solicitar reinspección" y hace click en "Enviar" sin marcar ningún horario disponible,
 <p>
-entonces ... 
+entonces el sistema mandará un mensaje de error indicando que debe seleccionar al menos 1 opción
    </td>
    <td>E03 
    </td>
@@ -2036,21 +2036,21 @@ entonces ...
    </td>
    <td>Como dueño de restaurante, quiero recibir el resultado de la reinspección como notificación para estar más seguro de que mi solicitud fue aprobada por el inspector. 
    </td>
-   <td>Escenario 1:  
+   <td>Escenario 1: El dueño de restaurante recibe notificación de confirmación de reinspección con éxito
 <p>
-Dado que ..., 
+Dado que el dueño de restaurante está navegando en la aplicación y recibe una nueva notificación,
 <p>
-cuando ..., 
+cuando el inspector acepta la solicitud de reinspección de su cliente,
 <p>
-entonces ... 
+entonces el sistema mandará notificación de confirmación de reinspección al cliente
 <p>
-Escenario 2:  
+Escenario 2: El dueño de restaurante recibe notificación de confirmación de reinspección sin éxito
 <p>
-Dado que ..., 
+Dado que el dueño de restaurante está navegando en la aplicación y recibe una nueva notificación,
 <p>
-cuando ..., 
+cuando el inspector rechaza la solicitud de reinspección de su cliente,
 <p>
-entonces ... 
+entonces el sistema mandará notificación de reprogramación de reinspección al cliente
    </td>
    <td>E03 
    </td>
@@ -2060,23 +2060,23 @@ entonces ...
    </td>
    <td>Críticas por inspección de salubridad 
    </td>
-   <td>Como inspector de salubridad, quiero recibir críticas por mi servicio para que los otros usuarios tengan más confianza y seguridad en usar mis servicios.  
+   <td>Como inspector de salubridad, quiero recibir críticas por mi servicio para que los otros usuarios tengan más confianza y seguridad en usar mis servicios.
    </td>
-   <td>Escenario 1:  
+   <td>Escenario 1: El inspector de salubridad recibe notificación con crítica con éxito
 <p>
-Dado que ..., 
+Dado que el inspector de salubridad está navegando en la aplicación y recibe una nueva notificación,
 <p>
-cuando ..., 
+cuando el dueño de restaurante realiza una crítica a su inspector y lo envía,
 <p>
-entonces ... 
+entonces el sistema mandará una notificación al inspector con el contenido de la crítica que su cliente realizó
 <p>
-Escenario 2: 
+Escenario 2: El inspector de salubridad accede a historial de críticas con éxito
 <p>
-Dado que ..., 
+Dado que el inspector de salubridad está navegando en la aplicación y recibe al menos 5 críticas,
 <p>
-cuando ..., 
+cuando el inspector de salubridad hace click en su perfil y hace click en "Historial de críticas",
 <p>
-entonces ... 
+entonces el sistema mostrará el historial de críticas en orden de envío
    </td>
    <td>E09 
    </td>
@@ -2088,21 +2088,21 @@ entonces ...
    </td>
    <td>Como dueño de restaurante, quiero puntuar al inspector de salubridad respecto a mi experiencia para que los otros usuarios tengan una mejor visión de los mejores inspectores según sus puntuaciones.  
    </td>
-   <td>Escenario 1:  
+   <td>Escenario 1: El dueño de restaurante realiza una crítica a su inspector con éxito
 <p>
-Dado que ..., 
+Dado que el dueño de restaurante se encuentra en la sección "Reviews",
 <p>
-cuando ..., 
+cuando el dueño de restaurante selecciona a su inspector y envía su crítica con puntuación,
 <p>
-entonces ... 
+entonces el sistema mostrará su mensaje por defecto en el perfil de su inspector en la sección "Reviews"
 <p>
-Escenario 2: 
+Escenario 2: El dueño de restaurante realiza una crítica a su inspector sin éxito
 <p>
-Dado que ..., 
+Dado que el dueño de restaurante se encuentra en la sección "Reviews",
 <p>
-cuando ..., 
+cuando el dueño de restaurante coloca el nombre de su inspector de manera incorrecta y envía su crítica con puntuación,
 <p>
-entonces ... 
+entonces el sistema mandará un mensaje de error indicando que no existe ese inspector en su base de datos
    </td>
    <td>E09 
    </td>
@@ -2114,21 +2114,21 @@ entonces ...
    </td>
    <td>Como visitante, quiero visualizar la sección “Sobre nosotros” para conocer más acerca de los creadores de la aplicación web.  
    </td>
-   <td>Escenario 1:  
+   <td>Escenario 1: El visitante accede a la sección "Sobre nosotros" en la landing page con éxito
 <p>
-Dado que ..., 
+Dado que el visitante quiere conocer más información acerca de los creadores de la aplicación,
 <p>
-cuando ..., 
+cuando el visitante accede a la landing page y hace click en "Sobre nosotros",
 <p>
-entonces ... 
+entonces el sistema mostrará el apartado "Sobre nosotros" con el perfil de los creadores de la aplicación y un breve resumen de cada uno de ellos
 <p>
-Escenario 2:  
+Escenario 2: El visitante accede a la sección "Sobre nosotros" de manera fluida
 <p>
-Dado que ..., 
+Dado que un visitante quiere acceder al apartado "Sobre nosotros",
 <p>
-cuando ..., 
+cuando el visitante hace click en el botón "Sobre nosotros",
 <p>
-entonces ... 
+entonces el sistema mostrará la información de los creadores con una carga menor a los 3 segundos
    </td>
    <td>E10 
    </td>
@@ -2140,21 +2140,21 @@ entonces ...
    </td>
    <td>Como visitante, quiero visualizar la sección “Contáctanos” para hacer consultas con mayor rapidez. 
    </td>
-   <td>Escenario 1:  
+   <td>Escenario 1: El visitante envía su consulta al correo de los creadores de la aplicación web
 <p>
-Dado que ..., 
+Dado que el visitante quiere hacer una consulta sobre la aplicación,
 <p>
-cuando ..., 
+cuando el visitante hace click en el apartado "Contáctanos" y envía su mensaje por correo,
 <p>
-entonces ... 
+entonces el sistema mostrará el mensaje "Se ha enviado con éxito su consulta"
 <p>
-Escenario 2: 
+Escenario 2: El visitante aacede a las redes sociales de la aplicación
 <p>
-Dado que ..., 
+Dado que el visitante se encuentra en la sección "Contáctanos",
 <p>
-cuando ..., 
+cuando el visitante hace click en una red social,
 <p>
-entonces ... 
+entonces el sistema lo mandará a la red social de la aplicación
    </td>
    <td>E10 
    </td>
@@ -2166,21 +2166,21 @@ entonces ...
    </td>
    <td>Como visitante, quiero visualizar la sección “Testimonios” para conocer la experiencia de otros usuarios de la app.  
    </td>
-   <td>Escenario 1: 
+   <td>Escenario 1: El visitante visualiza los testimonios de otros usuarios
 <p>
-Dado que ..., 
+Dado que el visitante quiere saber la opinión de otros usuarios,
 <p>
-cuando ..., 
+cuando el visitante hace click en "Testimonios",
 <p>
-entonces ... 
+entonces el sistema mostrará un apartado con los testimonios de otros usuarios de la aplicación
 <p>
-Escenario 2:  
+Escenario 2: El visitante visualiza testimonios verificados
 <p>
-Dado que ..., 
+Dado que el visitante quiere asegurarse de que los testimonios sean de personas reales,
 <p>
-cuando ..., 
+cuando el visitante hace click en "Testimonios",
 <p>
-entonces ... 
+entonces el sistema mostrará los testimonios con foto de perfil y un nombre y apellido, por lo menos
    </td>
    <td>E10 
    </td>
@@ -2192,21 +2192,21 @@ entonces ...
    </td>
    <td>Como visitante del segmento de los dueños de restaurantes, quiero visualizar la sección “Beneficios para los dueños de restaurantes” para conocer más acerca de las ventajas de usar la app. 
    </td>
-   <td>Escenario 1:  
+   <td>Escenario 1: El visitante del segmento de los dueños de restaurantes visualiza los beneficios de la aplicación para su sector
 <p>
-Dado que ..., 
+Dado que el visitante del segmento de los dueños de restaurantes se encuentra en la landing page,
 <p>
-cuando ..., 
+cuando el visitante del segmento de los dueños de restaurantes hace click en “Beneficios para los dueños de restaurantes”,
 <p>
-entonces ... 
+entonces el sistema mostrará los beneficios de la aplicación para los dueños de restaurantes
 <p>
-Escenario 2:  
+Escenario 2: El visitante del segmento de los dueños de restaurantes accede a la sección "Beneficios para los dueños de restaurantes" de manera fluida
 <p>
-Dado que ..., 
+Dado que el visitante del segmento de los dueños de restaurantes se encuentra en la landing page,
 <p>
-cuando ..., 
+cuando el visitante del segmento de los dueños de restaurantes hace click en “Beneficios para los dueños de restaurantes”,
 <p>
-entonces ... 
+entonces el sistema mostrará los beneficios para ese sector con una carga menor a los 3 segundos
    </td>
    <td>E10 
    </td>
@@ -2218,21 +2218,21 @@ entonces ...
    </td>
    <td>Como visitante del segmento de los inspectores de salubridad, quiero visualizar la sección “Beneficios para los inspectores de salubridad” para conocer las ventajas que tengo de usar la app. 
    </td>
-   <td>Escenario 1:  
+   <td>Escenario 1: El visitante del segmento de los inspectores de salubridad visualiza los beneficios de la aplicación para su sector
 <p>
-Dado que ..., 
+Dado que el visitante del segmento de los inspectores de salubridad se encuentra en la landing page, 
 <p>
-cuando ..., 
+cuando el visitante del segmento de los inspectores de salubridad hace click en “Beneficios para los inspectores de salubridad”, 
 <p>
-entonces ... 
+entonces el sistema mostrará los beneficios de la aplicación para los inspectores de salubridad
 <p>
-Escenario 2:  
+Escenario 2: El visitante del segmento de los inspectores de salubridad accede a la sección "Beneficios para los inspectores de salubridad" de manera fluida
 <p>
-Dado que ..., 
+Dado que el visitante del segmento de los inspectores de salubridad se encuentra en la landing page, 
 <p>
-cuando ..., 
+cuando el visitante del segmento de los inspectores de salubridad hace click en “Beneficios para los inspectores de salubridad”, 
 <p>
-entonces ... 
+entonces el sistema mostrará los beneficios para ese sector con una carga menor a los 3 segundos
    </td>
    <td>E10 
    </td>
@@ -2244,21 +2244,21 @@ entonces ...
    </td>
    <td>Como visitante, quiero visualizar la sección “Call-To-Action” para motivarme a consumir la app.  
    </td>
-   <td>Escenario 1:  
+   <td>Escenario 1: El visitante se redirige hacia la aplicación web con éxito
 <p>
-Dado que ..., 
+Dado que el visitante tiene interés por la aplicación, 
 <p>
-cuando ..., 
+cuando el visitante hace click en el botón "Empieza ahora", 
 <p>
-entonces ... 
+entonces el sistema le redirigirá a la aplicación web
 <p>
-Escenario 2:  
+Escenario 2: El visitante visualiza el Call-To-Action al final de la landing page
 <p>
-Dado que ..., 
+Dado que el visitante quiere consumir la app luego de ser atraído por la landing page,
 <p>
-cuando ..., 
+cuando el visitante se desplaza hacia el apartado Call-To-Action final,
 <p>
-entonces ... 
+entonces el sistema mostrará un apartado visible del Call-To-Action en la sección final del landing page, antes del footer
    </td>
    <td>E10 
    </td>
@@ -2270,21 +2270,21 @@ entonces ...
    </td>
    <td>Como visitante, quiero visualizar la sección “Preguntas frecuentes” para encontrar más rápido las respuestas a algunas de mis consultas generales. 
    </td>
-   <td>Escenario 1:  
+   <td>Escenario 1: El visitante visualiza la sección "Preguntas frecuentes"
 <p>
-Dado que ..., 
+Dado que el visitante tiene dudas sobre la aplicación,
 <p>
-cuando ..., 
+cuando el visitante hace click en "Preguntas frecuentes",
 <p>
-entonces ... 
+entonces el sistema mostrará un apartado con las preguntas más frecuentes de la aplicación
 <p>
-Escenario 2:  
+Escenario 2: El visitante realiza una búsqueda de palabra clave en la sección "Preguntas frecuentes" con éxito
 <p>
-Dado que ..., 
+Dado que el visitante tiene una determinada duda,
 <p>
-cuando ..., 
+cuando el visitante realiza una búsqueda de palabras clave en la sección "Preguntas frecuentes" y coincide con las preguntas existentes,
 <p>
-entonces ... 
+entonces el sistema mostrará solo las preguntas que contengan la palabra específica que puso el visitante
    </td>
    <td>E10 
    </td>

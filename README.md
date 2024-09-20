@@ -3013,8 +3013,29 @@ El sistema de navegación en **Inspectora** está diseñado para guiar a los usu
   </p>
   
   **Link del Figma**: [Enlace](https://www.figma.com/design/PChWJ99signLAO8NcRCRrY/Landing-Smart-Health?node-id=1046-41&m=dev&t=MJyod5Rvgajnt6eF-1)
+
+  ### 4.4.2. Web Applications Wireflow Diagrams
+
+  <p align="center">
+  <img src="Assets/WireflowDiagrams/1.png" alt="Wireflow Diagram US01"/>
+  </p>
+  <p align="center">
+  <img src="Assets/WireflowDiagrams/2.png" alt="Wireflow Diagram US03"/>
+  </p>
+  <p align="center">
+  <img src="Assets/WireflowDiagrams/3.png" alt="Wireflow Diagram US05"/>
+  </p>
+  <p align="center">
+  <img src="Assets/WireflowDiagrams/4.png" alt="Wireflow Diagram US12"/>
+  </p>
+  <p align="center">
+  <img src="Assets/WireflowDiagrams/5.png" alt="Wireflow Diagram US25"/>
+  </p>
+  <p align="center">
+  <img src="Assets/WireflowDiagrams/6.png" alt="Wireflow Diagram US38"/>
+  </p>
   
-### 4.4.2. Web Applications Mock-ups.
+### 4.4.3. Web Applications Mock-ups.
 
   <p align="center">
   <img src="Assets/Mock-ups/1.png" alt="Wireframes" width="400"/>
@@ -3120,6 +3141,7 @@ El sistema de navegación en **Inspectora** está diseñado para guiar a los usu
   </p>
   <p align="center">
 
+  
 
 ## 4.5. Web Applications Prototyping
 **Disclosure:**

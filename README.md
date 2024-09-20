@@ -431,11 +431,6 @@ En el sector de la restauración, los dueños de restaurantes enfrentan problema
 
 **¿Cómo pueden los dueños de restaurantes evitar multas y sanciones relacionadas con las normativas sanitarias, además de proteger la reputación de su establecimiento?**
 
-=======
-Nuestro contexto demanda información importante para manejar la búsqueda y la coordinación de los inspectores de salubridad para restaurantes. Es por ello que nuestro servicio fue diseñado para que los dueños de los restaurantes aprueben con éxito las evaluaciones de sanidad a las que se encuentran expuestos con la ayuda de un inspector de salubridad. Hemos observado un factor crítico que afecta al dueño del restaurante, el cual se manifiesta mediante multas por el incumplimiento de regulaciones gubernamentales, lo que afecta a su reputación y a su imagen como restaurante.
-
-**¿Cómo evitar las multas por incumplimiento de regulaciones gubernamentales, así como la afectación de su reputación como restaurante?**
-
 ##### 1.2.2.2 Lean UX Assumptions
 
 **Business Assumptions:**
@@ -1454,188 +1449,7 @@ cuando el inspector de salubridad agrega como cliente a un usuario por error y h
 <p>
 entonces el sistema eliminará a ese usuario de su lista de clientes 
    </td>
-   <td>E08 
-   </td>
-  </tr>
-  <tr>
-   <td>US-14 
-   </td>
-   <td>Registro de usuario 
-   </td>
-   <td>Como Developer, quiero establecer un sistema de registro a los usuarios con su correo y contraseña de al menos 8 dígitos y un carácter especial, para garantizar la transparencia y seguridad de la cuenta del usuario. 
-   </td>
-   <td>Escenario 1:  
-<p>
-Dado que ..., 
-<p>
-cuando ..., 
-<p>
-entonces ... 
-<p>
-Escenario 2: 
-<p>
-Dado que ..., 
-<p>
-cuando ..., 
-<p>
-entonces ... 
-   </td>
-   <td>E06 
-   </td>
-  </tr>
-  <tr>
-   <td>US-15 
-   </td>
-   <td>Sistema de búsqueda avanzada de inspectores de salubridad 
-   </td>
-   <td>Como Developer, quiero establecer un sistema de búsqueda avanzada de los inspectores por filtración de datos para que la búsqueda sea más rápida y eficiente. 
-   </td>
-   <td>Escenario 1:  
-<p>
-Dado que ..., 
-<p>
-cuando ..., 
-<p>
-entonces ... 
-<p>
-Escenario 2: 
-<p>
-Dado que ..., 
-<p>
-cuando ..., 
-<p>
-entonces ... 
-   </td>
-   <td>E06 
-   </td>
-  </tr>
-  <tr>
-   <td>US-16 
-   </td>
-   <td>Sistema de calificaciones  
-   </td>
-   <td>Como Developer, quiero establecer un sistema de calificaciones para que los dueños de restaurantes tengan más confianza al poder visualizar las calificaciones de los inspectores. 
-   </td>
-   <td>Escenario 1:  
-<p>
-Dado que ..., 
-<p>
-cuando ..., 
-<p>
-entonces ... 
-<p>
-Escenario 2:  
-<p>
-Dado que ..., 
-<p>
-cuando ..., 
-<p>
-entonces ... 
-   </td>
-   <td>E06 
-   </td>
-  </tr>
-  <tr>
-   <td>US-17 
-   </td>
-   <td>Dashboard de gestión para los dueños de restaurantes 
-   </td>
-   <td>Como Developer, quiero implementar un dashboard con gráficos para que los dueños de restaurantes puedan ver un resumen de sus inspecciones.  
-   </td>
-   <td>Escenario 1:  
-<p>
-Dado que ..., 
-<p>
-cuando ..., 
-<p>
-entonces ... 
-<p>
-Escenario 2: 
-<p>
-Dado que ..., 
-<p>
-cuando ..., 
-<p>
-entonces ... 
-   </td>
-   <td>E06 
-   </td>
-  </tr>
-  <tr>
-   <td>US-18 
-   </td>
-   <td>Notificaciones en tiempo real  
-   </td>
-   <td>Como Developer, quiero implementar un sistema de notificaciones en tiempo real para informar a los usuarios acerca de alguna importante actualización.  
-   </td>
-   <td>Escenario 1:  
-<p>
-Dado que ..., 
-<p>
-cuando ..., 
-<p>
-entonces ... 
-<p>
-Escenario 2: 
-<p>
-Dado que ..., 
-<p>
-cuando ..., 
-<p>
-entonces ... 
-   </td>
-   <td>E06 
-   </td>
-  </tr>
-  <tr>
-   <td>US-19 
-   </td>
-   <td>Soporte técnico
-   </td>
-   <td>Como Developer, quiero implementar un sistema de soporte técnico en la aplicación para realizar las mejoras brindadas por los usuarios y así actualizar la aplicación cada cierto tiempo.  
-   </td>
-   <td>Escenario 1:  
-<p>
-Dado que ..., 
-<p>
-cuando ..., 
-<p>
-entonces ... 
-<p>
-Escenario 2:  
-<p>
-Dado que ..., 
-<p>
-cuando ..., 
-<p>
-entonces ... 
-   </td>
-   <td>E06 
-   </td>
-  </tr>
-  <tr>
-   <td>US-20 
-   </td>
-   <td>Configuración de perfil de usuario 
-   </td>
-   <td>Como Developer, quiero gestionar un sistema de perfiles para que los usuarios precisen de información más detallada. 
-   </td>
-   <td>Escenario 1:  
-<p>
-Dado que ..., 
-<p>
-cuando ..., 
-<p>
-entonces ... 
-<p>
-Escenario 2: 
-<p>
-Dado que ..., 
-<p>
-cuando ..., 
-<p>
-entonces ... 
-   </td>
+   
    <td>E06 
    </td>
   </tr>
@@ -2312,9 +2126,13 @@ Captura del Impact Map del dueño de restaurante:
 
 <img src="Assets/ImpactMap_RestaurantOwner.png">
 
+Este impact mapping espera que los dueños de restaurante cumplan al 100% con las normas de sanidad y que todas las áreas del restaurante se encuentren en buenas condiciones.
+
 Captura del Impact Map del Inspector de salubridad: 
 
 <img src="Assets/ImpactMap_HealthInspector.png">
+
+Este impact mapping espera que los inspectores de salubridad puedan documentar y clasificar todas las observaciones de los restaurantes para que sus dueños puedan emplearlo sin tener ninguna multa en el proceso. Además, se espera que los inspectores de salubridad tengan al menos el 80% de satisfacción por parte de sus clientes.
 
 ### 3.4 Product Backlog 
 

@@ -420,7 +420,6 @@ En el sector de la restauración, los métodos tradicionales de inspección sani
 ### How Much (¿Cuánto?):
 - El impacto de no contar con esta asesoría puede incluir multas, cierres temporales o permanentes, además de una mala reputación para el restaurante por no cumplir con los estándares sanitarios.
 
-=======
 En el sector de la restauración, los métodos tradicionales de inspección sanitaria presentan deficiencias significativas en términos de eficiencia y transparencia. La comunicación entre inspectores y establecimientos es frecuentemente ineficaz, lo que retrasa el cumplimiento de las normativas sanitarias y compromete la calidad del servicio y la seguridad alimentaria. Esta situación subraya la necesidad urgente de una solución tecnológica avanzada que facilite un flujo de trabajo interactivo, permita el seguimiento en tiempo real de las observaciones y mejore la gestión del cumplimiento normativo. La implementación de una plataforma web intuitiva y accesible, que conecte a inspectores expertos con restaurantes, se presenta como una herramienta esencial para elevar los estándares de salubridad en el sector, simplificando el proceso de inspección y mejorando la calidad del servicio ofrecido.
 
 
@@ -431,6 +430,7 @@ En el sector de la restauración, los métodos tradicionales de inspección sani
 En el sector de la restauración, los dueños de restaurantes enfrentan problemas recurrentes al intentar cumplir con las normativas de salubridad debido a la falta de información clara y de un seguimiento adecuado en el proceso de inspección. La falta de comunicación efectiva con los inspectores de salubridad y el desconocimiento sobre cómo prepararse para estas evaluaciones provocan multas por incumplimiento de las regulaciones gubernamentales, afectando tanto la reputación del restaurante como su viabilidad operativa.
 
 **¿Cómo pueden los dueños de restaurantes evitar multas y sanciones relacionadas con las normativas sanitarias, además de proteger la reputación de su establecimiento?**
+
 =======
 Nuestro contexto demanda información importante para manejar la búsqueda y la coordinación de los inspectores de salubridad para restaurantes. Es por ello que nuestro servicio fue diseñado para que los dueños de los restaurantes aprueben con éxito las evaluaciones de sanidad a las que se encuentran expuestos con la ayuda de un inspector de salubridad. Hemos observado un factor crítico que afecta al dueño del restaurante, el cual se manifiesta mediante multas por el incumplimiento de regulaciones gubernamentales, lo que afecta a su reputación y a su imagen como restaurante.
 
@@ -821,7 +821,7 @@ b) Segmento 2: Restaurantes y Establecimientos Alimentarios
 
   3. ¿Qué dispositivos utiliza más frecuentemente en su trabajo (smartphone, tablet, computadora)?
   4. ¿Qué canales digitales utiliza para mantenerse informado o capacitarse (redes sociales, blogs, webinars, etc.)?
-=======
+
 Tras analizar a cada uno de nuestros competidores, las estretegias y tácticas que emplearemos serán: 
 
 HealthCheckPro: 

@@ -1038,13 +1038,26 @@ Monica Gonzales de 40 años de edad lleva mucho tiempo en el rubro de los restau
 
 ## Inspector de Salubridad
 
-<td><img src="Assets/User Task Matrix Inspector.jpg" alt="Task Matrix 1"></td>
-<td>
+  USER TASK MATRIX | Frecuencia | Importancia
+  ---|---|---
+  Recibo de recordatorios de la inspección|Con frecuencia| Alta
+  Revisión y Planificación de Acciones Correctivas | A veces | Alta
+  Preparación Lista de Inspecciones | A veces | Alta
+  Realización de inspecciones y registros de observaciones | A veces | Alta
+  Coordinación y Programación de Inspecciones | Con frecuencia | Media
+  Generación de Reportes | Con frecuencia | Alta
+
 
 ## Dueño de un Restaurante
 
-<td><img src="Assets/User Task Matrix Propietario.jpg" alt="Task Matrix 2"></td>
-<td>
+  USER TASK MATRIX | Frecuencia | Importancia
+  ---|---|---
+  Recibo de recordatorios de la inspección|Con frecuencia| Alta
+  Inclusión de documentos adicionales adjuntos | A veces | Alta
+  Acceso al historial de inspecciones del restaurante | Con frecuencia | Alta
+  Verificar el avance del proceso de salubridad | A veces | Alta
+  Calificar y enviar comentarios a los inspectores | Con frecuencia | Alta
+  Control de procesos de revisión | Con frecuencia | Alta
 
 ### 2.3.3. User Journey Mapping
 

@@ -2535,318 +2535,354 @@ Este impact mapping espera que los inspectores de salubridad puedan documentar y
   </tr>
   <tr>
    <td>1</td>
-   <td>US-03</td>
-   <td>Lista de verificación de requisitos</td>
-   <td>Como inspector de salubridad, quiero hacer una lista de verificación de requisitos para tener un mejor manejo de los aspectos más importantes a evaluar del restaurante a mi servicio.</td>
-   <td>2</td>
-  </tr>
-  <tr>
-   <td>2</td>
-   <td>US-04</td>
-   <td>Recibo de informes detallados de inspecciones anteriores</td>
-   <td>Como inspector de salubridad, quiero recibir informes detallados acerca de las inspecciones anteriores de los restaurantes asignados para tener una idea más clara de los aspectos a mejorar de los restaurantes a mi servicio.</td>
-   <td>8</td>
-  </tr>
-  <tr>
-   <td>3</td>
-   <td>US-07</td>
-   <td>Generación del contrato</td>
-   <td>Como inspector de salubridad, quiero generar un contrato con mi cliente para garantizar que exista un buen cumplimiento por ambas partes.</td>
-   <td>8</td>
-  </tr>
-  <tr>
-   <td>4</td>
-   <td>US-09</td>
-   <td>Clasificación de las áreas de mejora del restaurante</td>
-   <td>Como inspector de salubridad, quiero clasificar las áreas de mejora de los restaurantes a mi servicio para atender al inicio sus problemas más graves.</td>
-   <td>3</td>
-  </tr>
-  <tr>
-   <td>5</td>
-   <td>US-11</td>
-   <td>Publicación de certificado como inspector de salubridad</td>
-   <td>Como inspector de salubridad, quiero publicar mi certificado como inspector en mi perfil de la aplicación para generar confianza en mis clientes.</td>
-   <td>3</td>
-  </tr>
-  <tr>
-   <td>6</td>
-   <td>US-13</td>
-   <td>Lista de clientes en la bandeja de mensajes del inspector</td>
-   <td>Como inspector de salubridad, quiero tener un listado de todos mis clientes en mi bandeja de mensajes de la aplicación para gestionar mejor a mis clientes.</td>
-   <td>3</td>
-  </tr>
-  <tr>
-   <td>7</td>
-   <td>US-23</td>
-   <td>Visualización del calendario de inspecciones</td>
-   <td>Como inspector de salubridad, quiero visualizar el calendario de inspecciones para que no se me olvide ninguna reunión pendiente.</td>
-   <td>8</td>
-  </tr>
-  <tr>
-   <td>8</td>
-   <td>US-25</td>
-   <td>Registro de observaciones en formulario</td>
-   <td>Como inspector de salubridad, quiero registrar mis observaciones en un formulario para que mi cliente tenga una mejor noción de lo que le falta mejorar y lo que está en orden.</td>
-   <td>5</td>
-  </tr>
-  <tr>
-   <td>9</td>
-   <td>US-26</td>
-   <td>Envío de archivos adjuntos</td>
-   <td>Como inspector de salubridad, quiero enviar archivos adjuntos por chat para que mi cliente tenga más evidencia de los aspectos que faltan mejorar en su restaurante.</td>
-   <td>2</td>
-  </tr>
-  <tr>
-   <td>10</td>
-   <td>US-30</td>
-   <td>Listado de tareas pendientes</td>
-   <td>Como dueño de restaurante, quiero listar mis tareas pendientes para enfocarme en las tareas sin marcar.</td>
-   <td>2</td>
-  </tr>
-  <tr>
-   <td>11</td>
-   <td>US-33</td>
-   <td>Ordenamiento de la lista de tareas por criticidad</td>
-   <td>Como inspector de salubridad, quiero ordenar la lista de tareas por criticidad para ver las tareas con mayor urgencia primero.</td>
-   <td>2</td>
-  </tr>
-  <tr>
-   <td>12</td>
-   <td>US-34</td>
-   <td>Establecimiento de colores según el nivel de prioridad</td>
-   <td>Como inspector de salubridad, quiero establecer los colores de la lista de verificación de requisitos según el nivel de prioridad en la app para tener una mejor visión de los aspectos de mejora que deben ser atendidos lo antes posible.</td>
-   <td>2</td>
-  </tr>
-  <tr>
-   <td>13</td>
-   <td>US-01</td>
-   <td>Programación de las inspecciones de los restaurantes</td>
-   <td>Como inspector de salubridad, quiero programar las inspecciones de los restaurantes para garantizar el buen cumplimiento de las normativas gubernamentales.</td>
-   <td>8</td>
-  </tr>
-  <tr>
-   <td>14</td>
-   <td>US-05</td>
-   <td>Inclusión de documentos adicionales adjuntos</td>
-   <td>Como dueño del restaurante, quiero adjuntar documentos adicionales como fotos y videos para recibir un mejor asesoramiento por el inspector.</td>
-   <td>2</td>
-  </tr>
-  <tr>
-   <td>15</td>
-   <td>US-06</td>
-   <td>Acceso al historial de inspecciones del restaurante</td>
-   <td>Como dueño del restaurante, quiero tener acceso al historial de inspecciones de mi local para identificar los principales aspectos de mejora.</td>
-   <td>8</td>
-  </tr>
-  <tr>
-   <td>16</td>
-   <td>US-15</td>
-   <td>Sistema de búsqueda avanzada de inspectores de salubridad</td>
-   <td>Como Developer, quiero establecer un sistema de búsqueda avanzada de los inspectores por filtración de datos para que la búsqueda sea más rápida y eficiente.</td>
-   <td>3</td>
-  </tr>
-  <tr>
-   <td>17</td>
-   <td>US-17</td>
-   <td>Dashboard de gestión para los dueños de restaurantes</td>
-   <td>Como Developer, quiero implementar un dashboard con gráficos para que los dueños de restaurantes puedan ver un resumen de sus inspecciones.</td>
-   <td>8</td>
-  </tr>
-  <tr>
-   <td>18</td>
-   <td>US-27</td>
-   <td>Visualización del historial de inspecciones</td>
-   <td>Como inspector de salubridad, quiero visualizar el historial de inspecciones para tener una mejor visión del progreso de mi cliente.</td>
-   <td>8</td>
-  </tr>
-  <tr>
-   <td>19</td>
-   <td>US-28</td>
-   <td>Visualización del indicador en porcentaje de cumplimiento</td>
-   <td>Como inspector de salubridad, quiero visualizar el indicador en porcentaje de cumplimiento para medir el progreso de mi cliente.</td>
-   <td>5</td>
-  </tr>
-  <tr>
-   <td>20</td>
-   <td>US-31</td>
-   <td>Visualización de mensajes por chat</td>
-   <td>Como inspector de salubridad, quiero visualizar los mensajes de mis clientes por chat para que exista una comunicación más fluida y más rápida.</td>
-   <td>5</td>
-  </tr>
-  <tr>
-   <td>21</td>
-   <td>US-02</td>
-   <td>Recibo de recordatorios de la inspección</td>
-   <td>Como dueño de restaurante, quiero recibir recordatorios de las inspecciones para organizarme con anticipación para la reunión con el inspector de salubridad.</td>
-   <td>2</td>
-  </tr>
-  <tr>
-   <td>22</td>
-   <td>US-08</td>
-   <td>Personalización de notificaciones y alertas</td>
-   <td>Como dueño de restaurante, quiero personalizar mis notificaciones y alertas para adaptarlas según mis necesidades.</td>
-   <td>3</td>
-  </tr>
-  <tr>
-   <td>23</td>
-   <td>US-10</td>
-   <td>Acceso a las normas gubernamentales de sanidad en restaurantes</td>
-   <td>Como dueño de restaurante, quiero tener acceso a todas las normativas gubernamentales de sanidad de restaurante de mi país para estar más informado acerca de los requisitos que debe cumplir mi restaurante.</td>
-   <td>1</td>
-  </tr>
-  <tr>
-   <td>24</td>
-   <td>US-12</td>
-   <td>Actualización de datos del restaurante</td>
-   <td>Como dueño de restaurante, quiero actualizar los datos de mi restaurante en la aplicación para precisar la información de mi restaurante.</td>
-   <td>1</td>
-  </tr>
-  <tr>
-   <td>25</td>
-   <td>US-14</td>
-   <td>Registro de usuario</td>
-   <td>Como Developer, quiero establecer un sistema de registro a los usuarios con su correo y contraseña de al menos 8 dígitos y un carácter especial, para garantizar la transparencia y seguridad de la cuenta del usuario.</td>
-   <td>1</td>
-  </tr>
-  <tr>
-   <td>26</td>
-   <td>US-16</td>
-   <td>Sistema de calificaciones</td>
-   <td>Como Developer, quiero establecer un sistema de calificaciones para que los dueños de restaurantes tengan más confianza al poder visualizar las calificaciones de los inspectores.</td>
-   <td>3</td>
-  </tr>
-  <tr>
-   <td>27</td>
-   <td>US-18</td>
-   <td>Notificaciones en tiempo real</td>
-   <td>Como Developer, quiero implementar un sistema de notificaciones en tiempo real para informar a los usuarios acerca de alguna importante actualización.</td>
-   <td>3</td>
-  </tr>
-  <tr>
-   <td>28</td>
-   <td>US-19</td>
-   <td>Soporte técnico</td>
-   <td>Como Developer, quiero implementar un sistema de soporte técnico en la aplicación para realizar las mejoras brindadas por los usuarios y así actualizar la aplicación cada cierto tiempo.</td>
-   <td>2</td>
-  </tr>
-  <tr>
-   <td>29</td>
-   <td>US-20</td>
-   <td>Configuración de perfil de usuario</td>
-   <td>Como Developer, quiero gestionar un sistema de perfiles para que los usuarios precisen de información más detallada.</td>
-   <td>1</td>
-  </tr>
-  <tr>
-   <td>30</td>
-   <td>US-21</td>
-   <td>Inicio de sesión de usuario</td>
-   <td>Como dueño de restaurante, quiero iniciar sesión en la app para tener acceso a mis datos guardados.</td>
-   <td>1</td>
-  </tr>
-  <tr>
-   <td>31</td>
-   <td>US-22</td>
-   <td>Actualización del perfil de usuario</td>
-   <td>Como inspector de salubridad, quiero actualizar mi perfil para que mi información modificada coincida con mis datos actuales.</td>
-   <td>1</td>
-  </tr>
-  <tr>
-   <td>32</td>
-   <td>US-24</td>
-   <td>Recibo de notificación de confirmación de citas de inspección</td>
-   <td>Como dueño de restaurante, quiero recibir notificación de confirmación de citas de inspección para asegurarme de que la cita de inspección procede según lo acordado.</td>
-   <td>2</td>
-  </tr>
-  <tr>
-   <td>33</td>
-   <td>US-29</td>
-   <td>Envío de recordatorios de inspecciones pendientes</td>
-   <td>Como inspector de salubridad, quiero enviar recordatorios de inspecciones pendientes para asegurarme de no olvidar ninguna reunión.</td>
-   <td>2</td>
-  </tr>
-  <tr>
-   <td>34</td>
-   <td>US-32</td>
-   <td>Envío de notificaciones urgentes por correo</td>
-   <td>Como dueño de restaurante, quiero enviar notificaciones urgentes al correo del inspector para ser atendido rápidamente.</td>
-   <td>2</td>
-  </tr>
-  <tr>
-   <td>35</td>
-   <td>US-35</td>
-   <td>Envío de solicitud de reinspección como notificación</td>
-   <td>Como dueño de restaurante, quiero enviar una solicitud de reinspección como notificación para que la reunión proceda más rápido.</td>
-   <td>2</td>
-  </tr>
-  <tr>
-   <td>36</td>
-   <td>US-36</td>
-   <td>Recibo del resultado de la reinspección</td>
-   <td>Como dueño de restaurante, quiero recibir el resultado de la reinspección como notificación para estar más seguro de que mi solicitud fue aprobada por el inspector.</td>
-   <td>2</td>
-  </tr>
-  <tr>
-   <td>37</td>
-   <td>US-37</td>
-   <td>Críticas por inspección de salubridad</td>
-   <td>Como inspector de salubridad, quiero recibir críticas por mi servicio para que los otros usuarios tengan más confianza y seguridad en usar mis servicios.</td>
-   <td>3</td>
-  </tr>
-  <tr>
-   <td>38</td>
-   <td>US-38</td>
-   <td>Puntuación de experiencia al inspector de salubridad</td>
-   <td>Como dueño de restaurante, quiero puntuar al inspector de salubridad respecto a mi experiencia para que los otros usuarios tengan una mejor visión de los mejores inspectores según sus puntuaciones.</td>
-   <td>2</td>
-  </tr>
-  <tr>
-   <td>39</td>
    <td>US-39</td>
    <td>Sección "Sobre nosotros"</td>
    <td>Como visitante, quiero visualizar la sección "Sobre nosotros" para conocer más acerca de los creadores de la aplicación web.</td>
    <td>1</td>
   </tr>
   <tr>
-   <td>40</td>
+   <td>2</td>
    <td>US-40</td>
    <td>Sección "Contáctanos"</td>
    <td>Como visitante, quiero visualizar la sección "Contáctanos" para hacer consultas con mayor rapidez.</td>
    <td>1</td>
   </tr>
   <tr>
-   <td>41</td>
+   <td>3</td>
    <td>US-41</td>
    <td>Sección "Testimonios"</td>
    <td>Como visitante, quiero visualizar la sección "Testimonios" para conocer la experiencia de otros usuarios de la app.</td>
    <td>1</td>
   </tr>
   <tr>
-   <td>42</td>
+   <td>4</td>
    <td>US-42</td>
    <td>Sección "Beneficios para los dueños de restaurantes"</td>
    <td>Como visitante del segmento de los dueños de restaurantes, quiero visualizar la sección "Beneficios para los dueños de restaurantes" para conocer más acerca de las ventajas de usar la app.</td>
    <td>1</td>
   </tr>
   <tr>
-   <td>43</td>
+   <td>5</td>
    <td>US-43</td>
    <td>Sección "Beneficios para los inspectores de salubridad"</td>
    <td>Como visitante del segmento de los inspectores de salubridad, quiero visualizar la sección "Beneficios para los inspectores de salubridad" para conocer las ventajas que tengo de usar la app.</td>
    <td>1</td>
   </tr>
   <tr>
-   <td>44</td>
+   <td>6</td>
    <td>US-44</td>
    <td>Sección "Call-To-Action"</td>
    <td>Como visitante, quiero visualizar la sección "Call-To-Action" para motivarme a consumir la app.</td>
    <td>1</td>
   </tr>
   <tr>
-   <td>45</td>
+   <td>7</td>
    <td>US-45</td>
    <td>Sección "Preguntas frecuentes"</td>
    <td>Como visitante, quiero visualizar la sección "Preguntas frecuentes" para encontrar más rápido las respuestas a algunas de mis consultas generales.</td>
    <td>1</td>
+  </tr>
+  <tr>
+   <td>8</td>
+   <td>US-46</td>
+   <td>Sección "Nuestros servicios"</td>
+   <td>Como visitante, quiero visualizar la sección "Nuestros servicios" para tener un mayor conocimiento de los servicios que ofrece la empresa.</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>9</td>
+   <td>US-47</td>
+   <td>Sección "Llamada a la acción secundaria"</td>
+   <td>Como visitante, quiero visualizar la sección "Llamada a la acción secundaria" para tener acceso a la aplicación tras ver todos los beneficios que ofrece.</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>10</td>
+   <td>US-48</td>
+   <td>Sección "Header"</td>
+   <td>Como visitante, quiero visualizar el "Header" con los apartados respectivos de cada sección para dirigirme de manera rápida a la sección de mi interés.</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>11</td>
+   <td>US-49</td>
+   <td>Sección "Footer"</td>
+   <td>Como visitante, quiero visualizar el "Footer" con sus respectivas redes sociales para conocer más de la aplicación.</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>12</td>
+   <td>US-50</td>
+   <td>Uso del "Language-switcher"</td>
+   <td>Como visitante, quiero visualizar el "Language-switcher" para adaptar el idioma de la landing page a mi preferencia.</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>13</td>
+   <td>US-03</td>
+   <td>Lista de verificación de requisitos</td>
+   <td>Como inspector de salubridad, quiero hacer una lista de verificación de requisitos para tener un mejor manejo de los aspectos más importantes a evaluar del restaurante a mi servicio.</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>14</td>
+   <td>US-04</td>
+   <td>Recibo de informes detallados de inspecciones anteriores</td>
+   <td>Como inspector de salubridad, quiero recibir informes detallados acerca de las inspecciones anteriores de los restaurantes asignados para tener una idea más clara de los aspectos a mejorar de los restaurantes a mi servicio.</td>
+   <td>8</td>
+  </tr>
+  <tr>
+   <td>15</td>
+   <td>US-07</td>
+   <td>Generación del contrato</td>
+   <td>Como inspector de salubridad, quiero generar un contrato con mi cliente para garantizar que exista un buen cumplimiento por ambas partes.</td>
+   <td>8</td>
+  </tr>
+  <tr>
+   <td>16</td>
+   <td>US-09</td>
+   <td>Clasificación de las áreas de mejora del restaurante</td>
+   <td>Como inspector de salubridad, quiero clasificar las áreas de mejora de los restaurantes a mi servicio para atender al inicio sus problemas más graves.</td>
+   <td>3</td>
+  </tr>
+  <tr>
+   <td>17</td>
+   <td>US-11</td>
+   <td>Publicación de certificado como inspector de salubridad</td>
+   <td>Como inspector de salubridad, quiero publicar mi certificado como inspector en mi perfil de la aplicación para generar confianza en mis clientes.</td>
+   <td>3</td>
+  </tr>
+  <tr>
+   <td>18</td>
+   <td>US-13</td>
+   <td>Lista de clientes en la bandeja de mensajes del inspector</td>
+   <td>Como inspector de salubridad, quiero tener un listado de todos mis clientes en mi bandeja de mensajes de la aplicación para gestionar mejor a mis clientes.</td>
+   <td>3</td>
+  </tr>
+  <tr>
+   <td>19</td>
+   <td>US-23</td>
+   <td>Visualización del calendario de inspecciones</td>
+   <td>Como inspector de salubridad, quiero visualizar el calendario de inspecciones para que no se me olvide ninguna reunión pendiente.</td>
+   <td>8</td>
+  </tr>
+  <tr>
+   <td>20</td>
+   <td>US-25</td>
+   <td>Registro de observaciones en formulario</td>
+   <td>Como inspector de salubridad, quiero registrar mis observaciones en un formulario para que mi cliente tenga una mejor noción de lo que le falta mejorar y lo que está en orden.</td>
+   <td>5</td>
+  </tr>
+  <tr>
+   <td>21</td>
+   <td>US-26</td>
+   <td>Envío de archivos adjuntos</td>
+   <td>Como inspector de salubridad, quiero enviar archivos adjuntos por chat para que mi cliente tenga más evidencia de los aspectos que faltan mejorar en su restaurante.</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>22</td>
+   <td>US-30</td>
+   <td>Listado de tareas pendientes</td>
+   <td>Como dueño de restaurante, quiero listar mis tareas pendientes para enfocarme en las tareas sin marcar.</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>23</td>
+   <td>US-33</td>
+   <td>Ordenamiento de la lista de tareas por criticidad</td>
+   <td>Como inspector de salubridad, quiero ordenar la lista de tareas por criticidad para ver las tareas con mayor urgencia primero.</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>24</td>
+   <td>US-34</td>
+   <td>Establecimiento de colores según el nivel de prioridad</td>
+   <td>Como inspector de salubridad, quiero establecer los colores de la lista de verificación de requisitos según el nivel de prioridad en la app para tener una mejor visión de los aspectos de mejora que deben ser atendidos lo antes posible.</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>25</td>
+   <td>US-01</td>
+   <td>Programación de las inspecciones de los restaurantes</td>
+   <td>Como inspector de salubridad, quiero programar las inspecciones de los restaurantes para garantizar el buen cumplimiento de las normativas gubernamentales.</td>
+   <td>8</td>
+  </tr>
+  <tr>
+   <td>26</td>
+   <td>US-05</td>
+   <td>Inclusión de documentos adicionales adjuntos</td>
+   <td>Como dueño del restaurante, quiero adjuntar documentos adicionales como fotos y videos para recibir un mejor asesoramiento por el inspector.</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>27</td>
+   <td>US-06</td>
+   <td>Acceso al historial de inspecciones del restaurante</td>
+   <td>Como dueño del restaurante, quiero tener acceso al historial de inspecciones de mi local para identificar los principales aspectos de mejora.</td>
+   <td>8</td>
+  </tr>
+  <tr>
+   <td>28</td>
+   <td>US-27</td>
+   <td>Visualización del historial de inspecciones</td>
+   <td>Como inspector de salubridad, quiero visualizar el historial de inspecciones para tener una mejor visión del progreso de mi cliente.</td>
+   <td>8</td>
+  </tr>
+  <tr>
+   <td>29</td>
+   <td>US-28</td>
+   <td>Visualización del indicador en porcentaje de cumplimiento</td>
+   <td>Como inspector de salubridad, quiero visualizar el indicador en porcentaje de cumplimiento para medir el progreso de mi cliente.</td>
+   <td>5</td>
+  </tr>
+  <tr>
+   <td>30</td>
+   <td>US-31</td>
+   <td>Visualización de mensajes por chat</td>
+   <td>Como inspector de salubridad, quiero visualizar los mensajes de mis clientes por chat para que exista una comunicación más fluida y más rápida.</td>
+   <td>5</td>
+  </tr>
+  <tr>
+   <td>31</td>
+   <td>US-02</td>
+   <td>Recibo de recordatorios de la inspección</td>
+   <td>Como dueño de restaurante, quiero recibir recordatorios de las inspecciones para organizarme con anticipación para la reunión con el inspector de salubridad.</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>32</td>
+   <td>US-08</td>
+   <td>Personalización de notificaciones y alertas</td>
+   <td>Como dueño de restaurante, quiero personalizar mis notificaciones y alertas para adaptarlas según mis necesidades.</td>
+   <td>3</td>
+  </tr>
+  <tr>
+   <td>33</td>
+   <td>US-10</td>
+   <td>Acceso a las normas gubernamentales de sanidad en restaurantes</td>
+   <td>Como dueño de restaurante, quiero tener acceso a todas las normativas gubernamentales de sanidad de restaurante de mi país para estar más informado acerca de los requisitos que debe cumplir mi restaurante.</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>34</td>
+   <td>US-12</td>
+   <td>Actualización de datos del restaurante</td>
+   <td>Como dueño de restaurante, quiero actualizar los datos de mi restaurante en la aplicación para precisar la información de mi restaurante.</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>35</td>
+   <td>US-21</td>
+   <td>Inicio de sesión de usuario</td>
+   <td>Como dueño de restaurante, quiero iniciar sesión en la app para tener acceso a mis datos guardados.</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>36</td>
+   <td>US-22</td>
+   <td>Actualización del perfil de usuario</td>
+   <td>Como inspector de salubridad, quiero actualizar mi perfil para que mi información modificada coincida con mis datos actuales.</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>37</td>
+   <td>US-24</td>
+   <td>Recibo de notificación de confirmación de citas de inspección</td>
+   <td>Como dueño de restaurante, quiero recibir notificación de confirmación de citas de inspección para asegurarme de que la cita de inspección procede según lo acordado.</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>38</td>
+   <td>US-29</td>
+   <td>Envío de recordatorios de inspecciones pendientes</td>
+   <td>Como inspector de salubridad, quiero enviar recordatorios de inspecciones pendientes para asegurarme de no olvidar ninguna reunión.</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>39</td>
+   <td>US-32</td>
+   <td>Envío de notificaciones urgentes por correo</td>
+   <td>Como dueño de restaurante, quiero enviar notificaciones urgentes al correo del inspector para ser atendido rápidamente.</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>40</td>
+   <td>US-35</td>
+   <td>Envío de solicitud de reinspección como notificación</td>
+   <td>Como dueño de restaurante, quiero enviar una solicitud de reinspección como notificación para que la reunión proceda más rápido.</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>41</td>
+   <td>US-36</td>
+   <td>Recibo del resultado de la reinspección</td>
+   <td>Como dueño de restaurante, quiero recibir el resultado de la reinspección como notificación para estar más seguro de que mi solicitud fue aprobada por el inspector.</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>42</td>
+   <td>US-37</td>
+   <td>Críticas por inspección de salubridad</td>
+   <td>Como inspector de salubridad, quiero recibir críticas por mi servicio para que los otros usuarios tengan más confianza y seguridad en usar mis servicios.</td>
+   <td>3</td>
+  </tr>
+  <tr>
+   <td>43</td>
+   <td>US-38</td>
+   <td>Puntuación de experiencia al inspector de salubridad</td>
+   <td>Como dueño de restaurante, quiero puntuar al inspector de salubridad respecto a mi experiencia para que los otros usuarios tengan una mejor visión de los mejores inspectores según sus puntuaciones.</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>44</td>
+   <td>US-14</td>
+   <td>Conexión del backend a la API</td>
+   <td>Como Developer, quiero configurar una conexión del backend a la API para obtener la lista de los inspectores de la aplicación.</td>
+   <td>3</td>
+  </tr>
+  <tr>
+   <td>45</td>
+   <td>US-15</td>
+   <td>Definición del modelo de datos del inspector</td>
+   <td>Como Developer, quiero definir un modelo de datos del inspector para que no existan problemas al diseñar los datos del inspector.</td>
+   <td>1</td>
+  </tr>
+
+  <tr>
+   <td>46</td>
+   <td>US-16</td>
+   <td>Implementación del servicio de inspección</td>
+   <td>Como Developer, quiero implementar un servicio de inspección para manejar las solicitudes de los datos de inspectores.</td>
+   <td>3</td>
+  </tr>
+  <tr>
+   <td>47</td>
+   <td>US-17</td>
+   <td>Filtrado de búsqueda de los inspectores</td>
+   <td>Como Developer, quiero implementar un método de filtrado de búsqueda de los inspectores para que los dueños de restaurantes puedan encontrar al inspector de su interés con mayor rapidez.</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>48</td>
+   <td>US-18</td>
+   <td>Paginación de la lista de inspectores</td>
+   <td>Como Developer, quiero implementar la paginación del listado de inspectores para no acaparar a los usuarios con mucha información.</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>49</td>
+   <td>US-19</td>
+   <td>Documentación de la API de inspectores</td>
+   <td>Como Developer, quiero documentar la API de los inspectores para facilitar el uso del estado HTTP.</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <td>50</td>
+   <td>US-20</td>
+   <td>Implementación de la seguridad de la aplicación</td>
+   <td>Como Developer, quiero realizar mejoras en la seguridad de la aplicación para transmitir más confiabilidad en los usuarios de la aplicación.</td>
+   <td>3</td>
   </tr>
 </table>
 

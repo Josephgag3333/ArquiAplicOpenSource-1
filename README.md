@@ -90,35 +90,35 @@ Colaboracion: Diseñó el diagrama de la base de datos y la arquitectura de alma
 
 **Colaboracion global:**
 
-<img src="Assets/colaborationGlobal.png" alt="Colaboracion global" width="700"/>
+<img src="Assets/globalTp.png" alt="Colaboracion global" width="700"/>
 
 **Alumno: Huanca Zevallos, Cristhian Joel**
 
-<img src="Assets/colaboracionJoel.png" alt="Colaboracion de Huanca Zevallos, Cristhian Joel " width="500"/>
+<img src="Assets/joelTp.png" alt="Colaboracion de Huanca Zevallos, Cristhian Joel " width="500"/>
 
 Colaboracion: Se dedicó a recopilar y documentar la evidencia de desarrollo, asegurando que cada funcionalidad implementada estuviera claramente explicada y accesible para la revisión del sprint. Su atención al detalle mejoró la calidad de la documentación.
 
 **Alumno: Aquino Gutierrezz, Joshep Giovani**
 
-<img src="Assets/colaboracionJoseb.png" alt="Colaboracion de Aquino Gutierrezz, Joshep Giovani" width="500"/>
+<img src="Assets/josephTp.png" alt="Colaboracion de Aquino Gutierrezz, Joshep Giovani" width="500"/>
 
 Colaboracion: Se enfocó en diseñar y ejecutar la suite de pruebas, documentando los resultados y proponiendo mejoras en base a los hallazgos. Su trabajo fue clave para garantizar que el software cumpliera con los estándares de calidad.
 
 **Alumno: Cossio Jimenez, Jimena Alessandra**
 
-<img src="Assets/colaboracionJimena.png" alt="Colaboracion de Cossio Jimenez, Jimena Alessandra" width="500"/>
+<img src="Assets/jimenaTp.png" alt="Colaboracion de Cossio Jimenez, Jimena Alessandra" width="500"/>
 
 Colaboracion: Desarrolló los artefactos del Needfinding, utilizando técnicas para identificar las necesidades reales de los usuarios y documentarlas de manera estructurada, asegurando que la solución aborde los problemas más críticos.
 
 **Alumno: Carbajal Santivañez, Sebastian Aaron Anibal**
 
-<img src="Assets/colaboracionSebastian.png" alt="Colaboracion de Carbajal Santivañez, Sebastian Aaron Anibal" width="500"/>
+<img src="Assets/sebastianTp.png" alt="Colaboracion de Carbajal Santivañez, Sebastian Aaron Anibal" width="500"/>
 
 Colaboracion: Se encargó de elaborar la documentación sobre los servicios utilizados en el proyecto, asegurando que todos los aspectos técnicos fueran comprensibles para diferentes rangos de audiencia. Su enfoque en la claridad facilitó la alineación del equipo.
 
 **Alumno: Sagastegui Rodriguez, Luis Jesus**
 
-<img src="Assets/colaboracionJesus.png" alt="Colaboracion de Sagastegui Rodriguez, Luis Jesus" width="500"/>
+<img src="Assets/jesusTp.png" alt="Colaboracion de Sagastegui Rodriguez, Luis Jesus" width="500"/>
 
 Colaboracion: Se encargó de liderar la planificación del Sprint 2, facilitando la reunión y asegurando que todos los miembros comprendieran sus roles y responsabilidades. También actualizó el Sprint Backlog para reflejar el progreso del equipo.
 

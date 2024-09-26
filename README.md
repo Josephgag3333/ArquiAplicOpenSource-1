@@ -40,6 +40,7 @@
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-----: | :---: | :---: | :-------------------------- |
 |    TB1     |   03/09    |   Cristhian Joel Huanca Zevallos, Joshep Giovani Aquino Gutierrezz, Jimena Alessandra Cossio Jimenez, Sebastian Aaron Anibal Carbajal Santivañez, Luis Jesus Sagastegui Rodriguez  |     Se realizó la investigación del problema y de la solución, se realizó el Lean UX, se definió las User Stories, se realizó el Product Backlog, se elaboraron los artefactos del Needfinding, se elaboró el diseño del diagrama de clases al igual que su diccionario y relaciones. También se elaboró el diagrama de la base de datos y la landing page. |
+|    TP     |   22/09    |   Cristhian Joel Huanca Zevallos, Joshep Giovani Aquino Gutierrezz, Jimena Alessandra Cossio Jimenez, Sebastian Aaron Anibal Carbajal Santivañez, Luis Jesus Sagastegui Rodriguez  |     Se realizaron modificaciones significativas en la planificación y documentación del proyecto. Se actualizó el Sprint Backlog para reflejar con claridad las prioridades y el progreso de las tareas. Se mejoró la documentación de la evidencia de desarrollo y la suite de pruebas, asegurando que los resultados fueran accesibles y comprensibles para diferentes audiencias. Además, se generó información detallada sobre los servicios utilizados, lo que facilitó la alineación entre todos los miembros del equipo. Estas modificaciones optimizaron la comunicación escrita y fortalecieron la colaboración, permitiendo una evaluación más efectiva del estado del proyecto. |
 
 </div>
 
@@ -202,7 +203,7 @@ del ABET – EAC - Student Outcome 3.
       <b>TB1:</b> </br>
       Hacer entrevistas (diseño de entrevistas, registro de entrevistas y análisis de entrevistas) y participar activamente en la reunión de equipo   </br>
       <b>TP1:</b> </br>
-      Completar </br>
+      Encargado de documentar el proceso de planificación del segundo sprint, incluyendo objetivos y participantes. </br>
       <b>TB2:</b> </br>
       Completar </br>
       <b>TF1:</b> </br>
@@ -211,7 +212,7 @@ del ABET – EAC - Student Outcome 3.
       <b>TB1:</b> </br>
       Hacer entrevistas (diseño de entrevistas, registro de entrevistas y análisis de entrevistas) y participar activamente en la reunión de equipo </br>
       <b>TP1:</b> </br>
-      Completar </br>
+      Se encargará de recopilar y presentar los resultados de las pruebas realizadas, así como la documentación de los casos de prueba. </br>
       <b>TB2:</b> </br>
       Completar </br>
       <b>TF1:</b> </br>
@@ -220,7 +221,7 @@ del ABET – EAC - Student Outcome 3.
       <b>TB1:</b> </br>
       Participar en la reunión de equipo y presentar la idea de manera clara </br>
       <b>TP1:</b> </br>
-      Completar </br>
+      Responsable de documentar la ejecución de las tareas, incluyendo capturas de pantalla y reportes de seguimiento. </br>
       <b>TB2:</b> </br>
       Completar </br>
       <b>TF1:</b> </br>
@@ -229,7 +230,7 @@ del ABET – EAC - Student Outcome 3.
       <b>TB1:</b> </br>
       Participar activamente en la reunión de equipo. </br>
       <b>TP1:</b> </br>
-      Completar </br>
+      Encargado de generar la documentación de los servicios utilizados y sus integraciones. </br>
       <b>TB2:</b> </br>
       Completar </br>
       <b>TF1:</b> </br>
@@ -238,14 +239,19 @@ del ABET – EAC - Student Outcome 3.
       <b>TB1:</b> </br>
       Hacer entrevistas (diseño de entrevistas, registro de entrevistas y análisis de entrevistas) y participar activamente en la reunión de equipo </br>
       <b>TP1:</b> </br>
-      Completar </br>
+      Documentará la evidencia de desarrollo, incluyendo ejemplos de funcionalidades implementadas y código relevante. </br>
       <b>TB2:</b> </br>
       Completar </br>
       <b>TF1:</b> </br>
       Completar </br>
     </td>
     <td>
-    El grupo pudo iterar el trabajo conforme a los feedback que recibimos del profesor. Eso también se pudo mejorar con las opiniones que obtuvimos de las personas entrevistadas, pertenecientes a nuestros 2 segmentos objetivo.
+    <b>TB1:</b> 
+       </br>
+    El grupo pudo iterar el trabajo conforme a los feedback que recibimos del profesor. Eso también se pudo mejorar con las opiniones que obtuvimos de las personas entrevistadas, pertenecientes a nuestros 2 segmentos objetivo.</br>
+    <b>TP1:</b> 
+       </br>
+    Durante el Sprint 2, el equipo demostró una notable capacidad para comunicar de manera efectiva y objetiva en diversas situaciones. Las presentaciones sobre el progreso del proyecto, realizadas ante diferentes audiencias, desde compañeros hasta supervisores, fueron bien recibidas. Cada miembro del equipo adaptó su estilo de comunicación según el público, lo que facilitó la comprensión de conceptos técnicos complejos y mantuvo el interés de todos los asistentes. Esta habilidad no solo reforzó nuestra cohesión como equipo, sino que también fomentó un ambiente de colaboración y aprendizaje continuo.
     </td>
 </tr>
 <tr>
@@ -255,7 +261,7 @@ del ABET – EAC - Student Outcome 3.
       <b>TB1:</b> </br>
       Realizar el perfil de la startup y de la solución, realizar los segmentos objetivo, el análisis competitivo, las estrategia y tácticas frente a competidores, las user persona, los style guidelines, la arquitectura de la información  </br>
       <b>TP1:</b> </br>
-      Completar </br>
+      Redactar un informe detallado sobre la planificación del sprint, destacando objetivos y asignaciones de tareas. </br>
       <b>TB2:</b> </br>
       Completar </br>
       <b>TF1:</b> </br>
@@ -264,7 +270,7 @@ del ABET – EAC - Student Outcome 3.
       <b>TB1:</b> </br>
       Realizar el Lean UX Hypothesis Statement y el Lean UX Canvas y realizar el Domain-Driven Software Architecture </br>
       <b>TP1:</b> </br>
-      Completar </br>
+      Mantener y actualizar el Sprint Backlog, asegurando que todos los cambios sean claramente documentados. </br>
       <b>TB2:</b> </br>
       Completar </br>
       <b>TF1:</b> </br>
@@ -273,7 +279,7 @@ del ABET – EAC - Student Outcome 3.
       <b>TB1:</b> </br>
       Realizar el Lean UX Problem Statement, el Lean UX Assumptions, las User Stories, los Impact Mapping, el Product Backlog y el diseño de la aplicación web </br>
       <b>TP1:</b> </br>
-      Completar </br>
+      Compilar y documentar la evidencia de desarrollo, proporcionando ejemplos claros y explicativos. </br>
       <b>TB2:</b> </br>
       Completar </br>
       <b>TF1:</b> </br>
@@ -282,7 +288,7 @@ del ABET – EAC - Student Outcome 3.
       <b>TB1:</b> </br>
       Investigar y completar los antecedentes y la problemática, hacer el user task matrix, hacer el user journey mapping, hacer el as-is scenario mapping, el empathy mapping y el lenguaje ubicuo, realizar el software object-oriented design y el diseño de la base de datos. </br>
       <b>TP1:</b> </br>
-      Completar </br>
+      Crear un documento que resuma los casos de prueba y resultados, comunicando los hallazgos de manera objetiva. </br>
       <b>TB2:</b> </br>
       Completar </br>
       <b>TF1:</b> </br>
@@ -291,14 +297,19 @@ del ABET – EAC - Student Outcome 3.
       <b>TB1:</b> </br>
       Realizar la descripción de la startup, realizar el diseño UI de la landing page y realizar la landing page </br>
       <b>TP1:</b> </br>
-      Completar </br>
+      Elaborar un reporte sobre la ejecución de tareas, utilizando un formato claro y accesible para diferentes audiencias. </br>
       <b>TB2:</b> </br>
       Completar </br>
       <b>TF1:</b> </br>
       Completar </br>
     </td>
     <td>
-    Se pudo hacer la landing page con las ideas que los integrantes del grupo brindaron entre los 4 capítulos.
+    <b>TB1:</b> 
+       </br>
+    Se pudo hacer la landing page con las ideas que los integrantes del grupo brindaron entre los 4 capítulos.</br>
+    <b>TP1:</b> 
+       </br>
+    La documentación generada durante el Sprint 2 fue clara y objetiva, permitiendo que todos los miembros del equipo y partes interesadas comprendieran fácilmente los avances y resultados. Cada uno de nosotros se aseguró de que los informes, las actualizaciones del backlog y la documentación técnica fueran accesibles para distintos niveles de conocimiento. Esta práctica no solo mejoró la calidad del informe final, sino que también fortaleció nuestra capacidad de comunicar información clave de manera efectiva, asegurando que todos los involucrados estuvieran alineados y bien informados sobre el estado del proyecto.
     </td>
 </tr>
 </table>

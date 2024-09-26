@@ -3145,20 +3145,18 @@ El menú de navegación que se encuentra en la barra de herramientas de la aplic
 En cuanto a los principios de diseño visual, estos fueron respetados. Por ejemplo, se utilizó un buen contraste en la paleta de colores. Asimismo, se aplicó el principio de repetición para crear una sensación de unidad y consistencia en toda la interfaz de usuario. Se mantuvo la alineación constante en todos los elementos de la pantalla, y se cumplió el principio de proximidad al distribuir los elementos a una distancia adecuada entre sí.
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
-![Image](./Assets/461SoftwareArchitectureContextDiagram.png)
+![Image](./Assets/BC1.jpg)
 ### 4.6.2. Software Architecture Container Diagrams
-![Image](./Assets/462SoftwareArchitectureContainerDiagrams.png)
+![Image](./Assets/BC2.jpg)
 ### 4.6.3. Software Architecture Components Diagrams
-#### API Rest Component Diagram
-![Image](./Assets/4631.png)
 #### User Bounded Context Component Diagram
-![Image](./Assets/4632.png)
-#### Content Bounded Context Component Diagram
-![Image](./Assets/4633.png)
-#### Collaboration Bounded Context Component Diagram
-![Image](./Assets/4634.png)
-#### Monetization Bounded Context Component Diagram
-![Image](./Assets/4635.png)
+![Image](./Assets/UserContext.jpg)
+#### Restaurant Bounded Context Component Diagram
+![Image](./Assets/RestaurantContext.jpg)
+#### Inspector Bounded Context Component Diagram
+![Image](./Assets/InspectorContext.jpg)
+#### Contact Bounded Context Component Diagram
+![Image](./Assets/ContactContext.jpg)
 ## 4.7. Software Object Oriented Design
 El diseño de la aplicación web Inspectora está orientado a ofrecer una experiencia intuitiva y eficiente para inspectores de salubridad y propietarios de restaurantes. Utiliza una estructura basada en objetos para gestionar inspecciones, observaciones y reportes, facilitando la documentación y el seguimiento de acciones correctivas. La plataforma asegura una integración fluida y una navegación coherente, adaptada a las necesidades específicas de cada usuario.
 * Identificación de Clases y Objetos:

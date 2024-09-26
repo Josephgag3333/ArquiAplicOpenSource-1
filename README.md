@@ -4387,6 +4387,111 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
   </tr>
 </table>
 
+#### 5.2.1.3. Development Evidence for Sprint Review
+
+En esta sección se presentan los commits realizados en el repositorio de GitHub, donde se puede observar el trabajo colaborativo de cada integrante del equipo en el desarrollo de la Landing Page. A continuación, se detallan las contribuciones individuales en diversas ramas del proyecto, incluyendo las implementaciones de las funcionalidades principales y las integraciones necesarias para el despliegue final del producto.
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Author</th>
+        <th>Message</th>
+        <th>Time ago</th>
+    </tr>
+    <tr>
+        <td rowspan=19>Landing Page</td>
+        <td>main</td>
+        <td>4d21cba</td>
+        <td>Luis Jesus</td>
+        <td>IndexHtml</td>
+        <td>18/09/2024</td>
+    </tr>
+    <tr>
+        <td>main</td>
+        <td>293c88c</td>
+        <td>Luis Jesus</td>
+        <td>MainJs</td>
+        <td>18/09/2024</td>
+    </tr>
+    <tr>
+        <td>main</td>
+        <td>ae82205</td>
+        <td>Luis Jesus</td>
+        <td>StylesCss</td>
+        <td>18/09/2024</td>
+    </tr>
+    <tr>
+        <td>feature/home-implementation</td>
+        <td>eb2f521</td>
+        <td>Luis Jesus</td>
+        <td>main-html-home</td>
+        <td>18/09/2024</td>
+    </tr>
+    <tr>
+        <td>feature/home-implementation</td>
+        <td>28f1251</td>
+        <td>Luis Jesus</td>
+        <td>styles-css</td>
+        <td>18/09/2024</td>
+    </tr>
+    <tr>
+        <td>feature/home-implementation</td>
+        <td>7cbfa2f</td>
+        <td>Luis Jesus</td>
+        <td>home-js</td>
+        <td>18/09/2024</td>
+    </tr>
+    <tr>
+        <td>feature/about-implementation</td>
+        <td>041d100</td>
+        <td>Joel Huanca</td>
+        <td>Update part 1 index.html</td>
+        <td>18/09/2024</td>
+    </tr>
+    <tr>
+        <td>feature/about-implementation</td>
+        <td>304544d</td>
+        <td>Joel Huanca</td>
+        <td>Update styles.css part 1</td>
+        <td>18/09/2024</td>
+    </tr>
+    <tr>
+        <td>feature/discover-implementation</td>
+        <td>b7d7c74</td>
+        <td>Jimena Cossio</td>
+        <td>feat: Update index.html</td>
+        <td>18/09/2024</td>
+    </tr>
+    <tr>
+        <td>feature/discover-implementation</td>
+        <td>aae924d</td>
+        <td>Jimena Cossio</td>
+        <td>Update styles.css for discover</td>
+        <td>18/09/2024</td>
+    </tr>
+    <tr>
+        <td>feature/feature-implementation</td>
+        <td>a907032</td>
+        <td>Giovanni Aquino</td>
+        <td>Update index.html</td>
+        <td>18/09/2024</td>
+    </tr>
+    <tr>
+        <td>feature/feature-implementation</td>
+        <td>d8421e4</td>
+        <td>Giovanni Aquino</td>
+        <td>Update styles.css</td>
+        <td>18/09/2024</td>
+    </tr>
+    
+</table>
+
+
+#### 5.2.1.4. Testing Suite Evidence for Sprint Review
+
+En este sprint no se desarrolla el testing de la aplicación web, solo Landing Page. Por lo tanto se mostrará el estado de la Landing Page en la siguiente sección del informe.
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 

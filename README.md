@@ -2116,6 +2116,136 @@ entonces el sistema mostrará solo las preguntas que contengan la palabra espec�
    <td>E10 
    </td>
   </tr>
+  <tr>
+   <td>US-46 
+   </td>
+   <td>Sección “Nuestros servicios” 
+   </td>
+   <td>Como visitante, quiero visualizar la sección “Nuestros servicios” para tener un mayor conocimiento de los servicios que ofrece la empresa. 
+   </td>
+   <td>Escenario 1: El visitante visualiza la sección "Nuestros servicios"
+<p>
+Dado que el visitante quiere conocer los servicios que ofrece la aplicación,
+<p>
+cuando el visitante hace click en "Nuestros servicios",
+<p>
+entonces el sistema mostrará un apartado con los servicios de la aplicación y una breve descripción de estos.
+<p>
+Escenario 2: El visitante visualiza los servicios en "cards" y con imágenes con éxito
+<p>
+Dado que el visitante quiere visualizar los servicios que ofrece la aplicación,
+<p>
+cuando el visitante se dirige hasta el apartado "Nuestros servicios",
+<p>
+entonces el sistema mostrará los servicios que ofrece la aplicación en cards con su título, imagen referencial y una breve descripción.
+   </td>
+   <td>E10 
+   </td>
+  </tr>
+  <tr>
+   <td>US-47 
+   </td>
+   <td>Sección “Llamada a la acción secundaria” 
+   </td>
+   <td>Como visitante, quiero visualizar la sección “Llamada a la acción secundaria” para tener acceso a la aplicación tras ver todos los beneficios que ofrece. 
+   </td>
+   <td>Escenario 1: El visitante ingresa a la aplicación con éxito
+<p>
+Dado que el visitante quiere acceder a la aplicación tras ver todos los beneficios que obtendrá,
+<p>
+cuando el visitante hace click en "Llamada a la acción secundaria" y hace click en el botón "Empieza ya",
+<p>
+entonces el sistema mostrará el apartado "Inicia sesión" de la aplicación.
+<p>
+Escenario 2: El visitante visualiza la sección "Llamada a la acción secundaria" con éxito
+<p>
+Dado que el visitante quiere darle otra oportunidad a la aplicación,
+<p>
+cuando el visitante hace click en "Llamada a la acción secundaria",
+<p>
+entonces el sistema mostrará un apartado con la llamada a la acción secundaria.
+   </td>
+   <td>E10 
+   </td>
+  </tr>
+  <tr>
+   <td>US-48 
+   </td>
+   <td>Sección "Header" 
+   </td>
+   <td>Como visitante, quiero visualizar el header con los apartados respectivos de cada sección para dirigirme de manera rápida a la sección de mi interés. 
+   </td>
+   <td>Escenario 1: El visitante ingresa a la sección de su interés con éxito
+<p>
+Dado que el visitante quiere acceder a la sección de su interés de manera inmediata,
+<p>
+cuando el visitante hace click en la sección de su interés encontrada en el header,
+<p>
+entonces el sistema dirigirá al visitante al apartado de su interés exitosamente.
+<p>
+Escenario 2: El visitante ingresa a la sección de su interés sin éxito
+<p>
+Dado que el visitante quiere acceder a la sección de su interés de manera inmediata y sin estar bien configurada su ruta,
+<p>
+cuando el visitante hace click en la sección de su interés encontrada en el header,
+<p>
+entonces el sistema dirigirá al visitante a un apartado incorrecto de la landing page.
+   </td>
+   <td>E10 
+   </td>
+  </tr>
+  <tr>
+   <td>US-49 
+   </td>
+   <td>Sección "Footer" 
+   </td>
+   <td>Como visitante, quiero visualizar el footer con sus respectivas redes sociales para conocer más de la aplicación. 
+   </td>
+   <td>Escenario 1: El visitante ingresa a la red social de su interés con éxito
+<p>
+Dado que el visitante quiere acceder a la red social de su interés de manera inmediata,
+<p>
+cuando el visitante hace click en la red social de su interés encontrada en el footer,
+<p>
+entonces el sistema dirigirá al visitante a la red social de su interés exitosamente.
+<p>
+Escenario 2: El visitante ingresa a la red social de su interés sin éxito
+<p>
+Dado que el visitante quiere acceder a la red social de su interés de manera inmediata y sin estar bien configurada,
+<p>
+cuando el visitante hace click en la red social de su interés encontrada en el footer,
+<p>
+entonces el sistema dirigirá al visitante a una red social incorrecta.
+   </td>
+   <td>E10 
+   </td>
+  </tr>
+  <tr>
+   <td>US-50 
+   </td>
+   <td>Uso del "Language-switcher" 
+   </td>
+   <td>Como visitante, quiero visualizar el language-switcher para adaptar el idioma de la landing page a mi preferencia. 
+   </td>
+   <td>Escenario 1: El visitante cambia el idioma a español con éxito
+<p>
+Dado que el visitante se encuentra en la landing page en inglés por defecto y quiere cambiar su idioma a español,
+<p>
+cuando el visitante hace click en la opción "ES" del "language-switcher" del "header",
+<p>
+entonces el sistema mostrará la misma landing page, pero en español.
+<p>
+Escenario 2: El visitante cambia el idioma a inglés con éxito
+<p>
+Dado que el visitante se encuentra en la landing page en español y quiere cambiar su idioma a inglés,
+<p>
+cuando el visitante hace click en la opción "EN" del "language-switcher" del "header",
+<p>
+entonces el sistema mostrará la misma landing page, pero en inglés.
+   </td>
+   <td>E10 
+   </td>
+  </tr>
 </table>
 
 

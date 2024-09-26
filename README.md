@@ -3988,7 +3988,7 @@ Para despliegar el landing page, usamos las siguientes herraminetas.
             <b>Sprint 1 Velocity</b>
         </td>
         <td>
-            5
+            23
         </td>
     </tr>
        <tr align="left">
@@ -3996,7 +3996,7 @@ Para despliegar el landing page, usamos las siguientes herraminetas.
             <b>Sum of Story Points</b>
         </td>
         <td>
-            6
+            23
         </td>
     </tr>
 </table>
@@ -4488,7 +4488,49 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
   </tr>
 </table>
 
+#### 5.2.1.3. Development Evidence for Sprint Review
 
+En esta sección se presentan los registros detallados del desarrollo del frontend del proyecto, organizados en una tabla que muestra las ramas relevantes, los identificadores de commit, los autores responsables, los mensajes asociados a cada cambio y las fechas de cada contribución.
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Author</th>
+        <th>Message</th>
+        <th>Time ago</th>
+    </tr>
+    <tr>
+        <td rowspan=19>Frontend</td>
+        <td>main</td>
+        <td>5b2e832</td>
+        <td>Jesus Sagastegui</td>
+        <td>first commit</td>
+        <td>25/09/2024</td>
+    </tr>
+    <tr>
+        <td>main</td>
+        <td>09f2d06</td>
+        <td>Jesus Sagastegui</td>
+        <td>initial commit</td>
+        <td>25/09/2024</td>
+    </tr>
+    <tr>
+        <td>main</td>
+        <td>81faa08</td>
+        <td>Joel Huanca</td>
+        <td>first commit</td>
+        <td>25/09/2024</td>
+    </tr>
+    <tr>
+        <td>main</td>
+        <td>4fd8854</td>
+        <td>Joel Huanca</td>
+        <td>initial commit</td>
+        <td>25/09/2024</td>
+    </tr>
+</table>
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
 

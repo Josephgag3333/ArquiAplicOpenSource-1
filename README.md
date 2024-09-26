@@ -4609,7 +4609,7 @@ En este item, se va a presentar las pantallas realizadas por el equipo, cada pan
 
 ## Reviews
 
-<td><img src="Assets/CapturaWeb2.jpeg" alt="Imagen de reviews" width="1500"></td>
+<td><img src="Assets/CapturaWeb2.jpg" alt="Imagen de reviews" width="1500"></td>
 
 ## Link del Funcionamiento del FrontEnd:
 

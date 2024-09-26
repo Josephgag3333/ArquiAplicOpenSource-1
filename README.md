@@ -48,7 +48,18 @@
 
 <div align="center">
 
-URL del repositorio: https://github.com/Josephgag3333/ArquiAplicOpenSource-1
+
+### Repositorios:
+
+URL del repositorio de Documentacion: https://github.com/Josephgag3333/ArquiAplicOpenSource-1
+
+URL del repositorio del Landing page: https://github.com/Owner-avatar-ArquiAplicOpenSource-1/landing-page
+
+URL del repositorio Bounded "Rewi": https://github.com/InspiraSalud/restaurant-context-CristhianHuanca
+
+URL del repositorio Bounded "Reviews": https://github.com/JesusRodriguez7/WebApplication-Inspira
+
+
 
 ## TB1:
 

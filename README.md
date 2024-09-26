@@ -4506,6 +4506,10 @@ En este item, se va a presentar las pantallas realizadas por el equipo, cada pan
 
 <td><img src="Assets/CapturaWeb2.jpg" alt="Imagen de reviews" width="1500"></td>
 
+## Issues
+
+<td><img src="Assets/Issues1.jpeg" alt="Imagen de reviews" width="1500"></td>
+
 ## Link del Funcionamiento del FrontEnd:
 
 **Link**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b914_upc_edu_pe/EQLE_EQ53ktIjfkKIVxLXWwBxY0IZtsxSCtXKAhSk4lINg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=8ydWHq

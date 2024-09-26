@@ -1520,7 +1520,188 @@ cuando el inspector de salubridad agrega como cliente a un usuario por error y h
 <p>
 entonces el sistema eliminará a ese usuario de su lista de clientes 
    </td>
-   
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-14 
+   </td>
+   <td>Conexión del backend a la API
+   </td>
+   <td>Como Developer, quiero configurar una conexión del backend a la API para obtener la lista de los inspectores de la aplicación 
+   </td>
+   <td>Escenario 1: El Developer conecta la lista de los inspectores de la API con éxito. 
+<p>
+Dado que el Developer quiere obtener la lista de inspectores, 
+<p>
+cuando el Developer configura la conexión del backend a la API de los inspectores, 
+<p>
+entonces el sistema deberá funcionar correctamente usando el método GET a través de HTTP.
+<p>
+Escenario 2: El Developer mantiene la seguridad de la conexión con éxito
+<p>
+Dado que el Developer mantiene la seguridad de la conexión, 
+<p>
+cuando el Developer configura la conexión del backend a la API y utiliza HTTPS en lugar de HTTP, 
+<p>
+entonces el sistema protegerá los datos en tiempo real.
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-15 
+   </td>
+   <td>Definición del modelo de datos del inspector 
+   </td>
+   <td>Como Developer, quiero definir un modelo de datos del inspector para que no existan problemas al diseñar los datos del inspector. 
+   </td>
+   <td>Escenario 1: El developer define el modelo de datos con éxito
+<p>
+Dado que el Developer quiere representar un inspector en la aplicación, 
+<p>
+cuando el Developer define el modelo de datos del inspector con las propiedades "id", "fecha", "contenido", "inspeccion_id" y "restaurante_id", 
+<p>
+entonces el sistema mostrará esos datos al crear el componente del inspector 
+<p>
+Escenario 2: El Developer incluye campo "especialidad" de inspector con éxito
+<p>
+Dado que el Developer maneja diferentes especialidades de inspectores, 
+<p>
+cuando el Developer define el modelo de datos, 
+<p>
+entonces el sistema incluirá un campo adicional para "especialidad" de los inspectores. 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-16 
+   </td>
+   <td>Implementación del servicio de inspección 
+   </td>
+   <td>Como Developer, quiero implementar un servicio de inspección para manejar las solicitudes de los datos de inspectores. 
+   </td>
+   <td>Escenario 1: El Developer gestiona las solicitudes de datos con éxito
+<p>
+Dado que el Developer desea gestionar las solicitudes de datos de los inspectores, 
+<p>
+cuando el Developer implementa el servicio de inspección y tiene el método "getInspectors", 
+<p>
+entonces el sistema retornará la lista de inspectores con éxito.  
+<p>
+Escenario 2: El Developer maneja las respuestas de error con éxito
+<p>
+Dado que la API devuelve diferentes códigos de estado, 
+<p>
+cuando el Developer implementa el servicio de inspección, 
+<p>
+entonces el sistema manejará las respuestas de error adecuadamente. 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-17 
+   </td>
+   <td>Filtrado de búsqueda de los inspectores 
+   </td>
+   <td>Como Developer, quiero implementar un método de filtrado de búsqueda de los inspectores para que los dueños de restaurantes puedan encontrar al inspector de su interés con mayor rapidez. 
+   </td>
+   <td>Escenario 1: El Developer implementa el filtrado de búsqueda de inspectores con éxito
+<p>
+Dado que el usuario quiere buscar inspectores, 
+<p>
+cuando el Developer implementa la función de filtrado de inspectores, 
+<p>
+entonces el sistema permitirá la búsqueda por nombre 
+<p>
+Escenario 2: El Developer filtra inspectores por calificaciones
+<p>
+Dado que los dueños de restaurantes quieren filtrar a los inspectores por sus calificaciones, 
+<p>
+cuando el Developer implementa la función de filtrado de inspectores, 
+<p>
+entonces el sistema permitirá la búsqueda por calificación de inspectores. 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-18 
+   </td>
+   <td>Paginación de la lista de inspectores 
+   </td>
+   <td>Como Developer, quiero implementar la paginación del listado de inspectores para no acaparar a los usuarios con mucha información. 
+   </td>
+   <td>Escenario 1: El Developer implementa la paginación de resultados de inspectores con éxito 
+<p>
+Dado que el la lista de inspectores es muy grande, 
+<p>
+cuando el Developer implementa la paginación de los inspectores, 
+<p>
+entonces el sistema mostrará un número limitado de inspectores por página. 
+<p>
+Escenario 2: El Developer asegura el rendimiento de la aplicación
+<p>
+Dado que el Developer quiere asegurar el rendimiento de la aplicación, 
+<p>
+cuando el Developer implementa la paginación, 
+<p>
+entonces el sistema cargará solo los inspectores de la página actual. 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-19 
+   </td>
+   <td>Documentación de la API de inspectores
+   </td>
+   <td>Como Developer, quiero documentar la API de los inspectores para facilitar el uso del estado HTTP. 
+   </td>
+   <td>Escenario 1: El Developer documenta la API de inspectores con éxito
+<p>
+Dado que otros desarrolladores quieren usar la API, 
+<p>
+cuando el Developer documenta la API de los inspectores, 
+<p>
+entonces el sistema mostrará ejemplos de solicitudes y respuestas a los desarrolladores que deseen usar el API. 
+<p>
+Escenario 2: Los desarrolladores acceden a la documentación de la API con éxito
+<p>
+Dado que los desarrolladores quieren implementar la API en sus aplicaciones, 
+<p>
+cuando el Developer documenta la API de los inspectores, 
+<p>
+entonces el sistema mostrará ejemplos de uso para facilitar su implementación. 
+   </td>
+   <td>E06 
+   </td>
+  </tr>
+  <tr>
+   <td>US-20 
+   </td>
+   <td>Implementación de la seguridad de la aplicación
+   </td>
+   <td>Como Developer, quiero realizar mejoras en la seguridad de la aplicación para transmitir más confiabilidad en los usuarios de la aplicación 
+   </td>
+   <td>Escenario 1: El Developer implementa medidas de seguridad como la autenticación con éxito 
+<p>
+Dado que Developer quiere proteger el acceso a la lista de inspectores, 
+<p>
+cuando el Developer implementa medidas de seguridad como la autenticación de acceso a la API, 
+<p>
+entonces el sistema mostrará la información solo a los usuarios autorizados. 
+<p>
+Escenario 2: El Developer crea roles de acceso a la base de datos de la aplicación con éxito
+<p>
+Dado que la información de los inspectores es muy sensible, 
+<p>
+cuando el Develoepr utiliza roles de usuario para controlar el acceso, 
+<p>
+entonces el sistema cifrará los datos en la base de datos de la aplicación. 
+   </td>
    <td>E06 
    </td>
   </tr>

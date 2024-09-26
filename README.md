@@ -3256,7 +3256,7 @@ El diseño de la aplicación web Inspectora está orientado a ofrecer una experi
 
 **4.7.1. Class Diagram**
 
-![](Aspose.Words.c388474e-b790-4003-a8cf-fbd5590bef63.001.png)
+![](Assets/classDiagram471.png)
 
 **Usuario**
 
@@ -3759,7 +3759,7 @@ CREATE TABLE AccesoLog (
 
 **4.8.1. Database Diagram**
 
-![](Aspose.Words.c388474e-b790-4003-a8cf-fbd5590bef63.002.png)
+![](Assets/dataBaseDiagram481.png)
 
 
 # Capítulo V: Product Implementation, Validation & Deployment

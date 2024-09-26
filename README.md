@@ -3204,244 +3204,564 @@ En cuanto a los principios de diseño visual, estos fueron respetados. Por ejemp
 ![Image](./Assets/InpectorContext.jpg)
 #### Contact Bounded Context Component Diagram
 ![Image](./Assets/ContactContext.jpg)
-## 4.7. Software Object Oriented Design
-El diseño de la aplicación web Inspectora está orientado a ofrecer una experiencia intuitiva y eficiente para inspectores de salubridad y propietarios de restaurantes. Utiliza una estructura basada en objetos para gestionar inspecciones, observaciones y reportes, facilitando la documentación y el seguimiento de acciones correctivas. La plataforma asegura una integración fluida y una navegación coherente, adaptada a las necesidades específicas de cada usuario.
-* Identificación de Clases y Objetos:
-  ### US 1
-   - Atributos
-     * `nombre: String` – El nombre del inspector.
-     * `edad: int` – La edad del inspector.
-     * `experiencia: int` – Años de experiencia en el campo de inspección de salubridad.
-   - Métodos
-     * `realizarInspeccion(restaurante: Restaurante): Inspección` – Inicia una inspección en el restaurante especificado y devuelve un objeto de tipo Inspección.
-     * `generarReporte(inspeccion: Inspección): Reporte` – Genera un reporte basado en la inspección realizada.
-     * `documentarObservaciones(observaciones: List<Observacion>, inspeccion: Inspección)` – Documenta observaciones durante la inspección y las asocia con el objeto Inspección.
-   ### US 2
-   - Atributos
-     * `nombre: String` – El nombre del restaurante.
-     * `direccion: String` – La dirección del restaurante.
-     * `tipo: String` – Tipo de restaurante (por ejemplo, cafetería, restaurante de comida rápida).
-     * `historialInspecciones: List<Inspección>` – Lista de inspecciones realizadas en el restaurante.
-   - Métodos
-     * `agregarObservacion(observacion: Observacion)` – Agrega una observación al historial de inspecciones del restaurante.
-     * `implementarAccionCorrectiva(accionCorrectiva: AccionCorrectiva)` – Implementa una acción correctiva recomendada en el reporte de inspección.
-     * `consultarHistorial() : List<Inspección>` – Consulta el historial de inspecciones realizadas en el restaurante.   
-* Relación entre Clases:
-   - **InspectorDeSalubridad** realiza **Inspección** en **Restaurante**
-`InspectorDeSalubridad --> realizarInspeccion(Restaurante): Inspección Inspección --> Restaurante`
-   - **Inspección** tiene una lista de **Observacion** y una lista de **AccionCorrectiva**
-`Inspección --> List<Observacion> Inspección --> List<AccionCorrectiva>`
-   - **Restaurante** mantiene un historial de **Inspección** y gestiona **AccionCorrectiva**
-`Restaurante --> List<Inspección> Restaurante --> implementarAccionCorrectiva(AccionCorrectiva)`
-   - **Inspección** genera **Reporte**
-`Inspección --> generarReporte(): Reporte Reporte --> Inspección`
-   - **BaseDeDatosDeClientes** gestiona **Restaurante** e **InspectorDeSalubridad**
-`BaseDeDatosDeClientes --> List<Restaurante>` `BaseDeDatosDeClientes --> List<InspectorDeSalubridad>`
-   - **Normativa** se utiliza durante **Inspección** para evaluar el cumplimiento
-`Normativa --> consultarNormativa(): List<Inspección>`
 
-### 4.7.1. Class Diagram
-![a](./Assets/471ClassDiagram.png)
-### 4.7.2. Class Dictionary
-1. InspectorDeSalubridad
-   * **Descripción**: Tabla que representa a los inspectores de salubridad que realizan inspecciones en los restaurantes y establecimientos alimenticios.
-   * **Campos:**
-     * `id:` Identificador único del inspector (INT, PRIMARY KEY).
-     * `nombre:` Nombre del inspector (VARCHAR(255)).
-     * `edad:` Edad del inspector (INT).
-     * `experiencia:` Años de experiencia del inspector (INT).
-   * **Relaciones:**
-     * Relacionado con `Inspeccion` a través de `inspector_id`.
-2. Restaurante
-   * **Descripción**: Tabla que representa los restaurantes y establecimientos alimenticios que son inspeccionados.
-   * **Campos:**
-     * `id:` Identificador único del restaurante (INT, PRIMARY KEY).
-     * `nombre:` Nombre del restaurante (VARCHAR(255)).
-     * `direccion:` Dirección del restaurante (VARCHAR(255)).
-     * `tipo:` Tipo de restaurante o establecimiento (VARCHAR(100)).
-   * **Relaciones:**
-     * Relacionado con `Inspeccion` a través de `restaurante_id`.
-     * Relacionado con `Reporte` a través de `restaurante_id`.
-3. Inspeccion
-   * **Descripción**: Tabla que representa cada inspección realizada por los inspectores en los restaurantes.
-   * **Campos:**
-     * `id:` Identificador único del inspección (INT, PRIMARY KEY).
-     * `fecha:` Fecha en que se realizó la inspección (DATE).
-     * `estado:` Estado actual de la inspección (VARCHAR(50)).
-     * `restaurante_id:` Identificador del restaurante inspeccionado (INT, FOREIGN KEY).
-     * `inspector_id:` Identificador del inspector que realizó la inspección  (INT, FOREIGN KEY).
-   * **Relaciones:**
-     * Relacionado con `Observacion` a través de `inspeccion_id`.
-     * Relacionado con `AccionCorrectiva` a través de `inspeccion_id`.
-     * Relacionado con `Reporte` a través de `id`.
-4. Observacion
-   * **Descripción**: Tabla que representa las observaciones realizadas durante una inspección.
-   * **Campos:**
-     * `id:` Identificador único de la observación (INT, PRIMARY KEY).
-     * `descripcion:` Descripción detallada de la observación (TEXT).
-     * `categoria:` Categoría de la observación (VARCHAR(100)).
-     * `prioridad:` Prioridad de la observación (VARCHAR(50)).
-     * `experiencia:` Años de experiencia del inspector (INT).
-     * `inspeccion_id:` Identificador de la inspección en la que se realizó la observación (INT, FOREIGN KEY).
-   * **Relaciones:**
-     * Relacionado a `AccionCorrectiva` a través de `observacion_id`.
-5. AccionCorrectiva
-   * **Descripción**: Tabla que representa las acciones correctivas recomendadas o tomadas en respuesta a observaciones durante una inspección.
-   * **Campos:**
-     * `id:` Identificador único de la acción correctiva (INT, PRIMARY KEY).
-     * `descripcion:` Descripción de la acción correctiva (TEXT).
-     * `fechaImplementacion:` Fecha en que se implementó la acción correctiva (DATE).
-     * `estado:` Estado de la acción correctiva (VARCHAR(50)).
-     * `inpeccion_id:` Identificador de la inspección a la que está asociada la acción correctiva (INT, FOREIGN KEY).
-   * **Relaciones:**
-     * Relacionado con `Observacion` a través de `observacion_id`.
-6. Reporte
-   * **Descripción**: Tabla que representa los reportes generados después de una inspección.
-   * **Campos:**
-     * `id:` Identificador único del reporte (INT, PRIMARY KEY).
-     * `fecha:` Fecha en que se generó el reporte (DATE).
-     * `contenido:` Contenido del reporte (TEXT).
-     * `inspector_id:` Identificador del inspector que generó el reporte (INT, FOREIGN KEY).
-     * `restaurante_id:` Identificador del restaurante al que se refiere el reporte (INT, FOREIGN KEY).
-   * **Relaciones:**
-     * Relacionado con `Inspeccion` a través de `id`.
-7. Normativa
-   * **Descripción**: Tabla que representa las normativas o directrices de salubridad que deben seguir los establecimientos.
-   * **Campos:**
-     * `id:` Identificador único de la normativa (INT, PRIMARY KEY).
-     * `descripcion:` Descripción de la normativa (TEXT).
-     * `vigencia:` Fecha de vigencia o expiración de la normativa (DATE).
-   * **Relaciones:**
-     * No tiene relaciones directas con otras tablas en el diagrama, pero puede ser referenciada en otras partes del sistema.
-## 4.8. Database Design
-* Tablas y relaciones
-1. Tabla: `InspectorDeSalubridad`
-   * Atributos
-     * `id`: Identificador único del inspector (PRIMARY KEY).
-     * `nombre`: Nombre del inspector.
-     * `edad`: Edad del inspector.
-     * `experiencia`: Años de experiencia en inspección.
-   * Relaciones
-     * Relacionado con **Inspección** a través de `inspector_id`
-2. Tabla: `Restaurante`
-   * Atributos
-     * `id`: Identificador único del restaurante (PRIMARY KEY).
-     * `nombre`: Nombre del restaurante.
-     * `direccion`: Dirección del restaurante.
-     * `tipo`: Tipo de restaurante.
-   * Relaciones
-     * Relacionado con Inspeccion a través de `restaurante_id`.
-     * ●	Relacionado con Reporte a través de `restaurante_id`.
-3. Tabla: `Inspeccion`
-   * Atributos
-     * `id`: Identificador único de la inspección (PRIMARY KEY).
-     * `fecha`: Fecha de la inspección.
-     * `estado`: Estado actual de la inspección..
-     * `restaurante_id`: Clave foránea que referencia a **Restaurante**.
-     * `inspector_id`: Clave foránea que referencia a **InspectorDeSalubridad**.
-   * Relaciones
-     * Relacionado con **Observacion** y **AccionCorrectiva** a través de `inspeccion_id`.
-     * Relacionado con **Reporte** a través de `id`.
-4. Tabla: `Observacion`
-   * Atributos
-     * `id`: Identificador único de la observación (PRIMARY KEY).
-     * `descripcion`: Descripción de la observación.
-     * `categoria`: Categoría de la observación.
-     * `prioridad`: Prioridad de la observación.
-     * `inspeccion_id`: Clave foránea que referencia a **Inspeccion**.
-   * Relaciones
-     * Relacionado con **AccionCorrectiva** a través de `observacion_id`
-5. Tabla: `AccionCorrectiva`
-   * Atributos
-     * `id`: Identificador único de la acción correctiva (PRIMARY KEY).
-     * `descripcion`: Descripción de la acción correctiva.
-     * `fechaImplementacion`: Fecha de implementación de la acción correctiva.
-     * `estado`: Estado actual de la acción correctiva.
-     * `inspeccion_id`: Clave foránea que referencia a **Inspeccion**.
-6. Tabla: `InspectorDeSalubridad`
-   * Atributos
-     * `id`: Identificador único del inspector (PRIMARY KEY).
-     * `fecha`: Nombre del inspector.
-     * `contenido`: Edad del inspector.
-     * `inspeccion_id`: Clave foránea que referencia a **InspectorDeSalubridad**.
-     * `restaurante_id`: Clave foránea que referencia a **Restaurante**.
-7. Tabla: `Normativa`
-   * Atributos
-     * `id`: Identificador único de la normativa (PRIMARY KEY).
-     * `descripcion`: Descripción de la normativa.
-     * `vigencia`: Fecha en que la normativa entró en vigencia o se actualizó.
+**4.7. Software Object Oriented Design**
+
+El diseño de la aplicación web Inspectora está orientado a ofrecer una experiencia intuitiva y eficiente para inspectores de salubridad y propietarios de restaurantes. Utiliza una estructura basada en objetos para gestionar inspecciones, observaciones y reportes, facilitando la documentación y el seguimiento de acciones correctivas. La plataforma asegura una integración fluida y una navegación coherente, adaptada a las necesidades específicas de cada usuario.
+
+#### <a name="_vqacxov7fs1g"></a>**Identificación de Clases y Objetos:**
+**# US 1: InspectorDeSalubridad**
+
+- **Atributos:**
+  - id: int – Identificador único del inspector.
+  - nombre: String – El nombre del inspector.
+  - edad: int – La edad del inspector.
+  - experiencia: int – Años de experiencia en el campo de inspección de salubridad.
+  - rating: float – Calificación del inspector.
+- **Métodos:**
+  - realizarInspeccion(restaurante: Restaurante): Inspeccion – Inicia una inspección en el restaurante especificado y devuelve un objeto de tipo Inspección.
+  - generarReporte(inspeccion: Inspeccion): Reporte – Genera un reporte basado en la inspección realizada.
+  - documentarObservaciones(observaciones: List<Observacion>, inspeccion: Inspeccion) – Documenta observaciones durante la inspección y las asocia con el objeto Inspección.
+
+**# US 2: Restaurante**
+
+- **Atributos:**
+  - id: int – Identificador único del restaurante.
+  - nombre: String – El nombre del restaurante.
+  - direccion: String – La dirección del restaurante.
+  - tipo: String – Tipo de restaurante (por ejemplo, cafetería, restaurante de comida rápida).
+  - historialInspecciones: List<Inspeccion> – Lista de inspecciones realizadas en el restaurante.
+- **Métodos:**
+  - agregarObservacion(observacion: Observacion) – Agrega una observación al historial de inspecciones del restaurante.
+  - implementarAccionCorrectiva(accionCorrectiva: AccionCorrectiva) – Implementa una acción correctiva recomendada en el reporte de inspección.
+  - consultarHistorial(): List<Inspeccion> – Consulta el historial de inspecciones realizadas en el restaurante.
+    #### <a name="_ne8oug5gtv47"></a>**Relación entre Clases**
+- **InspectorDeSalubridad realiza Inspección en Restaurante**
+  - InspectorDeSalubridad --> realizarInspeccion(Restaurante): Inspeccion
+  - Inspeccion --> Restaurante
+- **Inspeccion tiene una lista de Observacion y una lista de AccionCorrectiva**
+  - Inspeccion --> List<Observacion>
+  - Inspeccion --> List<AccionCorrectiva>
+- **Restaurante mantiene un historial de Inspección y gestiona AccionCorrectiva**
+  - Restaurante --> List<Inspeccion>
+  - Restaurante --> implementarAccionCorrectiva(AccionCorrectiva)
+- **Inspeccion genera Reporte**
+  - Inspeccion --> generarReporte(): Reporte
+  - Reporte --> Inspeccion
+- **BaseDeDatosDeClientes gestiona Restaurante e InspectorDeSalubridad**
+  - BaseDeDatosDeClientes --> List<Restaurante>
+  - BaseDeDatosDeClientes --> List<InspectorDeSalubridad>
+- **Normativa se utiliza durante Inspección para evaluar el cumplimiento**
+  - Normativa --> consultarNormativa(): List<Inspeccion>
+
+**4.7.1. Class Diagram**
+
+![](Aspose.Words.c388474e-b790-4003-a8cf-fbd5590bef63.001.png)
+
+**Usuario**
+
+- **Descripción:** Tabla que representa a los usuarios del sistema.
+- **Campos:**
+  - id: Identificador único del usuario (INT, PRIMARY KEY).
+  - nombre: Nombre del usuario (VARCHAR(255)).
+  - correo: Correo electrónico del usuario (VARCHAR(255)).
+  - contraseña: Contraseña del usuario (VARCHAR(255)).
+  - tipo: Tipo de usuario (ENUM: 'US1', 'US2').
+- **Relaciones:**
+  - Relacionado con **Restaurante** a través de dueño.
+  - Relacionado con **Reporte** a través de usuario.
+  - Relacionado con **Notificaciones** a través de usuario.
+  - Relacionado con **Criticas** a través de usuario.
+  - Relacionado con **AccesoLog** a través de usuario.
+
+    **InspectorDeSalubridad**
+
+- **Descripción:** Tabla que representa a los inspectores de salubridad que realizan inspecciones en los restaurantes.
+- **Campos:**
+  - id: Identificador único del inspector (INT, PRIMARY KEY).
+  - nombre: Nombre del inspector (VARCHAR(255)).
+  - edad: Edad del inspector (INT).
+  - experiencia: Años de experiencia del inspector (INT).
+  - rating: Calificación del inspector (FLOAT).
+- **Relaciones:**
+  - Relacionado con **Inspeccion** a través de inspector.
+  - Relacionado con **Reporte** a través de inspector.
+  - Relacionado con **Criticas** a través de inspector.
+
+    **TipoRestaurante**
+
+- **Descripción:** Tabla que representa los tipos de restaurantes.
+- **Campos:**
+  - id: Identificador único del tipo (INT, PRIMARY KEY).
+  - nombre: Nombre del tipo de restaurante (VARCHAR(100)).
+- **Relaciones:**
+  - Relacionado con **Restaurante** a través de tipo.
+
+    **Restaurante**
+
+- **Descripción:** Tabla que representa los restaurantes y establecimientos alimenticios.
+- **Campos:**
+  - id: Identificador único del restaurante (INT, PRIMARY KEY).
+  - nombre: Nombre del restaurante (VARCHAR(255)).
+  - direccion: Dirección del restaurante (VARCHAR(255)).
+  - dueño: Identificador del dueño (INT, FOREIGN KEY).
+  - tipo: Identificador del tipo de restaurante (INT, FOREIGN KEY).
+- **Relaciones:**
+  - Relacionado con **Inspeccion** a través de restaurante.
+  - Relacionado con **Reporte** a través de restaurante.
+
+    **Normativa**
+
+- **Descripción:** Tabla que representa las normativas o directrices de salubridad.
+- **Campos:**
+  - id: Identificador único de la normativa (INT, PRIMARY KEY).
+  - descripcion: Descripción de la normativa (TEXT).
+  - vigencia: Fecha de vigencia o expiración de la normativa (DATE).
+- **Relaciones:**
+  - Relacionado con **Inspeccion** a través de normativa.
+
+    **Inspeccion**
+
+- **Descripción:** Tabla que representa cada inspección realizada en los restaurantes.
+- **Campos:**
+  - id: Identificador único de la inspección (INT, PRIMARY KEY).
+  - fecha: Fecha de la inspección (DATE).
+  - estado: Estado actual de la inspección (VARCHAR(50)).
+  - inspector: Identificador del inspector (INT, FOREIGN KEY).
+  - normativa: Identificador de la normativa aplicada (INT, FOREIGN KEY).
+  - restaurante: Identificador del restaurante inspeccionado (INT, FOREIGN KEY).
+- **Relaciones:**
+  - Relacionado con **Observacion** a través de inspeccion.
+  - Relacionado con **AccionCorrectiva** a través de inspeccion.
+
+    **CategoriaObservacion**
+
+- **Descripción:** Tabla que representa las categorías de observaciones.
+- **Campos:**
+  - id: Identificador único de la categoría (INT, PRIMARY KEY).
+  - nombre: Nombre de la categoría (VARCHAR(100)).
+- **Relaciones:**
+  - Puede estar relacionada con **Observacion**.
+
+    **Observacion**
+
+- **Descripción:** Tabla que representa las observaciones realizadas durante una inspección.
+- **Campos:**
+  - id: Identificador único de la observación (INT, PRIMARY KEY).
+  - descripcion: Descripción de la observación (TEXT).
+  - prioridad: Prioridad de la observación (VARCHAR(50)).
+  - inspeccion: Identificador de la inspección (INT, FOREIGN KEY).
+- **Relaciones:**
+  - Relacionado con **AccionCorrectiva** opcionalmente a través de observacion.
+
+    **AccionCorrectiva**
+
+- **Descripción:** Tabla que representa las acciones correctivas recomendadas o tomadas.
+- **Campos:**
+  - id: Identificador único de la acción correctiva (INT, PRIMARY KEY).
+  - descripcion: Descripción de la acción correctiva (TEXT).
+  - fechaImplementacion: Fecha de implementación (DATE).
+  - estado: Estado de la acción correctiva (VARCHAR(50)).
+  - inspeccion: Identificador de la inspección asociada (INT, FOREIGN KEY).
+- **Relaciones:**
+  - Puede estar relacionada con **Observacion**.
+
+    **Reporte**
+
+- **Descripción:** Tabla que representa los reportes generados después de una inspección.
+- **Campos:**
+  - id: Identificador único del reporte (INT, PRIMARY KEY).
+  - fecha: Fecha en que se generó el reporte (DATE).
+  - contenido: Contenido del reporte (TEXT).
+  - inspector: Identificador del inspector que generó el reporte (INT, FOREIGN KEY).
+  - usuario: Identificador del usuario que recibe el reporte (INT, FOREIGN KEY).
+- **Relaciones:**
+  - Relacionado con **Inspeccion** a través de id.
+
+    **Requisitos**
+
+- **Descripción:** Tabla que representa los requisitos necesarios para los escenarios.
+- **Campos:**
+  - id: Identificador único del requisito (INT, PRIMARY KEY).
+  - nombre: Nombre del requisito (VARCHAR(255)).
+  - descripcion: Descripción del requisito (TEXT).
+  - prioridad: Prioridad del requisito (VARCHAR(50)).
+- **Relaciones:**
+  - Relacionado con **Escenarios**.
+
+    **Escenarios**
+
+- **Descripción:** Tabla que representa los escenarios definidos por los requisitos.
+- **Campos:**
+  - id: Identificador único del escenario (INT, PRIMARY KEY).
+  - descripcion: Descripción del escenario (TEXT).
+  - exito: Estado de éxito del escenario (BOOLEAN).
+  - requisitos: Identificador de los requisitos asociados (INT, FOREIGN KEY).
+- **Relaciones:**
+  - Relacionado con **Requisitos**.
+
+    **Notificaciones**
+
+- **Descripción:** Tabla que representa las notificaciones enviadas a los usuarios.
+- **Campos:**
+  - id: Identificador único de la notificación (INT, PRIMARY KEY).
+  - tipo: Tipo de notificación (VARCHAR(100)).
+  - mensaje: Contenido del mensaje (TEXT).
+  - fecha: Fecha de la notificación (DATE).
+  - usuario: Identificador del usuario receptor (INT, FOREIGN KEY).
+- **Relaciones:**
+  - Relacionado con **Usuario**.
+
+    **Criticas**
+
+- **Descripción:** Tabla que representa las críticas realizadas por los usuarios.
+- **Campos:**
+  - id: Identificador único de la crítica (INT, PRIMARY KEY).
+  - puntuacion: Puntuación dada (INT).
+  - comentario: Comentario del usuario (TEXT).
+  - fecha: Fecha de la crítica (DATE).
+  - usuario: Identificador del usuario que realizó la crítica (INT, FOREIGN KEY).
+  - inspector: Identificador del inspector que recibe la crítica (INT, FOREIGN KEY).
+- **Relaciones:**
+  - Relacionado con **Usuario** y **InspectorDeSalubridad**.
+
+    **Secciones**
+
+- **Descripción:** Tabla que representa las secciones de contenido en el sistema.
+- **Campos:**
+  - id: Identificador único de la sección (INT, PRIMARY KEY).
+  - nombre: Nombre de la sección (VARCHAR(100)).
+  - contenido: Contenido de la sección (TEXT).
+- **Relaciones:**
+  - No tiene relaciones directas.
+
+    **AccesoLog**
+
+- **Descripción:** Tabla que representa el registro de acceso de los usuarios.
+- **Campos:**
+  - id: Identificador único del log de acceso (INT, PRIMARY KEY).
+  - fecha\_acceso: Fecha y hora del acceso (DATETIME).
+  - accion: Descripción de la acción realizada (VARCHAR(255)).
+  - usuario: Identificador del usuario que realizó la acción (INT, FOREIGN KEY).
+- **Relaciones:**
+  - Relacionado con **Usuario**.
+
+**4.8. Database Design**
+
+**Tabla: InspectorDeSalubridad**
+
+- **Atributos:**
+  - **id:** Identificador único del inspector (PRIMARY KEY).
+  - **nombre:** Nombre del inspector.
+  - **edad:** Edad del inspector.
+  - **experiencia:** Años de experiencia en inspección.
+  - **rating:** Calificación del inspector.
+- **Relaciones:**
+  - Relacionado con **Inspeccion** a través de **inspector\_id**.
+
+**Tabla: Restaurante**
+
+- **Atributos:**
+  - **id:** Identificador único del restaurante (PRIMARY KEY).
+  - **nombre:** Nombre del restaurante.
+  - **direccion:** Dirección del restaurante.
+  - **dueño:** Clave foránea que referencia a **Usuario**.
+  - **tipo:** Clave foránea que referencia a **TipoRestaurante**.
+- **Relaciones:**
+  - Relacionado con **Inspeccion** a través de **restaurante\_id**.
+  - Relacionado con **Reporte** a través de **restaurante\_id**.
+
+**Tabla: Inspeccion**
+
+- **Atributos:**
+  - **id:** Identificador único de la inspección (PRIMARY KEY).
+  - **fecha:** Fecha de la inspección.
+  - **estado:** Estado actual de la inspección.
+  - **inspector:** Clave foránea que referencia a **InspectorDeSalubridad**.
+  - **normativa:** Clave foránea que referencia a **Normativa**.
+  - **restaurante:** Clave foránea que referencia a **Restaurante**.
+- **Relaciones:**
+  - Relacionado con **Observacion** y **AccionCorrectiva** a través de **inspeccion\_id**.
+  - Relacionado con **Reporte** a través de **id**.
+
+**Tabla: Observacion**
+
+- **Atributos:**
+  - **id:** Identificador único de la observación (PRIMARY KEY).
+  - **descripcion:** Descripción de la observación.
+  - **prioridad:** Prioridad de la observación.
+  - **inspeccion:** Clave foránea que referencia a **Inspeccion**.
+- **Relaciones:**
+  - Relacionado con **AccionCorrectiva** a través de **observacion\_id** si se necesita seguimiento.
+
+**Tabla: AccionCorrectiva**
+
+- **Atributos:**
+  - **id:** Identificador único de la acción correctiva (PRIMARY KEY).
+  - **descripcion:** Descripción de la acción correctiva.
+  - **fechaImplementacion:** Fecha de implementación de la acción correctiva.
+  - **estado:** Estado actual de la acción correctiva.
+  - **inspeccion:** Clave foránea que referencia a **Inspeccion**.
+
+**Tabla: Reporte**
+
+- **Atributos:**
+  - **id:** Identificador único del reporte (PRIMARY KEY).
+  - **fecha:** Fecha en que se generó el reporte.
+  - **contenido:** Contenido del reporte.
+  - **inspector:** Clave foránea que referencia a **InspectorDeSalubridad**.
+  - **usuario:** Clave foránea que referencia a **Usuario**.
+- **Relaciones:**
+  - Relacionado con **Restaurante** a través de **restaurante\_id**.
+
+**Tabla: Normativa**
+
+- **Atributos:**
+  - **id:** Identificador único de la normativa (PRIMARY KEY).
+  - **descripcion:** Descripción de la normativa.
+  - **vigencia:** Fecha en que la normativa entró en vigencia o se actualizó.
 
 (Ejemplo de Ejecucion segun Conexion entre tablas y relaciones)
 
-```SQL
--- Tabla: InspectorDeSalubridad
+CREATE TABLE Usuario (
+
+`    `id INT PRIMARY KEY,
+
+`    `nombre VARCHAR(255) NOT NULL,
+
+`    `correo VARCHAR(255) NOT NULL,
+
+`    `contraseña VARCHAR(255) NOT NULL,
+
+`    `tipo ENUM('US1', 'US2') NOT NULL
+
+);
+
 CREATE TABLE InspectorDeSalubridad (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(255) NOT NULL,
-    edad INT NOT NULL,
-    experiencia INT NOT NULL
+
+`    `id INT PRIMARY KEY,
+
+`    `nombre VARCHAR(255) NOT NULL,
+
+`    `edad INT,
+
+`    `experiencia INT,
+
+`    `rating FLOAT
+
 );
 
--- Tabla: Restaurante
+CREATE TABLE TipoRestaurante (
+
+`    `id INT PRIMARY KEY,
+
+`    `nombre VARCHAR(100) NOT NULL
+
+);
+
 CREATE TABLE Restaurante (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(255) NOT NULL,
-    direccion VARCHAR(255) NOT NULL,
-    tipo VARCHAR(100) NOT NULL
+
+`    `id INT PRIMARY KEY,
+
+`    `nombre VARCHAR(255) NOT NULL,
+
+`    `direccion VARCHAR(255),
+
+`    `dueño INT,
+
+`    `tipo INT,
+
+`    `FOREIGN KEY (dueño) REFERENCES Usuario(id),
+
+`    `FOREIGN KEY (tipo) REFERENCES TipoRestaurante(id)
+
 );
 
--- Tabla: Inspeccion
-CREATE TABLE Inspeccion (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    fecha DATE NOT NULL,
-    estado VARCHAR(50) NOT NULL,
-    restaurante_id INT,
-    inspector_id INT,
-    FOREIGN KEY (restaurante_id) REFERENCES Restaurante(id),
-    FOREIGN KEY (inspector_id) REFERENCES InspectorDeSalubridad(id)
-);
-
--- Tabla: Observacion
-CREATE TABLE Observacion (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    descripcion TEXT NOT NULL,
-    categoria VARCHAR(100) NOT NULL,
-    prioridad VARCHAR(50) NOT NULL,
-    inspeccion_id INT,
-    FOREIGN KEY (inspeccion_id) REFERENCES Inspeccion(id)
-);
-
--- Tabla: AccionCorrectiva
-CREATE TABLE AccionCorrectiva (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    descripcion TEXT NOT NULL,
-    fechaImplementacion DATE NOT NULL,
-    estado VARCHAR(50) NOT NULL,
-    inspeccion_id INT,
-    FOREIGN KEY (inspeccion_id) REFERENCES Inspeccion(id)
-);
-
--- Tabla: Reporte
-CREATE TABLE Reporte (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    fecha DATE NOT NULL,
-    contenido TEXT NOT NULL,
-    inspector_id INT,
-    restaurante_id INT,
-    FOREIGN KEY (inspector_id) REFERENCES InspectorDeSalubridad(id),
-    FOREIGN KEY (restaurante_id) REFERENCES Restaurante(id)
-);
-
--- Tabla: Normativa
 CREATE TABLE Normativa (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    descripcion TEXT NOT NULL,
-    vigencia DATE NOT NULL
+
+`    `id INT PRIMARY KEY,
+
+`    `descripcion TEXT,
+
+`    `vigencia DATE,
+
+`    `tipo VARCHAR(100)
+
 );
 
-```
-### 4.8.1. Database Diagram
-![A](./Assets/481DatabaseDiagram.png)
+CREATE TABLE Inspeccion (
+
+`    `id INT PRIMARY KEY,
+
+`    `fecha DATE,
+
+`    `estado VARCHAR(50),
+
+`    `inspector INT,
+
+`    `normativa INT,
+
+`    `restaurante INT,
+
+`    `FOREIGN KEY (inspector) REFERENCES InspectorDeSalubridad(id),
+
+`    `FOREIGN KEY (normativa) REFERENCES Normativa(id),
+
+`    `FOREIGN KEY (restaurante) REFERENCES Restaurante(id)
+
+);
+
+CREATE TABLE CategoriaObservacion (
+
+`    `id INT PRIMARY KEY,
+
+`    `nombre VARCHAR(100) NOT NULL
+
+);
+
+CREATE TABLE Observacion (
+
+`    `id INT PRIMARY KEY,
+
+`    `descripcion TEXT,
+
+`    `prioridad VARCHAR(50),
+
+`    `inspeccion INT,
+
+`    `FOREIGN KEY (inspeccion) REFERENCES Inspeccion(id)
+
+);
+
+CREATE TABLE AccionCorrectiva (
+
+`    `id INT PRIMARY KEY,
+
+`    `descripcion TEXT,
+
+`    `fechaImplementacion DATE,
+
+`    `estado VARCHAR(50),
+
+`    `inspeccion INT,
+
+`    `FOREIGN KEY (inspeccion) REFERENCES Inspeccion(id)
+
+);
+
+CREATE TABLE Reporte (
+
+`    `id INT PRIMARY KEY,
+
+`    `fecha DATE,
+
+`    `contenido TEXT,
+
+`    `inspector INT,
+
+`    `usuario INT,
+
+`    `FOREIGN KEY (inspector) REFERENCES InspectorDeSalubridad(id),
+
+`    `FOREIGN KEY (usuario) REFERENCES Usuario(id)
+
+);
+
+CREATE TABLE Requisitos (
+
+`    `id INT PRIMARY KEY,
+
+`    `nombre VARCHAR(255),
+
+`    `descripcion TEXT,
+
+`    `prioridad VARCHAR(50)
+
+);
+
+CREATE TABLE Escenarios (
+
+`    `id INT PRIMARY KEY,
+
+`    `descripcion TEXT,
+
+`    `exito BOOLEAN,
+
+`    `requisitos INT,
+
+`    `FOREIGN KEY (requisitos) REFERENCES Requisitos(id)
+
+);
+
+CREATE TABLE Notificaciones (
+
+`    `id INT PRIMARY KEY,
+
+`    `tipo VARCHAR(100),
+
+`    `mensaje TEXT,
+
+`    `fecha DATE,
+
+`    `usuario INT,
+
+`    `FOREIGN KEY (usuario) REFERENCES Usuario(id)
+
+);
+
+CREATE TABLE Criticas (
+
+`    `id INT PRIMARY KEY,
+
+`    `puntuacion INT,
+
+`    `comentario TEXT,
+
+`    `fecha DATE,
+
+`    `usuario INT,
+
+`    `inspector INT,
+
+`    `FOREIGN KEY (usuario) REFERENCES Usuario(id),
+
+`    `FOREIGN KEY (inspector) REFERENCES InspectorDeSalubridad(id)
+
+);
+
+CREATE TABLE Secciones (
+
+`    `id INT PRIMARY KEY,
+
+`    `nombre VARCHAR(100),
+
+`    `contenido TEXT
+
+);
+
+CREATE TABLE AccesoLog (
+
+`    `id INT PRIMARY KEY,
+
+`    `fecha\_acceso DATETIME,
+
+`    `accion VARCHAR(255),
+
+`    `usuario INT,
+
+`    `FOREIGN KEY (usuario) REFERENCES Usuario(id)
+
+);
+
+
+
+
+
+**4.8.1. Database Diagram**
+
+![](Aspose.Words.c388474e-b790-4003-a8cf-fbd5590bef63.002.png)
+
+
 # Capítulo V: Product Implementation, Validation & Deployment
 
 

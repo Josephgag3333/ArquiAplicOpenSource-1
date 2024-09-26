@@ -4288,84 +4288,76 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
     <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>US33</td>
+    <td>Ordenamiento de la lista de tareas por criticidad</td>
+    <td>Ordenar la lista de tareas por citricidad</td>
+    <td>4</td>
+    <td>Jimena Cossio</td>
+    <td>Done</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>US25</td>
+    <td>Registro de observaciones en formulario</td>
+    <td>Registrar observaciones en un formulario para tener mejor trazado los puntos</td>
+    <td>5</td>
+    <td>Jimena Cossio</td>
+    <td>Done</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>US30</td>
+    <td>Listado de tareas pendientes</td>
+    <td>Listar tareas pendientes para enforcarme en las tareas sin marcar</td>
+    <td>4.5</td>
+    <td>Jimena Cossio</td>
+    <td>Done</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>US06</td>
+    <td>Acceso al historial de  inspecciones del restaurantes</td>
+    <td>Acceder al historial de inspecciones de mi local para identificar los principales aspectos de mejora</td>
+    <td>6</td>
+    <td>Joel Huanca</td>
+    <td>In-Process</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>US12</td>
+    <td>Actualizacion de datos del restaurante</td>
+    <td>Actualizar datos en la aplicacion para precisar informacion</td>
+    <td>4</td>
+    <td>Joel Huanca</td>
+    <td>Done</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>US03</td>
+    <td>Lista de verificacion de requisitos</td>
+    <td>Hacer una lista de verificacion de requisitos para tener un mejor manejo de los aspectos mas importantes</td>
+    <td>5</td>
+    <td>Joel Huanca</td>
+    <td>Done</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>US05</td>
+    <td>Inclusion de documentos adicionales adjuntos</td>
+    <td>Adjuntar documentos como fotos y videos para recibir mejor asesoramiento</td>
+    <td>3</td>
+    <td>Joel Huanca</td>
+    <td>In-Process</td>
   </tr>  
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>US38</td>
+    <td>Puntuacion de experiencia al inspector de salubridad</td>
+    <td>Puntuar al inspector para que los otros usuarios tengan una mejor vision</td>
+    <td>4</td>
+    <td>Jesus Sagastegui</td>
+    <td>In-Process</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>US37</td>
+    <td>Criticas por inspeccion de salubridad</td>
+    <td>Recibir criticas por el servicio para generar mas confianza a los usuarios</td>
+    <td>5</td>
+    <td>Jesus Sagastegui</td>
+    <td>In-Process</td>
   </tr>
 </table>
 

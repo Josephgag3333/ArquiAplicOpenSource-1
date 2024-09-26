@@ -2502,6 +2502,14 @@ Las épicas son las siguientes:
 
 6.- Gestión tecnológico 
 
+7.- Gestión de monitoreo
+
+8.- Gestión de comunicación
+
+9.- Gestión de calificaciones
+
+10.- Landing Page
+
 ### 3.3 Impact Mapping 
 
 Captura del Impact Map del dueño de restaurante: 
@@ -2888,15 +2896,15 @@ Este impact mapping espera que los inspectores de salubridad puedan documentar y
 
 Captura de las épicas en el Product Backlog usando Pivotal Tracker
 
-<img src="Assets/ProductBacklog_Epics.png">
+<img src="Assets/ProductBacklogEpics.png">
 
 Captura de las historias de usuario en el Product Backlog usando Pivotal Tracker
 
-<img src="Assets/ProductBacklog_US1.png">
+<img src="Assets/ProductBacklog1.png">
 
-<img src="Assets/ProductBacklog_US2.png">
+<img src="Assets/ProductBacklog2.png">
 
-<img src="Assets/ProductBacklog_US3.png">
+<img src="Assets/ProductBacklog3.png">
 Enlace público del Product Backlog en Pivotal Tracker: https://www.pivotaltracker.com/projects/2716388 
 
 # Capítulo IV: Diseño del Producto

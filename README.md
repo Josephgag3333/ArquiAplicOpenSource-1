@@ -4627,9 +4627,9 @@ Para el despliegue de nuestra aplicación web, utilizamos Firebase y Vercel. Fir
 
 **Configuración del proyecto en Firebase:** Dentro de Firebase, se configuró un proyecto para la aplicación, asegurándonos de conectar correctamente los recursos necesarios, como la base de datos y el alojamiento.
 
-<td><img src="Assets/Firebase1.jpg" alt="Imagen del deployment" width="1500"></td>
+<td><img src="Assets/Firebase1.jpeg" alt="Imagen del deployment" width="1500"></td>
 
-<td><img src="Assets/WebDeploy1.png" alt="Imagen del deployment" width="1500"></td>
+<td><img src="Assets/WebDeploy1.jpg" alt="Imagen del deployment" width="1500"></td>
 
 # Vercel
 
@@ -4639,7 +4639,7 @@ Para nuestra landing page, utilizamos Vercel, una plataforma conocida por su fac
 
 **Configuración y despliegue del proyecto:** Se configuró el proyecto en Vercel, asegurando que todos los archivos y recursos necesarios estuvieran correctamente integrados.
 
-<td><img src="Assets/WebDeploy1.png" alt="Imagen Deploy Landing" width="1500"></td>
+<td><img src="Assets/WebDeploy2.jpg" alt="Imagen Deploy Landing" width="1500"></td>
 
 Para el desarrollo del FrontEnd, se utilizaron las siguientes texnologías:
 

@@ -3154,7 +3154,7 @@ En cuanto a los principios de diseño visual, estos fueron respetados. Por ejemp
 #### Restaurant Bounded Context Component Diagram
 ![Image](./Assets/RestaurantContext.jpg)
 #### Inspector Bounded Context Component Diagram
-![Image](./Assets/InspectorContext.jpg)
+![Image](./Assets/InpectorContext.jpg)
 #### Contact Bounded Context Component Diagram
 ![Image](./Assets/ContactContext.jpg)
 ## 4.7. Software Object Oriented Design

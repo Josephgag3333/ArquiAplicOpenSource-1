@@ -4156,6 +4156,21 @@ Igualmente, para el correcto control de versiones y el adecuado desarrollo de la
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
+La StartUp InspiraSalud ha realizado el presente sprint usando Git y Github como herramientas principales para el control de versiones y GitFlow como metodología de trabajo.
+
+En primer lugar, se creó una organización en Github con el nombre de la StartUp. Luego, se creó un repositorio para la Landing page. En dicho repositorio, el equipo ha creado diferentes ramas (branchs) para diferenciar el tipo de trabajo que se realiza. Por ejemplo, la rama `main` se empleó únicamente para el despliegue final de la aplicación; `develop`, para hacer _merge_ con demás ramas incluída la `main`; `feature`, para implementar alguna funcionalidad. De esta manera se protege el código funcional y se diferencia de features en desarrollo por los miembros. Después de la creación de cada rama, uno o más usuario pueden acceder a esta y realizar cambios y guardarlos como commits.
+
+<td><img src="Assets/Network1.jpg" alt="Imagen del insights" width="1500"></td>
+
+Hubieron problemas a la hora de realizar un _merge_ en los features, por lo tanto se tuvo que realizar un merge de forma manual.
+
+**Contribuciones del equipo**
+
+<td><img src="Assets/Network2.jpg" alt="Imagen del insights" width="1500"></td>
+
+<br><br>
+
+
 ### 5.2.1. Sprint 2
 
 Para este sprint, se realizará toda la presentación del FrontEnd, junto con los componentes explicados en clase y entre otras cosas más, para la organización de este sprint, se utilizó GitHub para el manejo del proyecto, usando ramas para que cada integrante pueda subir su parte correspondiente y por ultimo, el objetivo de este sprint es conseguir realizar el prototipado de nuestro FrontEnd funcional. 

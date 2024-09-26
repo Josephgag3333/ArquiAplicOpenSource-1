@@ -4253,7 +4253,7 @@ Para este sprint, se realizará toda la presentación del FrontEnd, junto con lo
             <b>Sprint 2 Velocity</b>
         </td>
         <td>
-            0
+            27
         </td>
     </tr>
        <tr align="left">
@@ -4261,7 +4261,7 @@ Para este sprint, se realizará toda la presentación del FrontEnd, junto con lo
             <b>Sum of Story Points</b>
         </td>
         <td>
-            0
+            27
         </td>
     </tr>
 </table>
@@ -4598,22 +4598,30 @@ En esta sección se presentan los registros detallados del desarrollo del fronte
     
 </table>
 
-**Link del Repositorio de los testings:** 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 En este item, se va a presentar las pantallas realizadas por el equipo, cada pantalla está conectada y tiene sus propias funcionalidades, se realizó un video para mostrar la funcionalidad que realiza el FrontEnd.
 
+## Restaurants
+
+<td><img src="Assets/CapturaWeb1.jpeg" alt="Imagen de restaurants" width="1500"></td>
+
+## Reviews
+
+<td><img src="Assets/CapturaWeb2.jpeg" alt="Imagen de reviews" width="1500"></td>
 
 ## Link del Funcionamiento del FrontEnd:
 
-**Link**: 
+**Link**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b914_upc_edu_pe/EQLE_EQ53ktIjfkKIVxLXWwBxY0IZtsxSCtXKAhSk4lINg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=8ydWHq
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 A continuación, se proporciona el enlace al frontend del proyecto, donde se puede visualizar la implementación final y funcional de todas las características desarrolladas durante el Sprint:
 
-**Link de el Frontend**:  </td>
+**Link de el Frontend de Joel Huanca**: https://restaurant-context-joelhuanca.web.app/restaurant/places </td>
+
+**Link de el Frontend de Jesus Sagastegui**: https://web-application-inspira-a24jbkws8-jesusrodriguez7s-projects.vercel.app </td>
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 

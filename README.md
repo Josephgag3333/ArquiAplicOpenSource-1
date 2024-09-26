@@ -2896,15 +2896,15 @@ Este impact mapping espera que los inspectores de salubridad puedan documentar y
 
 Captura de las épicas en el Product Backlog usando Pivotal Tracker
 
-<img src="Assets/ProductBacklogEpics.png">
+<img src="Assets/productBacklogEpics.png">
 
 Captura de las historias de usuario en el Product Backlog usando Pivotal Tracker
 
-<img src="Assets/ProductBacklog1.png">
+<img src="Assets/productBacklog1.png">
 
-<img src="Assets/ProductBacklog2.png">
+<img src="Assets/productBacklog2.png">
 
-<img src="Assets/ProductBacklog3.png">
+<img src="Assets/productBacklog3.png">
 Enlace público del Product Backlog en Pivotal Tracker: https://www.pivotaltracker.com/projects/2716388 
 
 # Capítulo IV: Diseño del Producto

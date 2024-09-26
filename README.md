@@ -4619,6 +4619,18 @@ A continuación, se proporciona el enlace al frontend del proyecto, donde se pue
 
 ## Creación de Cuentas y Configuración de Recursos en Proveedores de Servicios en la Nube
 
+# Firebase y Vercel
+
+Para el despliegue de nuestra aplicación web, utilizamos Firebase y Vercel. Firebase nos proporciona una plataforma robusta para alojar y gestionar nuestra aplicación, ofreciendo una variedad de servicios que facilitan el desarrollo y el despliegue. Y Vercel, una plataforma conocida por su facilidad de uso y su capacidad para manejar despliegues rápidos y eficientes de aplicaciones web.
+
+**Creación de cuenta en Firebase:** Inicialmente, se creó una cuenta en Firebase para acceder a los servicios necesarios.
+
+**Configuración del proyecto en Firebase:** Dentro de Firebase, se configuró un proyecto para la aplicación, asegurándonos de conectar correctamente los recursos necesarios, como la base de datos y el alojamiento.
+
+<td><img src="Assets/Firebase1.jpg" alt="Imagen del deployment" width="1500"></td>
+
+<td><img src="Assets/WebDeploy1.png" alt="Imagen del deployment" width="1500"></td>
+
 # Vercel
 
 Para nuestra landing page, utilizamos Vercel, una plataforma conocida por su facilidad de uso y su capacidad para manejar despliegues rápidos y eficientes de aplicaciones web.
@@ -4627,7 +4639,7 @@ Para nuestra landing page, utilizamos Vercel, una plataforma conocida por su fac
 
 **Configuración y despliegue del proyecto:** Se configuró el proyecto en Vercel, asegurando que todos los archivos y recursos necesarios estuvieran correctamente integrados.
 
-<td><img src="" alt="Imagen del deployment" width="1500"></td>
+<td><img src="Assets/WebDeploy1.png" alt="Imagen Deploy Landing" width="1500"></td>
 
 Para el desarrollo del FrontEnd, se utilizaron las siguientes texnologías:
 
